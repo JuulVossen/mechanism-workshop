@@ -2,7 +2,7 @@
 
 [Open the workshop in your browser](https://juulvossen.github.io/mechanism-workshop/).
 
-Nine interactive prototypes for reusable puzzle mystery mechanics:
+Twelve interactive prototypes for reusable puzzle mystery mechanics:
 
 - Combination locks with number and symbol wheels and a pull latch.
 - Sliding bolts with movement limits, blockers, interlocks and undo.
@@ -13,9 +13,12 @@ Nine interactive prototypes for reusable puzzle mystery mechanics:
 - Torn-document reconstruction with snapping, rotation and optional flipping.
 - Folding and unfolding with previews, reversible layer order and face/orientation goals.
 - Scratching to reveal with persistent masks and separate clue-region coverage.
+- Mechanical construction with coupled gears, a counterweight, a catch and a drawer bolt.
+- Light, negative and filters with channel selection, exposure, contrast and inversion.
+- Perspective correction with four movable corners and a live projective preview.
 
-Each document and paper mechanic has two variations, explicit completion checks, undo/reset and test-solution aids. The prototypes support pointer and keyboard controls. Test state stays in memory across study tabs; reloading starts a fresh session. Artwork is original fiction.
+Each document, paper and instrument mechanic has two variations, explicit completion checks, undo/reset and test-solution aids. The prototypes support pointer and keyboard controls; interactive SVG canvases also support touch drags. Test state stays in memory across study tabs; reloading starts a fresh session. Artwork is original fiction.
 
 This repository contains only the compiled browser preview. GitHub Pages publishes the root of `main`; updating the generated files triggers a new deployment.
 
-Current build: nine-study workshop, 16 November 2026.
+Current build: twelve-study workshop, 16 November 2026.
