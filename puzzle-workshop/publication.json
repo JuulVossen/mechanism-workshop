@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-17T20:31:54.006Z",
+  "builtAt": "2026-11-17T20:52:54.248Z",
   "packs": [
     {
       "id": "street-between-maps",
@@ -20,24 +20,24 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
-      "path": "assets/index-CeTyduey.css",
-      "bytes": 39752,
-      "sha256": "d16f035eb3d469d4decbde3ab70963775cf695b28113eae4a2cfd6d7727b402f"
+      "path": "assets/index-8mvXFXT_.css",
+      "bytes": 40045,
+      "sha256": "ccee15f4085a76a92937b99aef1fe36d055eb40852edd933da2f6543c2d7b10e"
     },
     {
-      "path": "assets/index-DHFWl_fb.js",
-      "bytes": 466632,
-      "sha256": "40c1af5628bd3e1b1af1996840bb05a9b3bd422d9bd98c5e019d44890eed6b49"
+      "path": "assets/index-tXe_vy6h.js",
+      "bytes": 466802,
+      "sha256": "32720984ebca917e4cbccfd03cc4364aab827236767e4388864d3c4e3e8ff223"
     },
     {
-      "path": "assets/phaser-tabletop-scene-BIAN9U_C.js",
-      "bytes": 1209359,
-      "sha256": "7797464992b22bb2b0c72082c464289f33aed773f3dada4fe0da5d2d478a11b2"
+      "path": "assets/phaser-tabletop-scene-h2KQ2nSn.js",
+      "bytes": 1210111,
+      "sha256": "829f5df766c7719879befda7908d0aaef1a82ed8283ea63d451f4ef0b40c135e"
     },
     {
       "path": "index.html",
       "bytes": 637,
-      "sha256": "539d8ae8c138d203f75343048a7407997ead0c01617a2588a1c1b3865c976286"
+      "sha256": "27988b88063492940cecfdc6680ef69838ec76eb62b40f5998feeaff6c140410"
     },
     {
       "path": "licenses/phaser-MIT.txt",
