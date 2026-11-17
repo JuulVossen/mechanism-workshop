@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-17T21:26:12.554Z",
+  "builtAt": "2026-11-17T22:08:52.527Z",
   "packs": [
     {
       "id": "street-between-maps",
-      "revision": 3,
+      "revision": 4,
       "puzzles": 10
     },
     {
@@ -20,34 +20,39 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
-      "path": "assets/index-CCIiUs2s.js",
-      "bytes": 484680,
-      "sha256": "e46ae750d394e911fd7670c578b177bbce472c9a3f2168ec78b6e37bce44ae86"
+      "path": "assets/index-CBClUMNL.js",
+      "bytes": 506674,
+      "sha256": "50d0822ceff8c73890c0f748eef23aec00d9ee3625a3a105f90f668bac160a7e"
     },
     {
-      "path": "assets/index-DPNCjku7.css",
-      "bytes": 44486,
-      "sha256": "9cfb2e44d1f0a717e01da6e8d8b0df70797cd9fd34b656e13bceb26d0daafdbe"
+      "path": "assets/index-CfQmuWqx.css",
+      "bytes": 49834,
+      "sha256": "4c7c4e6fa3036b50e0b6bc9ac6e39a6ece7838f01f867adf448326df54cf13ae"
     },
     {
-      "path": "assets/paper-gesture-bNMHkCyA.js",
+      "path": "assets/paper-gesture-3oKc1uIg.js",
       "bytes": 1200882,
-      "sha256": "366e257817b482a71de4e6f8c5eb085b0c4692744ce4c7a93947ef35c6d37995"
+      "sha256": "64dd03f8b071601764c3e0ae7caef697d987c877e6aaa78d31bd2e1289251aae"
     },
     {
-      "path": "assets/phaser-survey-scene-Dqh_SfX8.js",
+      "path": "assets/phaser-parcel-scene-XoAooS-m.js",
+      "bytes": 9074,
+      "sha256": "1547a4514d194b30f11bc367c4f9bc2f29fd0d4a1405586cee19a3361df582db"
+    },
+    {
+      "path": "assets/phaser-survey-scene-BtcjLFcc.js",
       "bytes": 8119,
-      "sha256": "f26676e67ba0357963257be3a2a013f6a955df4254fd93c1662df39e5a7d3ab8"
+      "sha256": "e2b825dca549f52f1ef3f2c8d6788c39206ee39e7303d572485a04b17f301cf6"
     },
     {
-      "path": "assets/phaser-tabletop-scene-CXXDSxtf.js",
+      "path": "assets/phaser-tabletop-scene-Cyo18uEf.js",
       "bytes": 9391,
-      "sha256": "a883a6cd8759c4c47d966973f9a4ecf7419d80d8c9054f682d14975eec6db273"
+      "sha256": "a39f0d3ec929f3e3181c25563ce79be917df5922b2e57bf3dc0132492322ed18"
     },
     {
       "path": "index.html",
       "bytes": 637,
-      "sha256": "ed817c9df5fd12e64b690f04be9c719ac19642b70cfebd248439ea353a704bdf"
+      "sha256": "6a735cec9d309eb689be74344459a5b795a3b10becb77c7385838a9cc3a581b2"
     },
     {
       "path": "licenses/phaser-MIT.txt",
@@ -85,9 +90,19 @@
       "sha256": "4fa91070f1d707b544bdc91af23033eed414dea120d1c63b509e04b17c076380"
     },
     {
+      "path": "puzzle-art/street-between-maps/chapter-03/address-plaque-v1.webp",
+      "bytes": 57184,
+      "sha256": "26663b959dad0251982ebcd9cf6ae83a99ffa2847489108d6bfaa22d2bb3f012"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-03/parcel-sketch-v1.webp",
+      "bytes": 780504,
+      "sha256": "91db285a2f2d548f31730db5ad341ffa40494043c2dc053f35ca93c340b9d4e3"
+    },
+    {
       "path": "puzzle-packs/street-between-maps.json",
-      "bytes": 178086,
-      "sha256": "b9ee2889cc57bc32c172df1cb68eb064d03ee80465d00f0a4b90c84dbdc664e2"
+      "bytes": 185590,
+      "sha256": "4bc93c0c6a1fddc8b3d4677646fc271c86328386abae24df9560069e19c90adb"
     },
     {
       "path": "puzzle-packs/workshop-starter.json",

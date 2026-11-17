@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "street-between-maps",
-  "revision": 3,
+  "revision": 4,
   "title": "The Street Between Maps",
   "description": {
-    "en": "Ten puzzles from Leuven’s missing street. Chapters 1 and 2 use playable story artwork: a registration frame and a torn-plan workbench.",
-    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Hoofdstukken 1 en 2 gebruiken speelbare verhaalillustraties: een registratieraam en een werktafel met een gescheurd plan."
+    "en": "Ten puzzles from Leuven’s missing street. Play with the registration frame, torn plan and Den Ancker parcel sketch in Phaser.",
+    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Speel met het registratieraam, het gescheurde plan en de perceelschets van Den Ancker in Phaser."
   },
   "assets": {
     "art-ada-portrait-v1": {
@@ -1145,6 +1145,28 @@
         "en": "null. Existing reference; current viewpoint and role review remain pending.",
         "nl-BE": "null. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
       }
+    },
+    "parcel-sketch": {
+      "src": "/puzzle-art/street-between-maps/chapter-03/parcel-sketch-v1.webp",
+      "alt": {
+        "en": "Ink sketch of three buildings on Lei and a passage to the river",
+        "nl-BE": "Pentschets van drie gebouwen aan de Lei en een doorgang naar het water"
+      },
+      "notice": {
+        "en": "Fictional parcel sketch adapted from the original Chapter 3 artwork.",
+        "nl-BE": "Fictieve perceelschets, bewerkt naar de oorspronkelijke illustratie van hoofdstuk 3."
+      }
+    },
+    "parcel-plaque": {
+      "src": "/puzzle-art/street-between-maps/chapter-03/address-plaque-v1.webp",
+      "alt": {
+        "en": "Wooden address label with a brass rim and paper insert",
+        "nl-BE": "Houten adreslabel met een messing rand en een papieren inlegvel"
+      },
+      "notice": {
+        "en": "Playable label adapted from the original parcel sketch. Its inscription changes with the selected language.",
+        "nl-BE": "Speelbaar label uit de oorspronkelijke perceelschets. Het opschrift volgt de gekozen taal."
+      }
     }
   },
   "puzzles": [
@@ -1821,6 +1843,158 @@
           "south": "brewery",
           "behind": "workshop",
           "passage": "riverward-passage"
+        },
+        "presentation": {
+          "boardAssetId": "parcel-sketch",
+          "surfaceAssetId": "desk-surface",
+          "tagAssetId": "parcel-plaque",
+          "trayOrder": [
+            "workshop",
+            "residence",
+            "riverward-passage",
+            "brewery"
+          ],
+          "zones": {
+            "north": {
+              "region": [
+                0.14,
+                0.075,
+                0.37,
+                0.275
+              ],
+              "retry": {
+                "en": "Look for the anchor on the gable. The building record identifies the house where the brewer lived.",
+                "nl-BE": "Zoek het anker op de gevel. De gebouwbron wijst het huis aan waar de brouwer woonde."
+              }
+            },
+            "south": {
+              "region": [
+                0.16,
+                0.435,
+                0.355,
+                0.233
+              ],
+              "retry": {
+                "en": "Mara first crosses Lei. The building with the barrels stands opposite the anchor house.",
+                "nl-BE": "Mara steekt eerst de Lei over. Het gebouw met de vaten staat tegenover het ankerhuis."
+              }
+            },
+            "behind": {
+              "region": [
+                0.16,
+                0.69,
+                0.31,
+                0.255
+              ],
+              "retry": {
+                "en": "Read the order of the delivery. The bookbinder hears the bell after the messenger has passed behind the brewing building.",
+                "nl-BE": "Lees de volgorde van de levering. De boekbindster hoort de bel nadat de bezorger achter het brouwerijgebouw is langsgegaan."
+              }
+            },
+            "passage": {
+              "region": [
+                0.5,
+                0.665,
+                0.32,
+                0.15
+              ],
+              "retry": {
+                "en": "Follow the narrow lane all the way to the water steps. Which label describes a way through?",
+                "nl-BE": "Volg het smalle steegje tot aan de watertrap. Welk label beschrijft een doorgang?"
+              }
+            }
+          },
+          "mapLabels": [
+            {
+              "label": "Lei",
+              "at": [
+                0.65,
+                0.395
+              ],
+              "angle": 0
+            },
+            {
+              "label": "Dijle",
+              "at": [
+                0.901,
+                0.39
+              ],
+              "angle": -86
+            }
+          ],
+          "noteId": "delivery-note",
+          "sourceId": "source-0",
+          "sourceObservation": {
+            "en": "The historical record identifies the brewer’s residence. The associated brewery stood across Lei.",
+            "nl-BE": "De historische bron identificeert de brouwerswoning. De bijbehorende brouwerij stond aan de overkant van de Lei."
+          },
+          "preview": {
+            "frameAssetId": "art-frame-body-v1",
+            "normalAssetId": "art-collision-normal-v1",
+            "intrusionAssetId": "art-collision-intrusion-v1",
+            "mask": [
+              0.20933014354066987,
+              0.13283740701381508,
+              0.32894736842105265,
+              0.7651434643995749
+            ],
+            "aperture": [
+              0.15299479166666666,
+              0.173828125,
+              0.6901041666666666,
+              0.6591796875
+            ],
+            "before": {
+              "en": "The address fits. Through the original frame Ada sees a bedroom. Bring the two sheets together to test the overlap.",
+              "nl-BE": "Het adres klopt. Door het originele raam ziet Ada een slaapkamer. Schuif de twee bladen over elkaar om de overlap te testen."
+            },
+            "overlap": {
+              "en": "Joost calls. His daughter is safely elsewhere. Where her bookcase stood, he can see Mara’s binding bench. Pull the sheets apart.",
+              "nl-BE": "Joost belt. Zijn dochter is veilig elders. Waar haar boekenkast stond, ziet hij Mara’s werkbank. Trek de bladen uit elkaar."
+            },
+            "restored": {
+              "en": "The bookcase is back. Joost can see his daughter’s room again. Ada now knows whose space the restored address would take.",
+              "nl-BE": "De boekenkast is terug. Joost ziet de kamer van zijn dochter weer. Ada weet nu wiens ruimte het herstelde adres zou innemen."
+            },
+            "overlapTitle": {
+              "en": "Joost calls",
+              "nl-BE": "Joost belt"
+            },
+            "choicePrompt": {
+              "en": "Who should Ada speak to first?",
+              "nl-BE": "Met wie moet Ada eerst spreken?"
+            },
+            "choices": [
+              {
+                "id": "joost-first",
+                "label": {
+                  "en": "Consult Joost first",
+                  "nl-BE": "Raadpleeg Joost eerst"
+                },
+                "detail": {
+                  "en": "Joost receives the whole overlap and agrees to explain it later. Mara asks Ada to remember that the people inside the frame also deserve the first warning.",
+                  "nl-BE": "Joost krijgt de volledige overlap en wil die later toelichten. Mara vraagt Ada te onthouden dat ook de mensen in het raam als eerste gewaarschuwd willen worden."
+                },
+                "assetId": "art-joost-portrait-v1"
+              },
+              {
+                "id": "mara-first",
+                "label": {
+                  "en": "Consult Mara first",
+                  "nl-BE": "Raadpleeg Mara eerst"
+                },
+                "detail": {
+                  "en": "Mara studies the overlap with Ada and agrees to speak later. Joost accepts the explanation, but asks why his family had to wait for it.",
+                  "nl-BE": "Mara onderzoekt de overlap met Ada en wil later spreken. Joost aanvaardt de uitleg, maar vraagt waarom zijn gezin erop moest wachten."
+                },
+                "assetId": "art-mara-portrait-v1"
+              }
+            ],
+            "onward": {
+              "en": "Ruben challenges Ada’s three-map comparison. Meet near Collegium Trilingue in Busleidengang to follow the written provenance.",
+              "nl-BE": "Ruben betwist Ada’s vergelijking van drie kaarten. Spreek af bij het Collegium Trilingue in de Busleidengang om de geschreven herkomst te volgen."
+            }
+          }
         }
       }
     },
