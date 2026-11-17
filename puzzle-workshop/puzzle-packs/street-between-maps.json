@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "street-between-maps",
-  "revision": 2,
+  "revision": 3,
   "title": "The Street Between Maps",
   "description": {
-    "en": "Ten puzzles from Leuven’s missing street. Chapter 2 uses an illustrated workbench with movable paper fragments.",
-    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Hoofdstuk 2 gebruikt een geïllustreerde werktafel met verplaatsbare papierfragmenten."
+    "en": "Ten puzzles from Leuven’s missing street. Chapters 1 and 2 use playable story artwork: a registration frame and a torn-plan workbench.",
+    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Hoofdstukken 1 en 2 gebruiken speelbare verhaalillustraties: een registratieraam en een werktafel met een gescheurd plan."
   },
   "assets": {
     "art-ada-portrait-v1": {
@@ -1330,7 +1330,55 @@
           }
         ],
         "correctClassification": "unresolved",
-        "tolerance": 9
+        "tolerance": 9,
+        "presentation": {
+          "frameAssetId": "art-frame-body-v1",
+          "sheetAssetId": "v-survey-sheet",
+          "noteAssetId": "v-registration-note",
+          "frameCanvas": [
+            1536,
+            1024
+          ],
+          "aperture": [
+            235,
+            178,
+            1060,
+            675
+          ],
+          "sceneTitle": {
+            "en": "The mark that does not belong",
+            "nl-BE": "Het punt dat niet thuishoort"
+          },
+          "sceneDescription": {
+            "en": "Ruben’s frame. A photograph of the library. Four marks, but only three witnesses.",
+            "nl-BE": "Rubens raam. Een foto van de bibliotheek. Vier punten, maar slechts drie getuigen."
+          },
+          "revealAssetId": "desk-master",
+          "revealTitle": {
+            "en": "A passage between wall and water",
+            "nl-BE": "Een doorgang tussen muur en water"
+          },
+          "revealDescription": {
+            "en": "The fourth mark remains unresolved. In the original frame, a fragment of Rietgang appears: a wall, a narrow passage, and water. The next lead is Handbooghof.",
+            "nl-BE": "Het vierde punt blijft onopgelost. In het originele raam verschijnt een fragment van Rietgang: een muur, een smalle doorgang en water. Het volgende spoor leidt naar Handbooghof."
+          },
+          "kicker": {
+            "en": "LADEUZEPLEIN · THE FIRST DISCREPANCY",
+            "nl-BE": "LADEUZEPLEIN · HET EERSTE VERSCHIL"
+          },
+          "noteLabel": {
+            "en": "Read Ruben’s note",
+            "nl-BE": "Lees Rubens notitie"
+          },
+          "referenceCaption": {
+            "en": "The tracing and Rietgang fragment are fictional story layers. This photograph is dated 2005; it is not a live view.",
+            "nl-BE": "De overtrek en het Rietgang-fragment zijn fictieve verhaallagen. Deze foto dateert uit 2005; het is geen livebeeld."
+          },
+          "registeredDescription": {
+            "en": "The clock, crest and doorway align. The fourth mark has no verified counterpart.",
+            "nl-BE": "Klok, bekroning en deuropening vallen samen. Het vierde punt heeft geen gecontroleerde tegenhanger."
+          }
+        }
       }
     },
     {

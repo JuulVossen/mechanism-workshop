@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-17T20:52:54.248Z",
+  "builtAt": "2026-11-17T21:26:12.554Z",
   "packs": [
     {
       "id": "street-between-maps",
-      "revision": 2,
+      "revision": 3,
       "puzzles": 10
     },
     {
@@ -20,24 +20,34 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
-      "path": "assets/index-8mvXFXT_.css",
-      "bytes": 40045,
-      "sha256": "ccee15f4085a76a92937b99aef1fe36d055eb40852edd933da2f6543c2d7b10e"
+      "path": "assets/index-CCIiUs2s.js",
+      "bytes": 484680,
+      "sha256": "e46ae750d394e911fd7670c578b177bbce472c9a3f2168ec78b6e37bce44ae86"
     },
     {
-      "path": "assets/index-tXe_vy6h.js",
-      "bytes": 466802,
-      "sha256": "32720984ebca917e4cbccfd03cc4364aab827236767e4388864d3c4e3e8ff223"
+      "path": "assets/index-DPNCjku7.css",
+      "bytes": 44486,
+      "sha256": "9cfb2e44d1f0a717e01da6e8d8b0df70797cd9fd34b656e13bceb26d0daafdbe"
     },
     {
-      "path": "assets/phaser-tabletop-scene-h2KQ2nSn.js",
-      "bytes": 1210111,
-      "sha256": "829f5df766c7719879befda7908d0aaef1a82ed8283ea63d451f4ef0b40c135e"
+      "path": "assets/paper-gesture-bNMHkCyA.js",
+      "bytes": 1200882,
+      "sha256": "366e257817b482a71de4e6f8c5eb085b0c4692744ce4c7a93947ef35c6d37995"
+    },
+    {
+      "path": "assets/phaser-survey-scene-Dqh_SfX8.js",
+      "bytes": 8119,
+      "sha256": "f26676e67ba0357963257be3a2a013f6a955df4254fd93c1662df39e5a7d3ab8"
+    },
+    {
+      "path": "assets/phaser-tabletop-scene-CXXDSxtf.js",
+      "bytes": 9391,
+      "sha256": "a883a6cd8759c4c47d966973f9a4ecf7419d80d8c9054f682d14975eec6db273"
     },
     {
       "path": "index.html",
       "bytes": 637,
-      "sha256": "27988b88063492940cecfdc6680ef69838ec76eb62b40f5998feeaff6c140410"
+      "sha256": "ed817c9df5fd12e64b690f04be9c719ac19642b70cfebd248439ea353a704bdf"
     },
     {
       "path": "licenses/phaser-MIT.txt",
@@ -76,8 +86,8 @@
     },
     {
       "path": "puzzle-packs/street-between-maps.json",
-      "bytes": 175785,
-      "sha256": "b0b177cde230502610240bac02cdbb8683f276c0d84e8a76fc4f3cbc8978b371"
+      "bytes": 178086,
+      "sha256": "b9ee2889cc57bc32c172df1cb68eb064d03ee80465d00f0a4b90c84dbdc664e2"
     },
     {
       "path": "puzzle-packs/workshop-starter.json",
