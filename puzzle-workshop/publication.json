@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-17T20:23:48.107Z",
+  "builtAt": "2026-11-17T20:31:54.006Z",
   "packs": [
     {
       "id": "street-between-maps",
@@ -25,19 +25,19 @@
       "sha256": "d16f035eb3d469d4decbde3ab70963775cf695b28113eae4a2cfd6d7727b402f"
     },
     {
-      "path": "assets/index-SQyEY6DY.js",
+      "path": "assets/index-DHFWl_fb.js",
       "bytes": 466632,
-      "sha256": "a9a47b817682fa4a11cf835563c13fb6e18fdaebe6db3a58d1ee1820e6706ebe"
+      "sha256": "40c1af5628bd3e1b1af1996840bb05a9b3bd422d9bd98c5e019d44890eed6b49"
     },
     {
-      "path": "assets/phaser-tabletop-scene-BXS2WC0d.js",
-      "bytes": 1209270,
-      "sha256": "23cd38b7aed752b542321894d3a23caffe2e2556e003a1d7fc80848d0a752190"
+      "path": "assets/phaser-tabletop-scene-BIAN9U_C.js",
+      "bytes": 1209359,
+      "sha256": "7797464992b22bb2b0c72082c464289f33aed773f3dada4fe0da5d2d478a11b2"
     },
     {
       "path": "index.html",
       "bytes": 637,
-      "sha256": "aa4648c56933fb3a1a74f7543dc6d1372adfc8322b01bd3842669d2c005b17e5"
+      "sha256": "539d8ae8c138d203f75343048a7407997ead0c01617a2588a1c1b3865c976286"
     },
     {
       "path": "licenses/phaser-MIT.txt",
