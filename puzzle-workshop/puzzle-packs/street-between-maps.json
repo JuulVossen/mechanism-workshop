@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "street-between-maps",
-  "revision": 4,
+  "revision": 5,
   "title": "The Street Between Maps",
   "description": {
-    "en": "Ten puzzles from Leuven’s missing street. Play with the registration frame, torn plan and Den Ancker parcel sketch in Phaser.",
-    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Speel met het registratieraam, het gescheurde plan en de perceelschets van Den Ancker in Phaser."
+    "en": "Ten playable Phaser chapters from Leuven’s missing street.",
+    "nl-BE": "Tien speelbare Phaser-hoofdstukken over de verdwenen straat in Leuven."
   },
   "assets": {
     "art-ada-portrait-v1": {
@@ -1167,6 +1167,103 @@
         "en": "Playable label adapted from the original parcel sketch. Its inscription changes with the selected language.",
         "nl-BE": "Speelbaar label uit de oorspronkelijke perceelschets. Het opschrift volgt de gekozen taal."
       }
+    },
+    "archive-ledger": {
+      "src": "/puzzle-art/street-between-maps/archive/ledger-v1.webp",
+      "alt": {
+        "en": "Open leather journal with two blank leaves",
+        "nl-BE": "Open leren register met twee lege bladen"
+      },
+      "notice": {
+        "en": "Fictional story artwork.",
+        "nl-BE": "Fictieve verhaalillustratie."
+      }
+    },
+    "archive-paper": {
+      "src": "/puzzle-art/street-between-maps/archive/leaf-v1.webp",
+      "alt": {
+        "en": "Paper from the cartographer’s journal",
+        "nl-BE": "Papier uit het register van de cartograaf"
+      },
+      "notice": {
+        "en": "Fictional story artwork.",
+        "nl-BE": "Fictieve verhaalillustratie."
+      }
+    },
+    "archive-comparison": {
+      "src": "/puzzle-art/street-between-maps/archive/garden-documents-v1.webp",
+      "alt": {
+        "en": "Mara’s invoice and Ada’s open notebook",
+        "nl-BE": "Mara’s factuur naast Ada’s open schrift"
+      },
+      "notice": {
+        "en": "Fictional story artwork.",
+        "nl-BE": "Fictieve verhaalillustratie."
+      }
+    },
+    "archive-invitation": {
+      "src": "/puzzle-art/street-between-maps/archive/guest-card-v1.en.webp",
+      "srcNl": "/puzzle-art/street-between-maps/archive/guest-card-v1.nl-BE.webp",
+      "alt": {
+        "en": "Nelle’s invitation on the illustrated folding card",
+        "nl-BE": "Nelles uitnodiging op de geïllustreerde vouwkaart"
+      },
+      "notice": {
+        "en": "Fictional story artwork.",
+        "nl-BE": "Fictieve verhaalillustratie."
+      }
+    },
+    "archive-binding": {
+      "src": "/puzzle-art/street-between-maps/archive/bound-register-v1.webp",
+      "alt": {
+        "en": "Register bound with blue thread",
+        "nl-BE": "Register gebonden met blauw garen"
+      },
+      "notice": {
+        "en": "Fictional story artwork.",
+        "nl-BE": "Fictieve verhaalillustratie."
+      }
+    },
+    "archive-cart": {
+      "src": "/puzzle-art/street-between-maps/archive/handcart-v1.webp",
+      "alt": {
+        "en": "Ink drawing of a wooden salvage cart",
+        "nl-BE": "Inkttekening van een houten handkar"
+      },
+      "notice": {
+        "en": "Fictional story artwork.",
+        "nl-BE": "Fictieve verhaalillustratie."
+      }
+    },
+    "archive-map-1": {
+      "src": "/puzzle-art/street-between-maps/archive/map-edition-1.webp",
+      "alt": "Braun & Hogenberg — map catalogued 1581 — existing raster",
+      "credit": "Rijksmuseum, RP-P-OB-46.211 — CC0 / public domain",
+      "sourceUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.142910",
+      "notice": {
+        "en": "Rijksmuseum impression, catalogued 1581. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Rijksmuseum impression, catalogued 1581. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "archive-map-2": {
+      "src": "/puzzle-art/street-between-maps/archive/map-edition-2.webp",
+      "alt": "Janssonius — 1657 edition — existing raster",
+      "credit": "J. Janssonius / Sanderus Antique Maps — public-domain original; dealer image",
+      "sourceUrl": "https://sanderusmaps.com/our-catalogue/antique-maps/europe/belgium-cities/old-antique-plan-of-louvain-leuven-by-j-janssonius-25892",
+      "notice": {
+        "en": "Amsterdam, 1657 edition. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Amsterdam, 1657 edition. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "archive-map-3": {
+      "src": "/puzzle-art/street-between-maps/archive/map-edition-3.webp",
+      "alt": "Leuven around 1700 — existing raster",
+      "credit": "KB National Library · Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl075-Leuven-KB_PPN_145205088.jpg",
+      "notice": {
+        "en": "Atlas dated 1699–1706. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Atlas dated 1699–1706. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
     }
   },
   "puzzles": [
@@ -1999,6 +2096,61 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "bh": "archive-map-1",
+          "janssonius": "archive-map-2",
+          "dewit": "archive-map-3",
+          "result": "art-trilingue-corrected-v1"
+        },
+        "title": {
+          "en": "The publishers’ table",
+          "nl-BE": "De tafel van de uitgevers"
+        },
+        "instruction": {
+          "en": "Choose a thread, then draw from the earlier source to the later edition. Tap two plates to do the same. Repeat a link to lift it.",
+          "nl-BE": "Kies een draad en trek hem van de vroegere bron naar de latere uitgave. Je kunt ook twee prenten aantikken. Herhaal een verbinding om ze los te maken."
+        },
+        "checkLabel": {
+          "en": "Test the lineage",
+          "nl-BE": "Toets de afstamming"
+        },
+        "success": {
+          "en": "The links lead back through a shared publishing history. Repetition cannot establish three independent observations. Ada removes that claim from her notes without removing the residents from her concern.",
+          "nl-BE": "De verbanden voeren terug naar een gedeelde uitgavegeschiedenis. Herhaling bewijst geen drie onafhankelijke waarnemingen. Ada schrapt die bewering uit haar notities, niet haar zorg voor de bewoners."
+        },
+        "onward": {
+          "en": "An annotation pairs an old gateway with a garden across a road. Compare the former gateway at Minderbroedersstraat with the later Kruidtuin.",
+          "nl-BE": "Een aantekening verbindt een oude poort met een tuin aan de overkant van een weg. Vergelijk de vroegere poort in de Minderbroedersstraat met de latere Kruidtuin."
+        },
+        "choices": [
+          {
+            "id": "publishing-trail",
+            "label": {
+              "en": "Follow publishers",
+              "nl-BE": "Volg de uitgevers"
+            },
+            "detail": {
+              "en": "The publishing trail reaches notes in Ruben’s hand. Ada records his involvement as a question to put to him, not yet an accusation.",
+              "nl-BE": "Het uitgeversspoor leidt naar notities in Rubens handschrift. Ada noteert zijn betrokkenheid als een vraag voor hem, nog niet als een beschuldiging."
+            }
+          },
+          {
+            "id": "annotations-trail",
+            "label": {
+              "en": "Follow annotations",
+              "nl-BE": "Volg de aantekeningen"
+            },
+            "detail": {
+              "en": "The handwritten trail describes places being held temporarily. It sounds less like a restoration than a shelter whose next step was never completed.",
+              "nl-BE": "Het handschriftspoor beschrijft plaatsen die tijdelijk bewaard werden. Het klinkt minder als herstel dan als opvang waarvan de volgende stap nooit werd afgemaakt."
+            }
+          }
+        ]
+      },
       "id": "puzzle-04",
       "title": {
         "en": "Three Witnesses, One Voice",
@@ -2164,6 +2316,10 @@
             "label": {
               "en": "Blaeu · 1649",
               "nl-BE": "Blaeu · 1649"
+            },
+            "detail": {
+              "en": "Blaeu’s 1649 view copied the earlier Braun–Hogenberg image.",
+              "nl-BE": "Blaeus prent uit 1649 kopieerde het eerdere beeld van Braun–Hogenberg."
             }
           },
           {
@@ -2210,6 +2366,74 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "comparison": "archive-comparison",
+          "old": "art-old-gateway-corrected-v1",
+          "later": "art-later-garden-v1",
+          "firstDocument": "v-old-invoice",
+          "secondDocument": "v-new-dedication"
+        },
+        "title": {
+          "en": "Two gardens, one collection",
+          "nl-BE": "Twee tuinen, één verzameling"
+        },
+        "instruction": {
+          "en": "File the dated slips under the two garden photographs. Compare the collection labels before signing the finding.",
+          "nl-BE": "Leg de gedateerde strookjes bij de twee tuinfoto’s. Vergelijk de collectielabels voor je de vaststelling ondertekent."
+        },
+        "checkLabel": {
+          "en": "Check the garden record",
+          "nl-BE": "Controleer het tuinregister"
+        },
+        "success": {
+          "en": "Outside Rietgang, the old invoice fades. Mara’s new dedication to Ada stays legible. A new relationship may outlast the old address. It is a lead, not yet proof that a person can move safely.",
+          "nl-BE": "Buiten Rietgang vervaagt de oude factuur. Mara’s nieuwe opdracht aan Ada blijft leesbaar. Een nieuwe band kan het oude adres overleven. Dat is een aanwijzing, nog geen bewijs dat een mens veilig kan verhuizen."
+        },
+        "onward": {
+          "en": "The remaining marks lead toward the former watergate. Ruben asks Ada to meet by the Jansenius–Lipsius ensemble before another attempt.",
+          "nl-BE": "De resterende merktekens wijzen naar de vroegere waterpoort. Ruben vraagt Ada bij het Jansenius–Lipsiusensemble af te spreken voor een nieuwe poging."
+        },
+        "choices": [
+          {
+            "id": "books-promise",
+            "label": {
+              "en": "Promise to prioritise books",
+              "nl-BE": "Beloof boeken voorrang"
+            },
+            "detail": {
+              "en": "Ada promises to give the family books priority. Mara asks her to put that promise in writing, where it can be remembered when carrying space is scarce.",
+              "nl-BE": "Ada belooft de familieboeken voorrang te geven. Mara vraagt haar die belofte op te schrijven, zodat ze blijft gelden wanneer er weinig draagruimte is."
+            }
+          },
+          {
+            "id": "tools-promise",
+            "label": {
+              "en": "Promise to prioritise tools",
+              "nl-BE": "Beloof gereedschap voorrang"
+            },
+            "detail": {
+              "en": "Ada promises to give the working tools priority. Mara nods: If we go, we will need a way to work again. Ada records the commitment.",
+              "nl-BE": "Ada belooft het werkgereedschap voorrang te geven. Mara knikt: Als we vertrekken, moeten we weer kunnen werken. Ada schrijft de belofte op."
+            }
+          }
+        ],
+        "turn": {
+          "label": {
+            "en": "Carry the papers outside",
+            "nl-BE": "Neem de papieren mee naar buiten"
+          },
+          "instruction": {
+            "en": "Ada holds the old invoice beside Mara’s new dedication. Take them out of Rietgang to test the ink.",
+            "nl-BE": "Ada legt de oude factuur naast Mara’s nieuwe opdracht. Neem beide mee uit Rietgang om de inkt te toetsen."
+          },
+          "before": "v-old-invoice",
+          "after": "v-new-dedication"
+        }
+      },
       "id": "puzzle-05",
       "title": {
         "en": "A Gate Without Its Garden",
@@ -2273,6 +2497,10 @@
             "en": "Binding work delivered to the workshop, Rietgang, household F. Account remains attached to that address. No exact date survives. Outside the street, the ink fades.",
             "nl-BE": "Bindwerk geleverd aan het atelier, Rietgang, huishouden F. De rekening blijft aan dat adres verbonden. Er is geen precieze datum bewaard. Buiten de straat vervaagt de inkt."
           },
+          "inscription": {
+            "en": "Binding work delivered to the workshop, Rietgang, household F.",
+            "nl-BE": "Bindwerk geleverd aan het atelier, Rietgang, huishouden F."
+          },
           "assetId": "v-old-invoice",
           "classification": "story"
         },
@@ -2285,6 +2513,10 @@
           "body": {
             "en": "For Ada, who brought me a broken notebook and stayed to listen. May its next pages be yours. — Mara. The words remain legible outside Rietgang.",
             "nl-BE": "Voor Ada, die me een kapot boek bracht en bleef luisteren. Mogen de volgende bladzijden van jou zijn. — Mara. De woorden blijven buiten Rietgang leesbaar."
+          },
+          "inscription": {
+            "en": "For Ada, who brought me a broken notebook and stayed to listen. May its next pages be yours. — Mara",
+            "nl-BE": "Voor Ada, die me een kapot boek bracht en bleef luisteren. Mogen de volgende bladzijden van jou zijn. — Mara"
           },
           "assetId": "v-new-dedication",
           "classification": "story"
@@ -2427,6 +2659,63 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "opened": "art-frame-body-v1",
+          "presence": "art-sofie-photo-v1",
+          "completed": "v-frame-sheet-completed-replacement",
+          "lost": "v-sequence-lost",
+          "sealed": "v-ruben-confession",
+          "result": "art-watergate-corrected-v1"
+        },
+        "title": {
+          "en": "Sofie’s last crossing",
+          "nl-BE": "Sofies laatste oversteek"
+        },
+        "instruction": {
+          "en": "Lay Ruben’s five records in order. Lift a card to set it aside or slide it into another numbered place.",
+          "nl-BE": "Leg Rubens vijf stukken op volgorde. Leg een kaart apart of schuif ze naar een andere genummerde plaats."
+        },
+        "checkLabel": {
+          "en": "Read back the account",
+          "nl-BE": "Lees het relaas terug"
+        },
+        "success": {
+          "en": "The evidence fits his account: the outline was completed while Sofie occupied the corresponding room. The room changed; she disappeared. He sealed the frame afterward. Concealment is established. An intention to hurt her is not.",
+          "nl-BE": "Het bewijs past bij zijn relaas: de omtrek werd voltooid terwijl Sofie in de overeenkomstige kamer was. De kamer veranderde; zij verdween. Daarna verzegelde hij het raam. Zijn verzwijgen staat vast. De bedoeling haar te schaden niet."
+        },
+        "onward": {
+          "en": "An informed host has offered a room for a trial. Go to the public Groot Begijnhof stop in Leuven; the invitation and private interior are fictional.",
+          "nl-BE": "Een geïnformeerde gastvrouw bood een kamer voor een proef. Ga naar het openbare stoppunt in het Leuvense Groot Begijnhof; de uitnodiging en privéruimte zijn verzonnen."
+        },
+        "choices": [
+          {
+            "id": "public-sofie",
+            "label": {
+              "en": "Ask Ruben to speak personally",
+              "nl-BE": "Vraag Ruben persoonlijk te spreken"
+            },
+            "detail": {
+              "en": "Ruben agrees to speak about Sofie himself. Ada records his consent and promises to leave him control over the personal details.",
+              "nl-BE": "Ruben stemt ermee in zelf over Sofie te spreken. Ada noteert zijn toestemming en belooft hem de persoonlijke details te laten bepalen."
+            }
+          },
+          {
+            "id": "private-sofie",
+            "label": {
+              "en": "Keep the personal account private",
+              "nl-BE": "Houd het persoonlijke relaas privé"
+            },
+            "detail": {
+              "en": "Ada agrees to keep the personal account private. The council will still hear exactly why completing a replacement would endanger an occupied room.",
+              "nl-BE": "Ada belooft het persoonlijke relaas privé te houden. De raad zal wel precies horen waarom een voltooide vervanging een bewoonde kamer bedreigt."
+            }
+          }
+        ]
+      },
       "id": "puzzle-06",
       "title": {
         "en": "The Keeper of the Crossing",
@@ -2702,6 +2991,78 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "front": "archive-invitation",
+          "back": "v-guest-card-back",
+          "Leuven": "v-host-invitation",
+          "unmatched": "v-failed-visit-temporary",
+          "nelle": "v-nelle-acceptance",
+          "mara": "v-mara-agreement",
+          "host": "v-host-invitation",
+          "oldRoom": "art-bedroom-before-v1",
+          "emptyRoom": "art-bedroom-vanished-v1"
+        },
+        "title": {
+          "en": "Nelle’s guest card",
+          "nl-BE": "Nelles gastenkaart"
+        },
+        "instruction": {
+          "en": "Turn a flap at its crease and attach the matching invitation. Read and record the three agreements.",
+          "nl-BE": "Vouw een flap langs de vouwlijn en hecht de bijpassende uitnodiging vast. Lees en noteer de drie instemmingen."
+        },
+        "checkLabel": {
+          "en": "Test the invitation",
+          "nl-BE": "Toets de uitnodiging"
+        },
+        "success": {
+          "en": "When you choose to continue to morning, Nelle is still there, solid and sleepy. Her old bedroom has gone. The workshop remains. Mara says the result is good news for Nelle; it is not permission to decide for everyone else.",
+          "nl-BE": "Wanneer je verdergaat naar de ochtend, is Nelle er nog, tastbaar en slaperig. Haar oude kamer is verdwenen. Het atelier blijft. Mara noemt het goed nieuws voor Nelle, geen toestemming om voor de anderen te beslissen."
+        },
+        "onward": {
+          "en": "The invitation’s binding resembles a missing register section. At University Hall, compare the frame papers with the separate history of the old library.",
+          "nl-BE": "De band van de uitnodiging lijkt op een ontbrekend registerdeel. Vergelijk bij de Universiteitshal de raampapieren met de afzonderlijke geschiedenis van de oude bibliotheek."
+        },
+        "choices": [
+          {
+            "id": "mara-outside",
+            "label": {
+              "en": "Mara stays with Nelle",
+              "nl-BE": "Mara blijft bij Nelle"
+            },
+            "detail": {
+              "en": "Mara stays beside Nelle. Ina Van Acker agrees to coordinate household F from inside. Two people are already outside; twenty-five remain in Rietgang.",
+              "nl-BE": "Mara blijft bij Nelle. Ina Van Acker zal huishouden F binnen coördineren. Twee mensen zijn al buiten; vijfentwintig blijven in Rietgang."
+            }
+          },
+          {
+            "id": "mara-inside",
+            "label": {
+              "en": "Mara returns inside",
+              "nl-BE": "Mara keert naar binnen terug"
+            },
+            "detail": {
+              "en": "Mara returns to organise the households, leaving Nelle with Lena. One person is already outside; twenty-six remain in Rietgang.",
+              "nl-BE": "Mara keert terug om de huishoudens te organiseren. Nelle blijft bij Lena. Eén persoon is al buiten; zesentwintig blijven in Rietgang."
+            }
+          }
+        ],
+        "turn": {
+          "label": {
+            "en": "Continue to morning",
+            "nl-BE": "Ga verder naar de ochtend"
+          },
+          "instruction": {
+            "en": "Lena has welcomed Nelle. Leave the frame open until morning when you are ready.",
+            "nl-BE": "Lena heeft Nelle ontvangen. Laat het raam tot de ochtend open wanneer je er klaar voor bent."
+          },
+          "before": "art-host-evening-v1",
+          "after": "art-trial-dawn-v1"
+        }
+      },
       "id": "puzzle-07",
       "title": {
         "en": "A Room Offered Freely",
@@ -2951,6 +3312,95 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "binding": "archive-binding",
+          "result": "reference-11"
+        },
+        "title": {
+          "en": "The unfinished register",
+          "nl-BE": "Het onvoltooide register"
+        },
+        "instruction": {
+          "en": "Recover the two headings, then file each person’s name with their household. Turn the leaf to reach the other names.",
+          "nl-BE": "Herstel de twee koppen en schrijf elke naam bij het juiste huishouden. Sla het blad om voor de andere namen."
+        },
+        "checkLabel": {
+          "en": "Reconcile the register",
+          "nl-BE": "Controleer het volledige register"
+        },
+        "success": {
+          "en": "Nine households and twenty-seven distinct people are reconciled. Previously relocated members remain visible. The unfinished second list was meant to move people onward, not to preserve an empty street forever.",
+          "nl-BE": "Negen huishoudens en zevenentwintig verschillende mensen zijn verzoend. Wie al verhuisde blijft zichtbaar. De onafgemaakte tweede lijst moest mensen verder helpen, niet voorgoed een lege straat bewaren."
+        },
+        "onward": {
+          "en": "Nine households need an agreement they can each accept. Meet on Grote Markt facing the Tafelrond, with the roster and housing offers.",
+          "nl-BE": "Negen huishoudens hebben een afspraak nodig waarmee elk kan instemmen. Spreek af op de Grote Markt tegenover het Tafelrond, met het register en de woonvoorstellen."
+        },
+        "choices": [
+          {
+            "id": "resident-private",
+            "label": {
+              "en": "Resident-controlled private archive",
+              "nl-BE": "Privéarchief onder bewonersbeheer"
+            },
+            "detail": {
+              "en": "The residents retain the names and decide who may consult them. Ada records the method publicly only in a form that identifies no household.",
+              "nl-BE": "De bewoners bewaren de namen en beslissen wie ze mag raadplegen. Ada beschrijft de werkwijze alleen publiek zonder huishoudens herkenbaar te maken."
+            }
+          },
+          {
+            "id": "joint-public",
+            "label": {
+              "en": "Jointly curated public account",
+              "nl-BE": "Samen beheerd publiek relaas"
+            },
+            "detail": {
+              "en": "A joint account will include only contributions each resident explicitly approves. Credit, withdrawal and access will be decided together, not assumed from rescue.",
+              "nl-BE": "Een gezamenlijk relaas bevat alleen bijdragen waarvoor elke bewoner uitdrukkelijk toestemming geeft. Vermelding, intrekking en toegang worden samen beslist, niet afgeleid uit de redding."
+            }
+          }
+        ],
+        "headings": [
+          {
+            "id": "places",
+            "label": {
+              "en": "Places held temporarily",
+              "nl-BE": "Tijdelijk bewaarde plaatsen"
+            },
+            "slotLabel": {
+              "en": "The parcels",
+              "nl-BE": "De percelen"
+            }
+          },
+          {
+            "id": "people",
+            "label": {
+              "en": "People awaiting another address",
+              "nl-BE": "Mensen die op een ander adres wachten"
+            },
+            "slotLabel": {
+              "en": "The residents",
+              "nl-BE": "De bewoners"
+            }
+          }
+        ],
+        "memories": [
+          {
+            "puzzleId": "puzzle-07",
+            "choiceId": "mara-inside",
+            "scenarioId": "mara_returns"
+          },
+          {
+            "puzzleId": "puzzle-07",
+            "choiceId": "mara-outside",
+            "scenarioId": "mara_stays"
+          }
+        ]
+      },
       "id": "puzzle-08",
       "title": {
         "en": "The Addresses That Survived the Fire",
@@ -3572,6 +4022,104 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "result": "art-tafelrond-corrected-v1"
+        },
+        "title": {
+          "en": "The council’s housing ledger",
+          "nl-BE": "Het woonregister van de raad"
+        },
+        "instruction": {
+          "en": "Choose a housing plan. Bring each household’s card to an offer, read the terms, and record its agreement.",
+          "nl-BE": "Kies een woonplan. Breng elke gezinskaart naar een aanbod, lees de voorwaarden en noteer de instemming."
+        },
+        "checkLabel": {
+          "en": "Verify the signed plan",
+          "nl-BE": "Controleer het getekende plan"
+        },
+        "success": {
+          "en": "Every person has a place, including the earlier arrivals. The residents sign household by household. Ruben accepts the morning trial as evidence that another kind of ending is possible.",
+          "nl-BE": "Iedereen heeft een plaats, ook wie eerder aankwam. De bewoners tekenen per huishouden. Ruben aanvaardt de ochtendproef als bewijs dat een ander einde mogelijk is."
+        },
+        "onward": {
+          "en": "The signed plan warns that a departing parcel takes its passage with it. Return to Handbooghof with the accepted allocation and access graph.",
+          "nl-BE": "Het ondertekende plan waarschuwt dat een vertrekkend perceel zijn doorgang meeneemt. Keer terug naar het Handbooghof met de aanvaarde verdeling en het toegangsnetwerk."
+        },
+        "choices": [
+          {
+            "id": "remain-neighbours",
+            "label": {
+              "en": "Remain neighbours",
+              "nl-BE": "Blijf buren"
+            },
+            "detail": {
+              "en": "They choose neighbouring temporary homes and shared work space. They keep daily contact, knowing another housing decision still lies ahead.",
+              "nl-BE": "Ze kiezen tijdelijke woningen bij elkaar en gedeelde werkruimte. Het dagelijkse contact blijft, met het besef dat later nog een woonbeslissing volgt."
+            },
+            "packageId": "neighbours"
+          },
+          {
+            "id": "settle-permanently",
+            "label": {
+              "en": "Settle in longer-term homes",
+              "nl-BE": "Kies woningen voor langere tijd"
+            },
+            "detail": {
+              "en": "They choose longer-term homes across Leuven. They will have more certainty about where they sleep and must make time to remain a community.",
+              "nl-BE": "Ze kiezen woningen voor langere tijd verspreid over Leuven. Er is meer zekerheid over hun verblijf, maar ze moeten tijd maken om een gemeenschap te blijven."
+            },
+            "packageId": "permanent"
+          }
+        ],
+        "memories": [
+          {
+            "puzzleId": "puzzle-07",
+            "choiceId": "mara-inside",
+            "scenarioId": "mara_returns"
+          },
+          {
+            "puzzleId": "puzzle-07",
+            "choiceId": "mara-outside",
+            "scenarioId": "mara_stays"
+          },
+          {
+            "puzzleId": "puzzle-06",
+            "choiceId": "public-sofie",
+            "text": {
+              "en": "With Ruben’s consent, the record includes his account of Sofie’s disappearance. It offers no rescue from the past. It tells why he finally helped the people still within reach.",
+              "nl-BE": "Met Rubens toestemming bevat het verslag zijn relaas over Sofies verdwijning. Het biedt geen redding uit het verleden. Het vertelt waarom hij uiteindelijk de mensen hielp die nog bereikbaar waren."
+            }
+          },
+          {
+            "puzzleId": "puzzle-06",
+            "choiceId": "private-sofie",
+            "text": {
+              "en": "Ruben’s public statement describes the substitution and its danger. The personal account remains private, as agreed. His help does not require that grief become an exhibit.",
+              "nl-BE": "Rubens openbare verklaring beschrijft de vervanging en het gevaar. Het persoonlijke relaas blijft volgens afspraak privé. Zijn hulp vereist niet dat verdriet een tentoonstellingsstuk wordt."
+            }
+          },
+          {
+            "puzzleId": "puzzle-03",
+            "choiceId": "joost-first",
+            "text": {
+              "en": "Joost explains the overlap first. Mara reminds the council that warning the outside household first left her community waiting.",
+              "nl-BE": "Joost legt de overlap eerst uit. Mara herinnert de raad eraan dat zijn gezin eerst waarschuwen haar gemeenschap liet wachten."
+            }
+          },
+          {
+            "puzzleId": "puzzle-03",
+            "choiceId": "mara-first",
+            "text": {
+              "en": "Mara explains the overlap first. Joost says he supports a shared plan and still wishes his family had been warned sooner.",
+              "nl-BE": "Mara legt de overlap eerst uit. Joost steunt een gezamenlijk plan en had toch graag gezien dat zijn gezin eerder was gewaarschuwd."
+            }
+          }
+        ]
+      },
       "id": "puzzle-09",
       "title": {
         "en": "Which Leuven Are We Restoring?",
@@ -4380,6 +4928,126 @@
       }
     },
     {
+      "tableau": {
+        "surfaceAssetId": "desk-surface",
+        "paperAssetId": "archive-paper",
+        "ledgerAssetId": "archive-ledger",
+        "objects": {
+          "map": "desk-master",
+          "cart": "archive-cart",
+          "result": "art-door-vanished-v1"
+        },
+        "title": {
+          "en": "The last routes out",
+          "nl-BE": "De laatste uitwegen"
+        },
+        "instruction": {
+          "en": "Pick a parcel to preview the closure. Confirm a safe departure, and pack the cart before the workshop leaves.",
+          "nl-BE": "Kies een perceel om de afsluiting te bekijken. Bevestig een veilig vertrek en pak de kar voordat het atelier vertrekt."
+        },
+        "checkLabel": {
+          "en": "Close the empty frame",
+          "nl-BE": "Sluit het lege raam"
+        },
+        "success": {
+          "en": "All twenty-seven residents have new connections. The last parcel empties, the plan closes and ordinary masonry returns. Rietgang is gone. The people who lived there are not.",
+          "nl-BE": "Alle zevenentwintig bewoners hebben nieuwe verbindingen. Het laatste perceel raakt leeg, het plan sluit en gewoon metselwerk keert terug. Rietgang is verdwenen. De mensen die er woonden leven verder."
+        },
+        "onward": {
+          "en": "An ordinary postal worker brings a parcel to Mara. On the next visit, he remembers her. Ada writes beneath Nelle’s map: Rietgang. Drawn from the memory of someone who lived there.",
+          "nl-BE": "Een gewone postbode brengt Mara een pakje. Bij het volgende bezoek herinnert hij zich haar. Ada schrijft onder Nelles kaart: Rietgang. Getekend uit de herinnering van iemand die er woonde."
+        },
+        "choices": [
+          {
+            "id": "books-and-drawings",
+            "label": {
+              "en": "Keep books and drawings",
+              "nl-BE": "Behoud boeken en tekeningen"
+            },
+            "detail": {
+              "en": "The family books and street drawings fit together in the cart. The tools stay. Their written and drawn testimony survives; the workshop will need replacement equipment.",
+              "nl-BE": "De familieboeken en straattekeningen passen samen op de kar. Het gereedschap blijft. Hun geschreven en getekende getuigenis overleeft; het atelier heeft ander materiaal nodig."
+            },
+            "load": [
+              "books",
+              "drawings"
+            ]
+          },
+          {
+            "id": "working-tools",
+            "label": {
+              "en": "Keep working tools",
+              "nl-BE": "Behoud werkgereedschap"
+            },
+            "detail": {
+              "en": "The portable working kit fills the cart. The original books and drawings stay behind. Mara will be able to work sooner, but some memories now survive only in people.",
+              "nl-BE": "De draagbare werkkist vult de kar. De originele boeken en tekeningen blijven achter. Mara kan sneller weer werken, maar sommige herinneringen bestaan nu alleen nog in mensen."
+            },
+            "load": [
+              "tools"
+            ]
+          }
+        ],
+        "memories": [
+          {
+            "puzzleId": "puzzle-07",
+            "choiceId": "mara-inside",
+            "scenarioId": "mara_returns"
+          },
+          {
+            "puzzleId": "puzzle-07",
+            "choiceId": "mara-outside",
+            "scenarioId": "mara_stays"
+          },
+          {
+            "puzzleId": "puzzle-08",
+            "choiceId": "resident-private",
+            "text": {
+              "en": "The residents keep their archive themselves. Public accounts explain the work without publishing their names. Anyone who wants access must ask them.",
+              "nl-BE": "De bewoners beheren hun archief zelf. Publieke verslagen leggen het werk uit zonder hun namen te publiceren. Wie toegang wil, moet het hun vragen."
+            }
+          },
+          {
+            "puzzleId": "puzzle-08",
+            "choiceId": "joint-public",
+            "text": {
+              "en": "The jointly curated exhibition includes only contributions approved by their makers. Residents decide how they are named and can withdraw a contribution. Ada is credited for listening as well as mapping.",
+              "nl-BE": "De samen gemaakte tentoonstelling bevat alleen bijdragen die hun makers goedkeurden. Bewoners bepalen hoe hun naam vermeld wordt en kunnen een bijdrage intrekken. Ada krijgt erkenning voor het luisteren én het tekenen."
+            }
+          },
+          {
+            "puzzleId": "puzzle-09",
+            "choiceId": "remain-neighbours",
+            "text": {
+              "en": "The temporary homes keep neighbours near one another and a shared work space busy. Their next housing decision is still ahead. Staying together has given them people with whom to make it.",
+              "nl-BE": "De tijdelijke woningen houden buren dicht bij elkaar en de gedeelde werkruimte levendig. Hun volgende woonbeslissing komt nog. Door samen te blijven hebben ze mensen met wie ze die kunnen nemen."
+            }
+          },
+          {
+            "puzzleId": "puzzle-09",
+            "choiceId": "settle-permanently",
+            "text": {
+              "en": "The longer-term homes offer more certainty, but are spread across Leuven. Visits now need arranging. A shared workshop and a regular meal keep the former street in conversation.",
+              "nl-BE": "De woningen voor langere tijd bieden meer zekerheid, maar liggen verspreid over Leuven. Bezoeken moeten nu gepland worden. Een gedeeld atelier en een regelmatige maaltijd houden de vroegere straat met elkaar in gesprek."
+            }
+          }
+        ],
+        "promise": {
+          "puzzleId": "puzzle-05",
+          "matches": {
+            "books-and-drawings": "books-promise",
+            "working-tools": "tools-promise"
+          },
+          "kept": {
+            "en": "Mara finds Ada’s written promise in the notebook. This time what was carried out agrees with what was promised. Neither calls that a complete repayment.",
+            "nl-BE": "Mara vindt Ada’s opgeschreven belofte in het boek. Deze keer stemt wat werd meegenomen overeen met wat was beloofd. Geen van beiden noemt dat een volledige vereffening."
+          },
+          "changed": {
+            "en": "Mara points to Ada’s earlier promise. They chose differently at the cart, and Ada acknowledges it plainly. Saving everyone does not make a broken commitment disappear.",
+            "nl-BE": "Mara wijst op Ada’s eerdere belofte. Bij de kar kozen ze anders en Ada erkent dat zonder omwegen. Iedereen redden wist een gebroken toezegging niet uit."
+          }
+        }
+      },
       "id": "puzzle-10",
       "title": {
         "en": "The Last Door",
