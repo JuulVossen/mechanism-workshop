@@ -2,6 +2,10 @@
 
 [Open the workshop in your browser](https://juulvossen.github.io/mechanism-workshop/).
 
+[Open the story puzzle workshop](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/) to play and refine all ten chapters of *The Street Between Maps*, inspect their artwork and clues, or import a pack for another story. The story workshop includes English and Dutch, a two-puzzle starter pack, JSON editing, and browser-local test saves. Export packs and sessions to share or transfer your work. Uploaded image attachments stay in the browser session.
+
+The `puzzle-workshop/` directory is a separate static build with only its declared artwork and public story packs. Its `publication.json` records packaged file hashes. Both workshops link to each other. Updating one build should preserve the other directory and the navigation in the root `index.html`.
+
 Thirty-five interactive puzzle prototypes, grouped into six related families. Choose a family to explore its mechanisms, use **Show all groups** for the complete overview, or search across all 35 by name, number or group.
 
 ## Locks & moving parts · 6 mechanisms

@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "builtAt": "2026-11-17T18:13:44.245Z",
+  "packs": [
+    {
+      "id": "street-between-maps",
+      "revision": 1,
+      "puzzles": 10
+    },
+    {
+      "id": "workshop-starter",
+      "revision": 1,
+      "puzzles": 2
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "assets/index-BRvR1qCr.js",
+      "bytes": 431788,
+      "sha256": "d57e523d22260adc4928b9aa0d47ab4f249d96da7bbd2c14950439b70ec56d3d"
+    },
+    {
+      "path": "assets/index-BtATQ8Pi.css",
+      "bytes": 23939,
+      "sha256": "a5b7dc564652d50f296417223c74e69fb46b4445c3ad254237a8fcd0a6d9ca50"
+    },
+    {
+      "path": "index.html",
+      "bytes": 637,
+      "sha256": "47025ff719a6a030d9ad16b889a8050bd41c5581e9fc438a60b874548e6f4b49"
+    },
+    {
+      "path": "puzzle-packs/street-between-maps.json",
+      "bytes": 171017,
+      "sha256": "5b8d577f5d454738834ded7fd4934571de23bea3036b7782e125f560f6eb8c16"
+    },
+    {
+      "path": "puzzle-packs/workshop-starter.json",
+      "bytes": 5103,
+      "sha256": "bb58b49cbf1703897ab1a6994c78a5a3d39940bc4de5fdc52158a7940137fad8"
+    },
+    {
+      "path": "street-between-maps/images/ada-portrait-v1.png",
+      "bytes": 2401782,
+      "sha256": "455b7b7af574f83754145721962ab3411bae9b35a6efc324c4c0253fbf2ae837"
+    },
+    {
+      "path": "street-between-maps/images/bedroom-before-v1.png",
+      "bytes": 2714152,
+      "sha256": "4a184ba46aee5e63af3963cc6d6b712a02c770c56f6e079cf74f78e938932613"
+    },
+    {
+      "path": "street-between-maps/images/bedroom-vanished-v1.png",
+      "bytes": 2613468,
+      "sha256": "699ab33c2cc35c6cdc956c87e7f978dc8802015699c0491f11b380c9773cfa26"
+    },
+    {
+      "path": "street-between-maps/images/collision-intrusion-v1.png",
+      "bytes": 2447232,
+      "sha256": "ccabb7c99d4bf8321b35e1b730f4496b5ae99643bab1605c8eff5db0f492936f"
+    },
+    {
+      "path": "street-between-maps/images/collision-normal-v1.png",
+      "bytes": 2291040,
+      "sha256": "f4697d88d00f601e97057c944f5693108f7887bf4bd624fe4a5a869e5ac5aee9"
+    },
+    {
+      "path": "street-between-maps/images/den-ancker-corrected-v1.png",
+      "bytes": 3042170,
+      "sha256": "5ce634de9d0180d90c7d7a1c7c24266da2b8dfcc4c6df5bb736d6d57457d77d2"
+    },
+    {
+      "path": "street-between-maps/images/door-closed-v1.png",
+      "bytes": 3690758,
+      "sha256": "b91e49cec695d9d0d29e48f446d8339f4e458acc2523cfa331ff929efadaf3e0"
+    },
+    {
+      "path": "street-between-maps/images/door-open-v1.png",
+      "bytes": 3445038,
+      "sha256": "00da355d21a2df3825853092c93f957109faded67a0b5939fb1c661e3f1420cf"
+    },
+    {
+      "path": "street-between-maps/images/door-vanished-v1.png",
+      "bytes": 3399121,
+      "sha256": "33ffdc8d85fb32b59f30b57346f5db0c6a39cad146d60550a47d6032dd51e484"
+    },
+    {
+      "path": "street-between-maps/images/frame-body-v1.png",
+      "bytes": 2023206,
+      "sha256": "d4cec670923156d6b0c342a91d3b2a3ff837243640701b5f955c5b6d6e1b66b5"
+    },
+    {
+      "path": "street-between-maps/images/host-evening-v1.png",
+      "bytes": 2339522,
+      "sha256": "6bb28a10a0efbd4ae9a5a3e9a4e28c2a43d7801e745e369e78bcc60defef73db"
+    },
+    {
+      "path": "street-between-maps/images/joost-portrait-v1.png",
+      "bytes": 2563779,
+      "sha256": "8c86552474710ecc7a291b5a8edcb9588d4143f0a4b47f076ce2d855f423f0d0"
+    },
+    {
+      "path": "street-between-maps/images/later-garden-v1.png",
+      "bytes": 3716351,
+      "sha256": "c7e99f5e23256ccd41d1e62fa6f512074138c954e0dd22c55b425ed37eaa663d"
+    },
+    {
+      "path": "street-between-maps/images/mara-portrait-v1.png",
+      "bytes": 2319912,
+      "sha256": "62ad5b317b2275c64449f3e7d20d9611f475567d00d4447747fe4996db39ae4f"
+    },
+    {
+      "path": "street-between-maps/images/nelle-portrait-v1.png",
+      "bytes": 2504810,
+      "sha256": "5dc8008c98ca7bf30d8b7e2f502d58a6c9ac352aed59ae2c491a2f8935b8917d"
+    },
+    {
+      "path": "street-between-maps/images/old-gateway-corrected-v1.png",
+      "bytes": 3596718,
+      "sha256": "97a8fe3fc4e4f7cae2927631b4af0c2088e2cf55ee202a5c6408ad33c908dd25"
+    },
+    {
+      "path": "street-between-maps/images/rietgang-day-v1.png",
+      "bytes": 3592253,
+      "sha256": "a8049be0c109a559fa8e2bed2e6fd0c737f3867e4a35005eef5c0338bde6aea9"
+    },
+    {
+      "path": "street-between-maps/images/ruben-portrait-v1.png",
+      "bytes": 2524354,
+      "sha256": "365479bd58373909aa9e3575e1fdf1a56597cf55b6ade6d06f1aca15996a1333"
+    },
+    {
+      "path": "street-between-maps/images/salvage-books-v1.png",
+      "bytes": 2321774,
+      "sha256": "c1732b929c931e3127bc99506112ab4d318b10a7bb8ed7acde78e992d03249a6"
+    },
+    {
+      "path": "street-between-maps/images/salvage-drawings-v1.png",
+      "bytes": 2170685,
+      "sha256": "913d1e408ce9ddb4126fc181967fef36c8cf8dff63e29258ef5dbbdd5ef3a649"
+    },
+    {
+      "path": "street-between-maps/images/salvage-tools-v1.png",
+      "bytes": 2657955,
+      "sha256": "93c02514a35d707f856ae5d6d77842cf0963b46fb3792c5030a3aa5f63938ecd"
+    },
+    {
+      "path": "street-between-maps/images/sofie-photo-v1.png",
+      "bytes": 2602921,
+      "sha256": "d1baa92f5b50d4e7ee86043725972eb8b94d25fc633ec28af2b9c18a3cbda212"
+    },
+    {
+      "path": "street-between-maps/images/tafelrond-corrected-v1.png",
+      "bytes": 3134991,
+      "sha256": "8ee8980f09986684422713bc78789dc6ed23ea7ec65e352b579f2daa45dbedf1"
+    },
+    {
+      "path": "street-between-maps/images/trial-dawn-v1.png",
+      "bytes": 2707754,
+      "sha256": "0da3fe80f4e3ce33a3782d11a785ed16d1ce79d070cd29d53b4f61025a142953"
+    },
+    {
+      "path": "street-between-maps/images/trilingue-corrected-v1.png",
+      "bytes": 3341566,
+      "sha256": "e41bebe130bceca6c0b347b3aec6ab3d66edd20a9b206f3b406e52d59053b0a9"
+    },
+    {
+      "path": "street-between-maps/images/watergate-corrected-v1.png",
+      "bytes": 3181459,
+      "sha256": "576750d004b91b564cb2089227739b1c6c0f3c98ae41315ae63d773007141053"
+    },
+    {
+      "path": "street-between-maps/references/2d3c29d4350cc0df397c7e86.jpg",
+      "bytes": 171456,
+      "sha256": "f6996f51fda37f030cc3af691457258f1634815a993840ffe9f364bd2f72fae1"
+    },
+    {
+      "path": "street-between-maps/references/4d93ed25c1bf440b89d2e25f.jpg",
+      "bytes": 175001,
+      "sha256": "606d025c6b680d5d519f326b63850b20705eed5ec124cd21fdb91507d5145b1a"
+    },
+    {
+      "path": "street-between-maps/references/844e9ba43cec198bc00cbc2e.jpg",
+      "bytes": 171845,
+      "sha256": "a77e6e77ac6f644524129c20476469abce2efa0075eea3a4ce55c3da492fd4af"
+    },
+    {
+      "path": "street-between-maps/references/ad74318ae35164c4b5e91b4d.jpg",
+      "bytes": 162753,
+      "sha256": "5d3c83cc3bd71293df24476fd5ab25f0fb43e7a7b70c90bbbc1ecb4865af0d65"
+    },
+    {
+      "path": "street-between-maps/references/c1c6fc5442cf3fec2a7e1c39.jpg",
+      "bytes": 187326,
+      "sha256": "ce811973ba9e7daa8ec2c6d60aa3b7f64160ae33a0abb7c08c33090061e66ac7"
+    },
+    {
+      "path": "street-between-maps/references/d4c6bb10b1c908a4accc4db5.jpg",
+      "bytes": 86149,
+      "sha256": "bf78c0ee4ba3767250cda0f8cf5c5b7eb3393866927a47c98d00cc2017379f50"
+    },
+    {
+      "path": "street-between-maps/references/e1ff93dc740d05c1e8647878.jpg",
+      "bytes": 93474,
+      "sha256": "de42a5fc7cb9997f182d689b75c95b1123082eb83448c6587442f41ba97cee63"
+    },
+    {
+      "path": "street-between-maps/references/earlymodern-den-ancker-1619.jpg",
+      "bytes": 248889,
+      "sha256": "dcda3626d1491d2b02d640d1bcf6331eb152050038626fe64fd0758f9147a6fd"
+    },
+    {
+      "path": "street-between-maps/references/f2b0111a83c59b27d1d8ed62.jpg",
+      "bytes": 223056,
+      "sha256": "65f05140de1ad047fbe711257160a9a1ece2b761327df46fb553f4e203ac9106"
+    },
+    {
+      "path": "street-between-maps/references/f62f804bcb1ec7d5665ef594.jpg",
+      "bytes": 229659,
+      "sha256": "36959578eaabc0754c13de23a9e4123f9f53485f69918eaecc731918de1e3142"
+    },
+    {
+      "path": "street-between-maps/references/leuven-1581-aligned.webp",
+      "bytes": 1171988,
+      "sha256": "9d7b616b9f59e57da7045642d599c29ab75ac1e4ce053ceadb2906730b7e3c6a"
+    },
+    {
+      "path": "street-between-maps/references/leuven-1657-aligned.webp",
+      "bytes": 267702,
+      "sha256": "52416cc84bb62454363bf137fda904abc8f796f176ef02a54190d988eed76a30"
+    },
+    {
+      "path": "street-between-maps/references/leuven-1700-aligned.webp",
+      "bytes": 1337404,
+      "sha256": "318be2c398714ba9e62f63d9ac9fa557f5124060244a7cb59b822ccd1396593b"
+    },
+    {
+      "path": "street-between-maps/references/leuven-1860-aligned.webp",
+      "bytes": 518190,
+      "sha256": "6a010938e67075fb582cd51896fdf3057b5170929ec53db20ac251f88ffae238"
+    },
+    {
+      "path": "street-between-maps/references/leuven-1914-aligned.webp",
+      "bytes": 1815464,
+      "sha256": "5076c1a3d831c4c537300323841ed20f94bb5f76cfaed7ce2474b50bee9e6ff2"
+    },
+    {
+      "path": "street-between-maps/references/library-inauguration-1928.jpg",
+      "bytes": 293946,
+      "sha256": "c5d294d3c7bb7171937dd574e10d2eb3713cbe8e5f2d845a88b0c788956ea4a7"
+    },
+    {
+      "path": "street-between-maps/references/wwi-event-early-849.jpg",
+      "bytes": 233410,
+      "sha256": "3d8ddd64ef951003c2446c33959c8a602c7380df308ebe03a25f7d6dbec3b32e"
+    },
+    {
+      "path": "street-between-maps/references/wwi-event-hist-tafelrond-plan-1917-1918.jpg",
+      "bytes": 258708,
+      "sha256": "24b99a35ac8ee22cec43895ad6e37c23cdf90ca60644355795a64a946f8c6802"
+    },
+    {
+      "path": "street-between-maps/vectors/access-piece-1.svg",
+      "bytes": 741,
+      "sha256": "4b6b9193e7a65543d3243938c52da438e062280f822e93d4cbd8e7923740a002"
+    },
+    {
+      "path": "street-between-maps/vectors/access-piece-2.svg",
+      "bytes": 776,
+      "sha256": "e2d4d7f139a31225161b82db1832796ddc39015d28de6ee33c4c9e2e6b13f104"
+    },
+    {
+      "path": "street-between-maps/vectors/access-piece-3.svg",
+      "bytes": 741,
+      "sha256": "ccbd925a342c3e17f1b1fc7a6d9b4af1aed5a338ee18214ba3867fb49ae50b75"
+    },
+    {
+      "path": "street-between-maps/vectors/access-plan-master.svg",
+      "bytes": 626,
+      "sha256": "1e93980a1cff6fca26bd4dfd76bcfade0d32a033760b2b5e5d4317f90f8b27ef"
+    },
+    {
+      "path": "street-between-maps/vectors/allocation.svg",
+      "bytes": 534,
+      "sha256": "c4db87aae07af0fefae58ace6f7b0e7d53f7fc506127cd6b69d0849f9f9d89e4"
+    },
+    {
+      "path": "street-between-maps/vectors/bedroom-state-0.svg",
+      "bytes": 7238412,
+      "sha256": "94570b44e2857f0b22d83e5610cb7715a5b058549da3ffb72a9795dfe44ef3b6"
+    },
+    {
+      "path": "street-between-maps/vectors/bedroom-state-1.svg",
+      "bytes": 7104164,
+      "sha256": "22de69e6176cdc5e0507c10e63e91d1d85a1d234ca15c2242685cfba8b45c69b"
+    },
+    {
+      "path": "street-between-maps/vectors/clearance-document.en.svg",
+      "bytes": 1024,
+      "sha256": "041d2c933faeb60df68eedeadc9fdc90c9c079b67654cadbd602e6246b93566e"
+    },
+    {
+      "path": "street-between-maps/vectors/clearance-document.nl-BE.svg",
+      "bytes": 1069,
+      "sha256": "5dc9401ef70ae0cca50d25b5f0f045fa8a2e3b8714657886e5a578d3b687f884"
+    },
+    {
+      "path": "street-between-maps/vectors/collection-new.en.svg",
+      "bytes": 845,
+      "sha256": "791bcf7e672fba474fd14fd425575a42c8066291738a5d64707d8abf6ccaa0c7"
+    },
+    {
+      "path": "street-between-maps/vectors/collection-new.nl-BE.svg",
+      "bytes": 861,
+      "sha256": "6b72a48ecda916684ae2bfdbba0a22568d77561c5cc6c7c6a0798c47d6900096"
+    },
+    {
+      "path": "street-between-maps/vectors/collection-old.en.svg",
+      "bytes": 861,
+      "sha256": "e5c44cc0dfdfc94d4abaeb9a1a1269019a62f6566a1b0dab50743816705f0c0f"
+    },
+    {
+      "path": "street-between-maps/vectors/collection-old.nl-BE.svg",
+      "bytes": 870,
+      "sha256": "a43e571607ffbf0473ad903131d3f2f6cad2eb221c730669ecfa062c8cf4ea63"
+    },
+    {
+      "path": "street-between-maps/vectors/collision-state-0.svg",
+      "bytes": 6110111,
+      "sha256": "d0cbfa01b046afff9cf2fbba908f7d2a1e56d8ea1c032ea93450e9e3f5f4d5c9"
+    },
+    {
+      "path": "street-between-maps/vectors/collision-state-1.svg",
+      "bytes": 6318367,
+      "sha256": "baf053dd374bcce883191ba9b03a4d1c6471b0f24eaf79e463312ac168d08310"
+    },
+    {
+      "path": "street-between-maps/vectors/collision-state-2.svg",
+      "bytes": 6110111,
+      "sha256": "8d8616081ef5670f7875a05b2f61b751e12fd85b7d22b08f861a9aaa58c8efac"
+    },
+    {
+      "path": "street-between-maps/vectors/contraction.svg",
+      "bytes": 2657,
+      "sha256": "f3359ea86745df5571b343b4976f9ae0db4eb8bb7912f94fcbf6c55ee6ff4264"
+    },
+    {
+      "path": "street-between-maps/vectors/delivery-note.en.svg",
+      "bytes": 969,
+      "sha256": "3763d5755a4cb8ec10c2a2c599a1b4485ece32c1889a161dce4179cb6293f1a5"
+    },
+    {
+      "path": "street-between-maps/vectors/delivery-note.nl-BE.svg",
+      "bytes": 968,
+      "sha256": "b1f088e0eb6f6216e129d5b77dda507c82ba68871e5342dc492604be0554c6e5"
+    },
+    {
+      "path": "street-between-maps/vectors/door-state-0.svg",
+      "bytes": 9842690,
+      "sha256": "442c703c9237f82bc9faf499fafb9c6208d553ec813f65d3c446645944dc25fd"
+    },
+    {
+      "path": "street-between-maps/vectors/door-state-1.svg",
+      "bytes": 9515062,
+      "sha256": "2ba7d2f8886b0e002d7441f1ee681b2c4028f67182637c6dabf8ff207eda01f6"
+    },
+    {
+      "path": "street-between-maps/vectors/door-state-2.svg",
+      "bytes": 9453842,
+      "sha256": "4438bef512c111d50904ddbcdf44a179d814ed7b2c754d01a7af4e7b36b1f018"
+    },
+    {
+      "path": "street-between-maps/vectors/evacuation-network.svg",
+      "bytes": 2635,
+      "sha256": "7b59f478c18fad984d60108abcbf99e7a358124ab747795ad09d41c26b7bdebe"
+    },
+    {
+      "path": "street-between-maps/vectors/failed-visit-address.en.svg",
+      "bytes": 947,
+      "sha256": "e2322e3319838ac149862b8a9b880017fba4df0315afad89824fe6f0e27e98cd"
+    },
+    {
+      "path": "street-between-maps/vectors/failed-visit-address.nl-BE.svg",
+      "bytes": 954,
+      "sha256": "d049d60c5392162a25453a7ab0f34e5b50b134ef7e9ab9c7d7d5703559c4aab1"
+    },
+    {
+      "path": "street-between-maps/vectors/failed-visit-temporary.en.svg",
+      "bytes": 967,
+      "sha256": "f4b9aeb5811bc2cfb465e3a3b0d2f1ada7c6f3be2233f192d4ebdb47071aaa1d"
+    },
+    {
+      "path": "street-between-maps/vectors/failed-visit-temporary.nl-BE.svg",
+      "bytes": 967,
+      "sha256": "dbd1d2e94501584931cc8973b87f88c2c876087063883bd6e3401af4708a7ae0"
+    },
+    {
+      "path": "street-between-maps/vectors/frame-sheet-collision-preview.svg",
+      "bytes": 975,
+      "sha256": "26d567d54379f3109a4cc309bcf2a7add534745bf35581cb19968470fd2808d0"
+    },
+    {
+      "path": "street-between-maps/vectors/frame-sheet-completed-replacement.svg",
+      "bytes": 976,
+      "sha256": "3cfef09720567398d9464f42731377e2fa236232a46f704c95d537249da54cd4"
+    },
+    {
+      "path": "street-between-maps/vectors/frame-sheet-ordinary.svg",
+      "bytes": 363,
+      "sha256": "c874f3594fe45694ac98957dc7bd7a81e9ef2697d1abc3b0ad4756e267f24c7e"
+    },
+    {
+      "path": "street-between-maps/vectors/frame-sheet-partial.svg",
+      "bytes": 965,
+      "sha256": "85dc1ed04ecdccdeccec7ad89cd4205384b75d5e23c57742c23ad28505bbf6d6"
+    },
+    {
+      "path": "street-between-maps/vectors/frame-sheet-reference.svg",
+      "bytes": 884,
+      "sha256": "06ca7d2eb71e15b7bcbdd121a4dea935d2dea0c289a9379a0a5fa86b8d29dd04"
+    },
+    {
+      "path": "street-between-maps/vectors/garden-timeline.en.svg",
+      "bytes": 669,
+      "sha256": "5f9decb6f36656ec5258ff0f9257a355a95e77e66a716f5781dfcc27c8e172ed"
+    },
+    {
+      "path": "street-between-maps/vectors/garden-timeline.nl-BE.svg",
+      "bytes": 669,
+      "sha256": "5f9decb6f36656ec5258ff0f9257a355a95e77e66a716f5781dfcc27c8e172ed"
+    },
+    {
+      "path": "street-between-maps/vectors/guest-card-back.en.svg",
+      "bytes": 439,
+      "sha256": "8d9afe099b48e04c2715e98bf4d5ea0d9f8995638e88d0c2dc39530ea7758e28"
+    },
+    {
+      "path": "street-between-maps/vectors/guest-card-back.nl-BE.svg",
+      "bytes": 440,
+      "sha256": "9a74eb1b6efe44ff7170abcdee7c3e11a3917649c0d052cdca56f442535007ac"
+    },
+    {
+      "path": "street-between-maps/vectors/guest-card-front.en.svg",
+      "bytes": 682,
+      "sha256": "7a24b3fccd7a3566738b7325c6c1b363f03f01bcb1559255c448ddb0308bbb69"
+    },
+    {
+      "path": "street-between-maps/vectors/guest-card-front.nl-BE.svg",
+      "bytes": 688,
+      "sha256": "8b45db81a036e865ff01155daf1631b31ffc5a623fb85fee2e2d5f90c2104fa5"
+    },
+    {
+      "path": "street-between-maps/vectors/guest-card-mask.svg",
+      "bytes": 382,
+      "sha256": "0a064410366ca28b4f4924121127a100bce3613212ce4c4f9e97372a5e84fe51"
+    },
+    {
+      "path": "street-between-maps/vectors/host-invitation.en.svg",
+      "bytes": 1092,
+      "sha256": "7b72c6d12fd483bd89ca763e4bf37086af77a5ae0c6e0192435a4fcf8f71b355"
+    },
+    {
+      "path": "street-between-maps/vectors/host-invitation.nl-BE.svg",
+      "bytes": 1168,
+      "sha256": "044f5eaf6f1011d729f2be41bce944846fdc252d2b6b0553421fcd6a35fa3a06"
+    },
+    {
+      "path": "street-between-maps/vectors/host-state-0.svg",
+      "bytes": 6239391,
+      "sha256": "6bb2869b8da55c1f8de7f7522d3864ae3c98bac3d7a27020d90ced931eecc28d"
+    },
+    {
+      "path": "street-between-maps/vectors/host-state-1.svg",
+      "bytes": 6730367,
+      "sha256": "386e5a4e021023c73548facec79d9b8b2c3913c807ccb0092854398ce25c3065"
+    },
+    {
+      "path": "street-between-maps/vectors/household-A.svg",
+      "bytes": 559,
+      "sha256": "5c1661c67d452cb449d8c1b4df991d1a99138d2dc92118e44c7f1037f50ddedf"
+    },
+    {
+      "path": "street-between-maps/vectors/household-B.svg",
+      "bytes": 571,
+      "sha256": "e99f53fe1bea19ab42003bc082d471f2e0024373741b40283113b59aef819d1e"
+    },
+    {
+      "path": "street-between-maps/vectors/household-C.svg",
+      "bytes": 559,
+      "sha256": "69d3e29380545707ff222a27d8df0f868e2094a4ad3ae41f6e7742955758f56c"
+    },
+    {
+      "path": "street-between-maps/vectors/household-D.svg",
+      "bytes": 559,
+      "sha256": "005343f52ece080e9e9dd85529c6034feb2090101e26dc7a1be7637eb9124706"
+    },
+    {
+      "path": "street-between-maps/vectors/household-E.svg",
+      "bytes": 559,
+      "sha256": "ada54c5ac305cb2d85c86fe2846464301ebe51aa48b14b9ce6e06706ec060c5c"
+    },
+    {
+      "path": "street-between-maps/vectors/household-F.svg",
+      "bytes": 561,
+      "sha256": "138a4d7ecc4ac8f9103f87ca80ea89094c894aaefc58f75faead8cf3409d8b57"
+    },
+    {
+      "path": "street-between-maps/vectors/household-G.svg",
+      "bytes": 558,
+      "sha256": "6f21c7bd325022e8a4b45c1e7cdb0bccd394fe1f5b5197953082074f3f4bf01d"
+    },
+    {
+      "path": "street-between-maps/vectors/household-H.svg",
+      "bytes": 562,
+      "sha256": "e273c89ec3ca9190eb882b95e7a5006f632bdda7b30a9d6ef3cad79335a2c7a3"
+    },
+    {
+      "path": "street-between-maps/vectors/household-I.svg",
+      "bytes": 561,
+      "sha256": "b84070e9315ae757db0c0b082a2f56faac64855a93633d1004fa47e7a68e5d00"
+    },
+    {
+      "path": "street-between-maps/vectors/mara-agreement.en.svg",
+      "bytes": 827,
+      "sha256": "68febfb7c17fe99a23c7da5e36c4a0c39cf84073f655639ecb9ff566f1f5d51e"
+    },
+    {
+      "path": "street-between-maps/vectors/mara-agreement.nl-BE.svg",
+      "bytes": 831,
+      "sha256": "9472233ba4b39ed98d5f1105ee564962573b61b69f2ff8ab3f9ad28587eed393"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-acceptance.en.svg",
+      "bytes": 967,
+      "sha256": "62f9ae9120040b350a5b466e10037fa7cc27a51c9fc79a2058a004f8a7be27ee"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-acceptance.nl-BE.svg",
+      "bytes": 1032,
+      "sha256": "80fac9f192d5427d79522d2516d950f4653f8fd87c01b7d5220c5c64176f9f61"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-memory-map-room.en.svg",
+      "bytes": 987,
+      "sha256": "a091845b602885fd29a519407c32889471f68856f600dc8231f8b2d80701f2d4"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-memory-map-room.nl-BE.svg",
+      "bytes": 994,
+      "sha256": "70610c61bc9cb69c69961c5d503ad46a6ef567ac662879c312d79946e66c2cf8"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-memory-map.en.svg",
+      "bytes": 6360,
+      "sha256": "1ff93c2f6a6b94ef653cf781d89f0b605bb6ab6baa2f5bd32dce3d2c426d2b81"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-memory-map.nl-BE.svg",
+      "bytes": 6368,
+      "sha256": "c8cb3fa845615daf1f9b53336c39506929159e9c41c062fb25c37f14ccff61dc"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-route-room.en.svg",
+      "bytes": 909,
+      "sha256": "8864af186ca5dfcc06c5a6ad92c3e9ebc4634d8cba32a31c4dcfe21afc3216a3"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-route-room.nl-BE.svg",
+      "bytes": 922,
+      "sha256": "2c2dffab0086d8453f4024b55cdaa503ab8ee8bae4546d10a359b51024f206c0"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-route.en.svg",
+      "bytes": 6282,
+      "sha256": "54396f081e4a346ef7537824312e0c9aa183b5e5d4ab6cc521a15cb593ef328c"
+    },
+    {
+      "path": "street-between-maps/vectors/nelle-route.nl-BE.svg",
+      "bytes": 6296,
+      "sha256": "79fa4dbff24a2471c2df7f413876fbd4da6e3af674ecf427c16d29ee10059e9a"
+    },
+    {
+      "path": "street-between-maps/vectors/new-dedication.en.svg",
+      "bytes": 817,
+      "sha256": "97ac22b9fbc112e5e81c1db6bf2dfc2e93162a3d4cdad6541a1e5027742f4988"
+    },
+    {
+      "path": "street-between-maps/vectors/new-dedication.nl-BE.svg",
+      "bytes": 835,
+      "sha256": "c74a26f39cd42a88f41bbf822d4f3e968b90ca377e2cbaffe0dc0d1dbde8d355"
+    },
+    {
+      "path": "street-between-maps/vectors/old-invoice.en.svg",
+      "bytes": 825,
+      "sha256": "951bcafbfa7e959d352c8902eb9095f4485d602d40ac3afe02a43df83448ca78"
+    },
+    {
+      "path": "street-between-maps/vectors/old-invoice.nl-BE.svg",
+      "bytes": 837,
+      "sha256": "257639226655a7dae3f21c8bd2a5e8b926d861123127172d5566a9ca291c304c"
+    },
+    {
+      "path": "street-between-maps/vectors/parcel-plan.svg",
+      "bytes": 884,
+      "sha256": "80643b17c42544661c9c74664e72f8aeb7aa0f2f634b5f87f057e29003cec92f"
+    },
+    {
+      "path": "street-between-maps/vectors/portraits-actual-slots.svg",
+      "bytes": 32841881,
+      "sha256": "4ee81deb6f81ee43ac1f6d7b066dc0d9370af68a8a0cbb747aa2ed5464a164ac"
+    },
+    {
+      "path": "street-between-maps/vectors/register-board.svg",
+      "bytes": 538,
+      "sha256": "388ab3547005c4987f761f7d1e62e27f5710e0b71c055cc9db01276763757bf1"
+    },
+    {
+      "path": "street-between-maps/vectors/registration-note.en.svg",
+      "bytes": 1024,
+      "sha256": "54930a09c4cb45dcd2832354623c7d8d7148d91251785a2483f7a07e388ccec1"
+    },
+    {
+      "path": "street-between-maps/vectors/registration-note.nl-BE.svg",
+      "bytes": 1030,
+      "sha256": "bf65c857b59bf98d8ed5e7c6a87c877d64347e52e492d02d838c88c757dbc4e7"
+    },
+    {
+      "path": "street-between-maps/vectors/river-strip.svg",
+      "bytes": 407,
+      "sha256": "9d16ecd29f701fe059838a458729fcc51375e40bb85d81800799e283f1a6a373"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-confession.en.svg",
+      "bytes": 1146,
+      "sha256": "bef34c1a362ee017cdef8b6205eac522a141b69a751c0839c77b904beb8b02d4"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-confession.nl-BE.svg",
+      "bytes": 1173,
+      "sha256": "426a091887904c420347f7a611270d6db620415a605c20377442df83865970ec"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-denial.en.svg",
+      "bytes": 819,
+      "sha256": "65f55db336f156762eb95b4891a2277de6daa4c3a73c6fecc0b19f4376865f68"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-denial.nl-BE.svg",
+      "bytes": 817,
+      "sha256": "11accc392b927a7f6e074cf2ff2283f4e9319adfcc4c10ebf986aea5d60cf68a"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-public.en.svg",
+      "bytes": 987,
+      "sha256": "f425889a0bcbdce0ab215638dccfe5c7583d17e77743c7f6aaf35856028d0c5e"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-public.nl-BE.svg",
+      "bytes": 1051,
+      "sha256": "d508f0d56278a7ab441edd100d135d7734be44978ce1d7c812d34a5597fc00f0"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-technical.en.svg",
+      "bytes": 1018,
+      "sha256": "3bed763f69906c9e069ec38b00b8f9bbbad0781651d4def32f76b8f9fc5e798e"
+    },
+    {
+      "path": "street-between-maps/vectors/ruben-technical.nl-BE.svg",
+      "bytes": 1035,
+      "sha256": "2e14f60555f850f740dd90f85df96423d782f6ee2a276dd290a300968fb3029a"
+    },
+    {
+      "path": "street-between-maps/vectors/salvage-cart.svg",
+      "bytes": 536,
+      "sha256": "3795bd923f9045f041d472fc68f0c6cc8e07c1478a23efab51ec16c9a9893358"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-completed.en.svg",
+      "bytes": 743,
+      "sha256": "ca87dccbf67c852abfbb8f4249305ecd97351a3895b1828081c98a604fc6b750"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-completed.nl-BE.svg",
+      "bytes": 737,
+      "sha256": "440b995646d62d16f9755de5208848d1c1e8a2f52b77e9685e854e50fa1fac70"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-lost.en.svg",
+      "bytes": 695,
+      "sha256": "8357d796515f6ac0aaf7446685ee069482ec580baf4d155f618f4b969f50cb4d"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-lost.nl-BE.svg",
+      "bytes": 701,
+      "sha256": "9414a32557938128ffdf137c97be7e4116a42cacc4efe654364c53790f5aa65b"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-opened.en.svg",
+      "bytes": 722,
+      "sha256": "a01cebf2671361b95fa1bf9341e8559e6bdeae6d208ac53a0312beac441faf4d"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-opened.nl-BE.svg",
+      "bytes": 739,
+      "sha256": "f010afe51067827f57c034f0804420b0e889f9607f2b8c718418019c0e95df3c"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-presence.en.svg",
+      "bytes": 722,
+      "sha256": "2bfc9f044d65de5eafd6db1c65215402c3ceebdc257807b9baef0230fe887ddb"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-presence.nl-BE.svg",
+      "bytes": 718,
+      "sha256": "d6dac83c4ff34f46d7d93ac1d875db0fca6133dc48fac1ca751280b40324e108"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-sealed.en.svg",
+      "bytes": 737,
+      "sha256": "2978e89a2e9d571ac80a8e4b57dd2ac239dfebc3100732c32350f5318e45a3ce"
+    },
+    {
+      "path": "street-between-maps/vectors/sequence-sealed.nl-BE.svg",
+      "bytes": 758,
+      "sha256": "36cb8bb0d08e80e5464955f4b5b511403fbf1f2f0f330b71a02ff260f509a63c"
+    },
+    {
+      "path": "street-between-maps/vectors/source-lineage.en.svg",
+      "bytes": 3901692,
+      "sha256": "dfe1283346d2c4166c8223756856b62ed1d35a9690d817346eb20a09633a64b3"
+    },
+    {
+      "path": "street-between-maps/vectors/source-lineage.nl-BE.svg",
+      "bytes": 3901694,
+      "sha256": "dd4a5c5562329f45c21ce9fe00235df5e05b74179fdc8a867efd7fa90583c9c5"
+    },
+    {
+      "path": "street-between-maps/vectors/survey-sheet.svg",
+      "bytes": 898,
+      "sha256": "f514496e7a53564f3d308208bcf1076b0d621141d988dddd15b7e34c27044473"
+    },
+    {
+      "path": "street-between-maps/vectors/watergate-reconstruction.svg",
+      "bytes": 907,
+      "sha256": "f582e2fa207cf0390049ce6a3e18b729ab7d0103bba426c806cdc4a9f8a2cd65"
+    },
+    {
+      "path": "street-between-maps/vectors/workshop-inventory.en.svg",
+      "bytes": 1027,
+      "sha256": "86a79d0c3f3e3c81b7eb4397287e2829434377731e16e902e13e4ac8cb310244"
+    },
+    {
+      "path": "street-between-maps/vectors/workshop-inventory.nl-BE.svg",
+      "bytes": 1035,
+      "sha256": "353cdc4d0b12db3e03cc65fad02b034608447e9fae7150d86baa08e025c778a9"
+    }
+  ]
+}

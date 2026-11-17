@@ -1,0 +1,4445 @@
+{
+  "schemaVersion": 1,
+  "id": "street-between-maps",
+  "revision": 1,
+  "title": "The Street Between Maps",
+  "description": {
+    "en": "Ten puzzles from Leuven’s missing street. Test each chapter independently with the produced story assets.",
+    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Test elk hoofdstuk afzonderlijk met de gemaakte verhaalassets."
+  },
+  "assets": {
+    "art-ada-portrait-v1": {
+      "src": "/street-between-maps/images/ada-portrait-v1.png",
+      "alt": {
+        "en": "Ada,32, cartographer, in her established working clothes.",
+        "nl-BE": "Ada,32, cartograaf, in haar vertrouwde werkkleding."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-bedroom-before-v1": {
+      "src": "/street-between-maps/images/bedroom-before-v1.png",
+      "alt": {
+        "en": "Hall with workshop open on the left and Nelle’s bedroom open on the right.",
+        "nl-BE": "Gang met het open atelier links en Nelles open slaapkamer rechts."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-bedroom-vanished-v1": {
+      "src": "/street-between-maps/images/bedroom-vanished-v1.png",
+      "alt": {
+        "en": "The bedroom is replaced by a safe solid wall; the workshop remains open.",
+        "nl-BE": "De slaapkamer is vervangen door een veilige volle muur; het atelier blijft open."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-collision-intrusion-v1": {
+      "src": "/street-between-maps/images/collision-intrusion-v1.png",
+      "alt": {
+        "en": "A bounded slice of the workshop overlaps the bedroom; the child is absent.",
+        "nl-BE": "Een begrensd stuk atelier overlapt de slaapkamer; het kind is afwezig."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-collision-normal-v1": {
+      "src": "/street-between-maps/images/collision-normal-v1.png",
+      "alt": {
+        "en": "Joost’s daughter’s empty modern bedroom before the intrusion.",
+        "nl-BE": "De lege moderne kamer van Joosts dochter vóór de overlap."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-den-ancker-corrected-v1": {
+      "src": "/street-between-maps/images/den-ancker-corrected-v1.png",
+      "alt": {
+        "en": "Illustration of the brewer’s residence at Lei, based on the2005 source photograph.",
+        "nl-BE": "Illustratie van de brouwerswoning aan de Lei, op basis van de bronfoto uit2005."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Vandevorst, Kris (2005), ID 109115 · 2005-01-01",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/109115",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-door-closed-v1": {
+      "src": "/street-between-maps/images/door-closed-v1.png",
+      "alt": {
+        "en": "Handbooghof story wall with a subtle closed fictional seam.",
+        "nl-BE": "Verhaalmuur aan het Handbooghof met een subtiele gesloten verzonnen naad."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-door-open-v1": {
+      "src": "/street-between-maps/images/door-open-v1.png",
+      "alt": {
+        "en": "The same story wall with a warm doorway into Rietgang.",
+        "nl-BE": "Dezelfde verhaalmuur met een warme deuropening naar Rietgang."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-door-vanished-v1": {
+      "src": "/street-between-maps/images/door-vanished-v1.png",
+      "alt": {
+        "en": "Continuous masonry where the fictional doorway was.",
+        "nl-BE": "Doorlopend metselwerk waar de verzonnen deur was."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-frame-body-v1": {
+      "src": "/street-between-maps/images/frame-body-v1.png",
+      "alt": {
+        "en": "Empty original wooden frame, brass corners and iron clamps, transparent aperture.",
+        "nl-BE": "Leeg origineel houten raam, messing hoeken en ijzeren klemmen, transparante opening."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-host-evening-v1": {
+      "src": "/street-between-maps/images/host-evening-v1.png",
+      "alt": {
+        "en": "The fictional host’s empty room in warm evening light.",
+        "nl-BE": "De lege kamer van de verzonnen gastvrouw in warm avondlicht."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-joost-portrait-v1": {
+      "src": "/street-between-maps/images/joost-portrait-v1.png",
+      "alt": {
+        "en": "Joost,38, teacher in an ordinary sweater.",
+        "nl-BE": "Joost,38, leraar in een gewone trui."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-later-garden-v1": {
+      "src": "/street-between-maps/images/later-garden-v1.png",
+      "alt": {
+        "en": "Separate later garden with orangery, conservatory and flower beds.",
+        "nl-BE": "Afzonderlijke latere tuin met oranjerie, serre en bloemperken."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Charlier Georges (1984), ID 354951 · 1984-04-01",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/354951",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-mara-portrait-v1": {
+      "src": "/street-between-maps/images/mara-portrait-v1.png",
+      "alt": {
+        "en": "Mara,35, practical bookbinder with her established apron.",
+        "nl-BE": "Mara,35, praktische boekbindster met haar vertrouwde schort."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-nelle-portrait-v1": {
+      "src": "/street-between-maps/images/nelle-portrait-v1.png",
+      "alt": {
+        "en": "Nelle,12, looking curious, with her satchel strap visible.",
+        "nl-BE": "Nelle,12, nieuwsgierig, met de riem van haar boekentas zichtbaar."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-old-gateway-corrected-v1": {
+      "src": "/street-between-maps/images/old-gateway-corrected-v1.png",
+      "alt": {
+        "en": "Former botanical gateway on its original street, with a closed door and adjoining buildings.",
+        "nl-BE": "Voormalige botanische poort aan haar oorspronkelijke straat, met gesloten deur en aanpalende gebouwen."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Vandevorst Kris (2005), ID 140034 · 2005-01-01",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/140034",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-rietgang-day-v1": {
+      "src": "/street-between-maps/images/rietgang-day-v1.png",
+      "alt": {
+        "en": "The fictional living street in daylight, with ordinary residents and errands.",
+        "nl-BE": "De verzonnen bewoonde straat bij daglicht, met gewone bewoners en bezigheden."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-ruben-portrait-v1": {
+      "src": "/street-between-maps/images/ruben-portrait-v1.png",
+      "alt": {
+        "en": "Ruben,61, restrained historian in archive clothing.",
+        "nl-BE": "Ruben,61, gereserveerde historicus in archiefkleding."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-salvage-books-v1": {
+      "src": "/street-between-maps/images/salvage-books-v1.png",
+      "alt": {
+        "en": "A portable bundle of worn family books; cost1 space.",
+        "nl-BE": "Een draagbare bundel oude familieboeken; kost1 plaats."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-salvage-drawings-v1": {
+      "src": "/street-between-maps/images/salvage-drawings-v1.png",
+      "alt": {
+        "en": "Rolled and folded street drawings; cost1 space.",
+        "nl-BE": "Opgerolde en gevouwen straattekeningen; kost1 plaats."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-salvage-tools-v1": {
+      "src": "/street-between-maps/images/salvage-tools-v1.png",
+      "alt": {
+        "en": "Portable type and bookbinding hand tools in a tray; cost2 spaces.",
+        "nl-BE": "Draagbare letters en bindgereedschap in een bakje; kost2 plaatsen."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-sofie-photo-v1": {
+      "src": "/street-between-maps/images/sofie-photo-v1.png",
+      "alt": {
+        "en": "Fictional snapshot of adult Sofie in a room with the original frame open before completion.",
+        "nl-BE": "Verzonnen foto van de volwassen Sofie in een kamer met het originele raam open vóór voltooiing."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-tafelrond-corrected-v1": {
+      "src": "/street-between-maps/images/tafelrond-corrected-v1.png",
+      "alt": {
+        "en": "Tafelrond facade facing the square; illustration based on the2009 photograph.",
+        "nl-BE": "Tafelrondgevel aan het plein; illustratie op basis van de foto uit2009."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120619 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120619",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-trial-dawn-v1": {
+      "src": "/street-between-maps/images/trial-dawn-v1.png",
+      "alt": {
+        "en": "Nelle sits solidly in the host room at dawn, with her satchel.",
+        "nl-BE": "Nelle zit tastbaar in de gastenkamer bij dageraad, met haar boekentas."
+      },
+      "notice": {
+        "en": "Generated fictional story illustration.",
+        "nl-BE": "Gegenereerde fictieve verhaalillustratie."
+      }
+    },
+    "art-trilingue-corrected-v1": {
+      "src": "/street-between-maps/images/trilingue-corrected-v1.png",
+      "alt": {
+        "en": "Illustrated Busleidengang entrance, stone portal and narrow whitewashed approach.",
+        "nl-BE": "Geïllustreerde ingang van de Busleidengang, stenen portaal en smalle witgekalkte doorgang."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120976 · 2009-11-28",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120976",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "art-watergate-corrected-v1": {
+      "src": "/street-between-maps/images/watergate-corrected-v1.png",
+      "alt": {
+        "en": "Adapted Jansenius tower and red glazed staircase beside the water, based on the1987 photograph.",
+        "nl-BE": "Aangepaste Janseniustoren en rode glazen trap naast het water, op basis van de foto uit1987."
+      },
+      "credit": "Beeldbank Onroerend Erfgoed, Lorrez Mieke (1987), ID 25113 · 1987-01-01",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/25113",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "v-access-piece-1": {
+      "src": "/street-between-maps/vectors/access-piece-1.svg",
+      "alt": "access piece 1",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-access-piece-2": {
+      "src": "/street-between-maps/vectors/access-piece-2.svg",
+      "alt": "access piece 2",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-access-piece-3": {
+      "src": "/street-between-maps/vectors/access-piece-3.svg",
+      "alt": "access piece 3",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-access-plan-master": {
+      "src": "/street-between-maps/vectors/access-plan-master.svg",
+      "alt": "access plan master",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-allocation": {
+      "src": "/street-between-maps/vectors/allocation.svg",
+      "alt": "allocation",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-bedroom-state-0": {
+      "src": "/street-between-maps/vectors/bedroom-state-0.svg",
+      "alt": "bedroom state 0",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-bedroom-state-1": {
+      "src": "/street-between-maps/vectors/bedroom-state-1.svg",
+      "alt": "bedroom state 1",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-clearance-document": {
+      "src": "/street-between-maps/vectors/clearance-document.en.svg",
+      "srcNl": "/street-between-maps/vectors/clearance-document.nl-BE.svg",
+      "alt": "clearance document",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-collection-new": {
+      "src": "/street-between-maps/vectors/collection-new.en.svg",
+      "srcNl": "/street-between-maps/vectors/collection-new.nl-BE.svg",
+      "alt": "collection new",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-collection-old": {
+      "src": "/street-between-maps/vectors/collection-old.en.svg",
+      "srcNl": "/street-between-maps/vectors/collection-old.nl-BE.svg",
+      "alt": "collection old",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-collision-state-0": {
+      "src": "/street-between-maps/vectors/collision-state-0.svg",
+      "alt": "collision state 0",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-collision-state-1": {
+      "src": "/street-between-maps/vectors/collision-state-1.svg",
+      "alt": "collision state 1",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-collision-state-2": {
+      "src": "/street-between-maps/vectors/collision-state-2.svg",
+      "alt": "collision state 2",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-contraction": {
+      "src": "/street-between-maps/vectors/contraction.svg",
+      "alt": "contraction",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-delivery-note": {
+      "src": "/street-between-maps/vectors/delivery-note.en.svg",
+      "srcNl": "/street-between-maps/vectors/delivery-note.nl-BE.svg",
+      "alt": "delivery note",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-door-state-0": {
+      "src": "/street-between-maps/vectors/door-state-0.svg",
+      "alt": "door state 0",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "v-door-state-1": {
+      "src": "/street-between-maps/vectors/door-state-1.svg",
+      "alt": "door state 1",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "v-door-state-2": {
+      "src": "/street-between-maps/vectors/door-state-2.svg",
+      "alt": "door state 2",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404 · 2009-11-25",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": "AI-generated story illustration based on the credited photograph; lighting, scenery and sometimes fictional doorway altered. Not an authentic photograph or verified current view."
+    },
+    "v-evacuation-network": {
+      "src": "/street-between-maps/vectors/evacuation-network.svg",
+      "alt": "evacuation network",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-failed-visit-address": {
+      "src": "/street-between-maps/vectors/failed-visit-address.en.svg",
+      "srcNl": "/street-between-maps/vectors/failed-visit-address.nl-BE.svg",
+      "alt": "failed visit address",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-failed-visit-temporary": {
+      "src": "/street-between-maps/vectors/failed-visit-temporary.en.svg",
+      "srcNl": "/street-between-maps/vectors/failed-visit-temporary.nl-BE.svg",
+      "alt": "failed visit temporary",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-frame-sheet-collision-preview": {
+      "src": "/street-between-maps/vectors/frame-sheet-collision-preview.svg",
+      "alt": "frame sheet collision preview",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-frame-sheet-completed-replacement": {
+      "src": "/street-between-maps/vectors/frame-sheet-completed-replacement.svg",
+      "alt": "frame sheet completed replacement",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-frame-sheet-ordinary": {
+      "src": "/street-between-maps/vectors/frame-sheet-ordinary.svg",
+      "alt": "frame sheet ordinary",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-frame-sheet-partial": {
+      "src": "/street-between-maps/vectors/frame-sheet-partial.svg",
+      "alt": "frame sheet partial",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-frame-sheet-reference": {
+      "src": "/street-between-maps/vectors/frame-sheet-reference.svg",
+      "alt": "frame sheet reference",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-garden-timeline": {
+      "src": "/street-between-maps/vectors/garden-timeline.en.svg",
+      "srcNl": "/street-between-maps/vectors/garden-timeline.nl-BE.svg",
+      "alt": "garden timeline",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-guest-card-back": {
+      "src": "/street-between-maps/vectors/guest-card-back.en.svg",
+      "srcNl": "/street-between-maps/vectors/guest-card-back.nl-BE.svg",
+      "alt": "guest card back",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-guest-card-front": {
+      "src": "/street-between-maps/vectors/guest-card-front.en.svg",
+      "srcNl": "/street-between-maps/vectors/guest-card-front.nl-BE.svg",
+      "alt": "guest card front",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-guest-card-mask": {
+      "src": "/street-between-maps/vectors/guest-card-mask.svg",
+      "alt": "guest card mask",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-host-invitation": {
+      "src": "/street-between-maps/vectors/host-invitation.en.svg",
+      "srcNl": "/street-between-maps/vectors/host-invitation.nl-BE.svg",
+      "alt": "host invitation",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-host-state-0": {
+      "src": "/street-between-maps/vectors/host-state-0.svg",
+      "alt": "host state 0",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-host-state-1": {
+      "src": "/street-between-maps/vectors/host-state-1.svg",
+      "alt": "host state 1",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-A": {
+      "src": "/street-between-maps/vectors/household-A.svg",
+      "alt": "household A",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-B": {
+      "src": "/street-between-maps/vectors/household-B.svg",
+      "alt": "household B",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-C": {
+      "src": "/street-between-maps/vectors/household-C.svg",
+      "alt": "household C",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-D": {
+      "src": "/street-between-maps/vectors/household-D.svg",
+      "alt": "household D",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-E": {
+      "src": "/street-between-maps/vectors/household-E.svg",
+      "alt": "household E",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-F": {
+      "src": "/street-between-maps/vectors/household-F.svg",
+      "alt": "household F",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-G": {
+      "src": "/street-between-maps/vectors/household-G.svg",
+      "alt": "household G",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-H": {
+      "src": "/street-between-maps/vectors/household-H.svg",
+      "alt": "household H",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-household-I": {
+      "src": "/street-between-maps/vectors/household-I.svg",
+      "alt": "household I",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-mara-agreement": {
+      "src": "/street-between-maps/vectors/mara-agreement.en.svg",
+      "srcNl": "/street-between-maps/vectors/mara-agreement.nl-BE.svg",
+      "alt": "mara agreement",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-nelle-acceptance": {
+      "src": "/street-between-maps/vectors/nelle-acceptance.en.svg",
+      "srcNl": "/street-between-maps/vectors/nelle-acceptance.nl-BE.svg",
+      "alt": "nelle acceptance",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-nelle-memory-map-room": {
+      "src": "/street-between-maps/vectors/nelle-memory-map-room.en.svg",
+      "srcNl": "/street-between-maps/vectors/nelle-memory-map-room.nl-BE.svg",
+      "alt": "nelle memory map room",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-nelle-memory-map": {
+      "src": "/street-between-maps/vectors/nelle-memory-map.en.svg",
+      "srcNl": "/street-between-maps/vectors/nelle-memory-map.nl-BE.svg",
+      "alt": "nelle memory map",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-nelle-route-room": {
+      "src": "/street-between-maps/vectors/nelle-route-room.en.svg",
+      "srcNl": "/street-between-maps/vectors/nelle-route-room.nl-BE.svg",
+      "alt": "nelle route room",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-nelle-route": {
+      "src": "/street-between-maps/vectors/nelle-route.en.svg",
+      "srcNl": "/street-between-maps/vectors/nelle-route.nl-BE.svg",
+      "alt": "nelle route",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-new-dedication": {
+      "src": "/street-between-maps/vectors/new-dedication.en.svg",
+      "srcNl": "/street-between-maps/vectors/new-dedication.nl-BE.svg",
+      "alt": "new dedication",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-old-invoice": {
+      "src": "/street-between-maps/vectors/old-invoice.en.svg",
+      "srcNl": "/street-between-maps/vectors/old-invoice.nl-BE.svg",
+      "alt": "old invoice",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-parcel-plan": {
+      "src": "/street-between-maps/vectors/parcel-plan.svg",
+      "alt": "parcel plan",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-portraits-actual-slots": {
+      "src": "/street-between-maps/vectors/portraits-actual-slots.svg",
+      "alt": "portraits actual slots",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-register-board": {
+      "src": "/street-between-maps/vectors/register-board.svg",
+      "alt": "register board",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-registration-note": {
+      "src": "/street-between-maps/vectors/registration-note.en.svg",
+      "srcNl": "/street-between-maps/vectors/registration-note.nl-BE.svg",
+      "alt": "registration note",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-river-strip": {
+      "src": "/street-between-maps/vectors/river-strip.svg",
+      "alt": "river strip",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-ruben-confession": {
+      "src": "/street-between-maps/vectors/ruben-confession.en.svg",
+      "srcNl": "/street-between-maps/vectors/ruben-confession.nl-BE.svg",
+      "alt": "ruben confession",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-ruben-denial": {
+      "src": "/street-between-maps/vectors/ruben-denial.en.svg",
+      "srcNl": "/street-between-maps/vectors/ruben-denial.nl-BE.svg",
+      "alt": "ruben denial",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-ruben-public": {
+      "src": "/street-between-maps/vectors/ruben-public.en.svg",
+      "srcNl": "/street-between-maps/vectors/ruben-public.nl-BE.svg",
+      "alt": "ruben public",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-ruben-technical": {
+      "src": "/street-between-maps/vectors/ruben-technical.en.svg",
+      "srcNl": "/street-between-maps/vectors/ruben-technical.nl-BE.svg",
+      "alt": "ruben technical",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-salvage-cart": {
+      "src": "/street-between-maps/vectors/salvage-cart.svg",
+      "alt": "salvage cart",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-sequence-completed": {
+      "src": "/street-between-maps/vectors/sequence-completed.en.svg",
+      "srcNl": "/street-between-maps/vectors/sequence-completed.nl-BE.svg",
+      "alt": "sequence completed",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-sequence-lost": {
+      "src": "/street-between-maps/vectors/sequence-lost.en.svg",
+      "srcNl": "/street-between-maps/vectors/sequence-lost.nl-BE.svg",
+      "alt": "sequence lost",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-sequence-opened": {
+      "src": "/street-between-maps/vectors/sequence-opened.en.svg",
+      "srcNl": "/street-between-maps/vectors/sequence-opened.nl-BE.svg",
+      "alt": "sequence opened",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-sequence-presence": {
+      "src": "/street-between-maps/vectors/sequence-presence.en.svg",
+      "srcNl": "/street-between-maps/vectors/sequence-presence.nl-BE.svg",
+      "alt": "sequence presence",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-sequence-sealed": {
+      "src": "/street-between-maps/vectors/sequence-sealed.en.svg",
+      "srcNl": "/street-between-maps/vectors/sequence-sealed.nl-BE.svg",
+      "alt": "sequence sealed",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-source-lineage": {
+      "src": "/street-between-maps/vectors/source-lineage.en.svg",
+      "srcNl": "/street-between-maps/vectors/source-lineage.nl-BE.svg",
+      "alt": "source lineage",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-survey-sheet": {
+      "src": "/street-between-maps/vectors/survey-sheet.svg",
+      "alt": "survey sheet",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-watergate-reconstruction": {
+      "src": "/street-between-maps/vectors/watergate-reconstruction.svg",
+      "alt": "watergate reconstruction",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "v-workshop-inventory": {
+      "src": "/street-between-maps/vectors/workshop-inventory.en.svg",
+      "srcNl": "/street-between-maps/vectors/workshop-inventory.nl-BE.svg",
+      "alt": "workshop inventory",
+      "notice": {
+        "en": "Editable production layout. Historical source material, where present, retains its reference credit.",
+        "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
+      }
+    },
+    "reference-1": {
+      "src": "/street-between-maps/references/e1ff93dc740d05c1e8647878.jpg",
+      "alt": "University Library and Tower in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Vandevorst Kris (2005), ID 109112",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/109112",
+      "notice": {
+        "en": "2005-01-01. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2005-01-01. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-2": {
+      "src": "/street-between-maps/references/f62f804bcb1ec7d5665ef594.jpg",
+      "alt": "Handbooghof City Wall and Towers in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+      "notice": {
+        "en": "2009-11-25. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2009-11-25. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-3": {
+      "src": "/street-between-maps/references/earlymodern-den-ancker-1619.jpg",
+      "alt": "Den Ancker at Lei 7, photographed in 2005. The brewer's residence was built in 1619–1622 and altered in later centuries.",
+      "credit": "Beeldbank Onroerend Erfgoed, Vandevorst, Kris (2005), ID 109115",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/109115",
+      "notice": {
+        "en": "2005-01-01. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2005-01-01. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-4": {
+      "src": "/street-between-maps/references/ad74318ae35164c4b5e91b4d.jpg",
+      "alt": "Collegium Trilingue in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120976",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120976",
+      "notice": {
+        "en": "2009-11-28. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2009-11-28. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-5": {
+      "src": "/street-between-maps/references/d4c6bb10b1c908a4accc4db5.jpg",
+      "alt": "Hortus Botanicus Gateway in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Vandevorst Kris (2005), ID 140034",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/140034",
+      "notice": {
+        "en": "2005-01-01. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2005-01-01. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-6": {
+      "src": "/street-between-maps/references/f2b0111a83c59b27d1d8ed62.jpg",
+      "alt": "Kruidtuin Botanical Garden in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Charlier Georges (1984), ID 354951",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/354951",
+      "notice": {
+        "en": "1984-04-01. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "1984-04-01. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-7": {
+      "src": "/street-between-maps/references/2d3c29d4350cc0df397c7e86.jpg",
+      "alt": "Jansenius and Lipsius Watergate Towers in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Lorrez Mieke (1987), ID 25113",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/25113",
+      "notice": {
+        "en": "1987-01-01. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "1987-01-01. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-8": {
+      "src": "/street-between-maps/references/4d93ed25c1bf440b89d2e25f.jpg",
+      "alt": "Great Beguinage in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Debonne Vincent (2010), ID 148292",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/148292",
+      "notice": {
+        "en": "2010-06-15. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2010-06-15. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-9": {
+      "src": "/street-between-maps/references/c1c6fc5442cf3fec2a7e1c39.jpg",
+      "alt": "University Hall in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Debonne Vincent (2011), ID 158371",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/158371",
+      "notice": {
+        "en": "2011-06-23. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2011-06-23. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-10": {
+      "src": "/street-between-maps/references/844e9ba43cec198bc00cbc2e.jpg",
+      "alt": "Tafelrond in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120619",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120619",
+      "notice": {
+        "en": "2009-11-25. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2009-11-25. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-11": {
+      "src": "/street-between-maps/references/wwi-event-early-849.jpg",
+      "alt": "The damaged stone frontage of University Hall after the destruction of the old library.",
+      "credit": "Bain News Service / Library of Congress, LC-DIG-ggbain-17307",
+      "license": "No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/pictures/item/2014697569/",
+      "notice": {
+        "en": "About 1914–1915, according to the Library of Congress.. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "About 1914–1915, according to the Library of Congress.. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-12": {
+      "src": "/street-between-maps/references/library-inauguration-1928.jpg",
+      "alt": "Guests assembled at the inauguration of the new university library.",
+      "credit": "Photo Reportage belge / Agence Rol / Bibliothèque nationale de France, via Wikimedia Commons. Reduced-size reproduction.",
+      "license": "Public domain",
+      "sourceUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53202183g",
+      "notice": {
+        "en": "4 July 1928.. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "4 July 1928.. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-13": {
+      "src": "/street-between-maps/references/844e9ba43cec198bc00cbc2e.jpg",
+      "alt": "Tafelrond in the official heritage photographic record.",
+      "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120619",
+      "license": "Naamsvermelding 4.0 Internationaal",
+      "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120619",
+      "notice": {
+        "en": "2009-11-25. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "2009-11-25. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-14": {
+      "src": "/street-between-maps/references/wwi-event-hist-tafelrond-plan-1917-1918.jpg",
+      "alt": "The ruined nineteenth-century Tafelrond after the 1914 fire. This wartime view provides context for the reconstruction plan approved in 1917–18.",
+      "credit": "Stadsarchief Leuven, Collectie Sprengers; reproduced by Oorlogsdagboek Leuven",
+      "license": "No per-image open reuse license established; retain archival credit and source link.",
+      "sourceUrl": "https://www.oorlogsdagboekleuven.be/oorlogsschade-dag-2-openbare-gebouwen/",
+      "notice": {
+        "en": "1914 aftermath, before rebuilding. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "1914 aftermath, before rebuilding. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-15": {
+      "src": "/street-between-maps/references/leuven-1581-aligned.webp",
+      "alt": "Braun & Hogenberg — map catalogued 1581 — existing raster",
+      "credit": "Rijksmuseum, RP-P-OB-46.211 — CC0 / public domain",
+      "sourceUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.142910",
+      "notice": {
+        "en": "Rijksmuseum impression, catalogued 1581. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Rijksmuseum impression, catalogued 1581. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-16": {
+      "src": "/street-between-maps/references/leuven-1657-aligned.webp",
+      "alt": "Janssonius — 1657 edition — existing raster",
+      "credit": "J. Janssonius / Sanderus Antique Maps — public-domain original; dealer image",
+      "sourceUrl": "https://sanderusmaps.com/our-catalogue/antique-maps/europe/belgium-cities/old-antique-plan-of-louvain-leuven-by-j-janssonius-25892",
+      "notice": {
+        "en": "Amsterdam, 1657 edition. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Amsterdam, 1657 edition. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-17": {
+      "src": "/street-between-maps/references/leuven-1700-aligned.webp",
+      "alt": "Leuven around 1700 — existing raster",
+      "credit": "KB National Library · Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl075-Leuven-KB_PPN_145205088.jpg",
+      "notice": {
+        "en": "Atlas dated 1699–1706. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Atlas dated 1699–1706. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-18": {
+      "src": "/street-between-maps/references/leuven-1860-aligned.webp",
+      "alt": "Leuven around 1860 — existing raster",
+      "credit": "L. Van Peteghem / British Library · Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EVEN(1860)_p019_Tab.2.jpg",
+      "notice": {
+        "en": "Plan published 1860. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "Plan published 1860. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    },
+    "reference-19": {
+      "src": "/street-between-maps/references/leuven-1914-aligned.webp",
+      "alt": "Leuven in 1914 — existing raster",
+      "credit": "ULB Münster · Public domain",
+      "sourceUrl": "https://sammlungen.ulb.uni-muenster.de/hd/content/pageview/8943085",
+      "notice": {
+        "en": "null. Existing reference; current viewpoint and role review remain pending.",
+        "nl-BE": "null. Bestaande bron; huidig standpunt en gebruik moeten nog worden gecontroleerd."
+      }
+    }
+  },
+  "puzzles": [
+    {
+      "id": "puzzle-01",
+      "title": {
+        "en": "A Line That Will Not Stay Still",
+        "nl-BE": "Een lijn die niet stil wil blijven"
+      },
+      "chapter": 1,
+      "location": "University Library, Ladeuzeplein",
+      "instructions": {
+        "en": "Move and rotate the survey sheet until the three checked structural marks register. Decide how to record the fourth mark.",
+        "nl-BE": "Verschuif en draai het meetblad tot de drie gecontroleerde bouwpunten samenvallen. Bepaal hoe je het vierde punt noteert."
+      },
+      "hints": [
+        {
+          "en": "Trust the checked points.",
+          "nl-BE": "Vertrouw de gecontroleerde punten."
+        },
+        {
+          "en": "Translate and rotate the sheet without scaling the photograph.",
+          "nl-BE": "Verschuif en draai het blad zonder de foto te schalen."
+        },
+        {
+          "en": "Register clock, crest and doorway. Mark the fourth point unresolved, then inspect it.",
+          "nl-BE": "Lijn klok, bekroning en deur uit. Markeer het vierde punt als onopgelost en inspecteer het."
+        }
+      ],
+      "coverAssetId": "art-ada-portrait-v1",
+      "evidence": [
+        {
+          "id": "registration-note",
+          "title": {
+            "en": "Registration note",
+            "nl-BE": "Uitlijningsnotitie"
+          },
+          "body": {
+            "en": "Ada — Register only the three independently checked structural points. If the fourth disagrees, record it as unresolved. Do not stretch the photograph. Handle the original wooden frame carefully; a scan is evidence, not a substitute for the object. — Ruben",
+            "nl-BE": "Ada — Lijn alleen de drie onafhankelijk gecontroleerde bouwpunten uit. Noteer het vierde als onopgelost wanneer het afwijkt. Rek de foto niet uit. Behandel het originele houten raam voorzichtig; een scan is een bron, geen vervanging voor het voorwerp. — Ruben"
+          },
+          "assetId": "v-registration-note",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "University Library and Tower — 2005-01-01",
+          "body": {
+            "en": "Dated reference: 2005-01-01. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2005-01-01. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-1",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/109112",
+          "credit": "Beeldbank Onroerend Erfgoed, Vandevorst Kris (2005), ID 109112"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The dated source photograph shows the later library at Ladeuzeplein, not University Hall.",
+            "nl-BE": "De gedateerde bronfoto toont de latere bibliotheek aan het Ladeuzeplein, niet de Universiteitshal."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "Three marks refer to visible structural features. A fourth has no verified counterpart.",
+            "nl-BE": "Drie merktekens verwijzen naar zichtbare bouwdetails. Het vierde heeft geen gecontroleerde tegenhanger."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "Ruben asks Ada to record a discrepancy rather than force it to fit.",
+            "nl-BE": "Ruben vraagt Ada een afwijking te noteren in plaats van ze passend te maken."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "The notebook’s repaired binding is already present before Ada has arranged its repair. This local ordering puzzle concerns the threshold.",
+            "nl-BE": "Het boek heeft al een herstelde band voor Ada de herstelling regelt. Deze plaatselijke volgorde-afwijking hoort bij de drempel."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [
+        "v-frame-sheet-partial"
+      ],
+      "initial": {
+        "x": 45,
+        "y": -30,
+        "angle": 8,
+        "classification": "unclassified"
+      },
+      "kind": "alignment",
+      "config": {
+        "canvas": [
+          1024,
+          698
+        ],
+        "pivot": [
+          512,
+          349
+        ],
+        "background": "reference-1",
+        "targets": [
+          {
+            "xy": [
+              428,
+              299
+            ],
+            "label": {
+              "en": "Tower clock centre",
+              "nl-BE": "Midden torenklok"
+            }
+          },
+          {
+            "xy": [
+              498,
+              371.00000000000006
+            ],
+            "label": {
+              "en": "Central crest orb",
+              "nl-BE": "Bol op de centrale bekroning"
+            }
+          },
+          {
+            "xy": [
+              502,
+              600
+            ],
+            "label": {
+              "en": "Central doorway",
+              "nl-BE": "Centrale deuropening"
+            }
+          }
+        ],
+        "anomaly": [
+          650,
+          450.00000000000006
+        ],
+        "classifications": [
+          {
+            "id": "unclassified",
+            "label": {
+              "en": "Not recorded",
+              "nl-BE": "Niet genoteerd"
+            }
+          },
+          {
+            "id": "unresolved",
+            "label": {
+              "en": "Unresolved discrepancy",
+              "nl-BE": "Onopgelost verschil"
+            }
+          },
+          {
+            "id": "forced-fit",
+            "label": {
+              "en": "Force it to fit",
+              "nl-BE": "Dwing het passend"
+            }
+          }
+        ],
+        "correctClassification": "unresolved",
+        "tolerance": 9
+      }
+    },
+    {
+      "id": "puzzle-02",
+      "title": {
+        "en": "The Door Beside the Wall",
+        "nl-BE": "De deur naast de muur"
+      },
+      "chapter": 2,
+      "location": "Handbooghof / Rietgang",
+      "instructions": {
+        "en": "Reassemble the torn plan. Keep the wall and walking route continuous, and put the river on the correct side.",
+        "nl-BE": "Herstel het gescheurde plan. Laat muur en looproute doorlopen en plaats de rivier aan de juiste kant."
+      },
+      "hints": [
+        {
+          "en": "Follow continuous features.",
+          "nl-BE": "Volg doorlopende lijnen."
+        },
+        {
+          "en": "Join matching torn edges; the route stays between wall and river.",
+          "nl-BE": "Verbind passende scheurranden; de route blijft tussen muur en rivier."
+        },
+        {
+          "en": "Place pieces west, centre, east at zero rotation and the water strip south. The path reaches the story threshold without crossing the wall.",
+          "nl-BE": "Plaats west, midden en oost zonder draaiing en de waterstrook ten zuiden. Het pad bereikt de verhaaldrempel zonder de muur te kruisen."
+        }
+      ],
+      "coverAssetId": "art-door-closed-v1",
+      "evidence": [
+        {
+          "id": "delivery-note",
+          "title": {
+            "en": "Mara’s delivery note",
+            "nl-BE": "Mara’s leveringsbriefje"
+          },
+          "body": {
+            "en": "For the binding workshop: find the anchor house on Lei. Cross to the building where they brewed. Take the passage behind that building toward the river. I will hear the delivery bell from my bench. — Mara. Workshop and bell are fictional.",
+            "nl-BE": "Voor het bindatelier: zoek het ankerhuis aan de Lei. Steek over naar het gebouw waar ze brouwden. Neem de doorgang achter dat gebouw naar het water. Aan mijn werkbank hoor ik de leveringsbel. — Mara. Atelier en bel zijn verzonnen."
+          },
+          "assetId": "v-delivery-note",
+          "classification": "story"
+        },
+        {
+          "id": "workshop-inventory",
+          "title": {
+            "en": "Workshop inventory",
+            "nl-BE": "Atelierinventaris"
+          },
+          "body": {
+            "en": "Family books: bindings to keep with their owners. Street drawings: Nelle’s views and neighbours’ sketches. Working kit: type, awl, bone folder, thread and hand tools. Full binding press: fixed here; too heavy to carry. Check borrowed volumes before closing.",
+            "nl-BE": "Familieboeken: banden die bij hun eigenaars blijven. Straattekeningen: Nelles zichten en schetsen van buren. Werkkist: letters, priem, vouwbeen, draad en handgereedschap. Volledige bindpers: staat vast; te zwaar om te dragen. Controleer geleende boeken voor het sluiten."
+          },
+          "assetId": "v-workshop-inventory",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "Handbooghof City Wall and Towers — 2009-11-25",
+          "body": {
+            "en": "Dated reference: 2009-11-25. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2009-11-25. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-2",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120404",
+          "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120404"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The dated wall photograph is an observation reference. The fictional doorway appears only in separate story art.",
+            "nl-BE": "De gedateerde muurfoto is een waarnemingsreferentie. De verzonnen deur verschijnt alleen in afzonderlijke verhaalbeelden."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "Three pieces share matching torn edges. Their wall and path segments must join.",
+            "nl-BE": "Drie stukken delen passende scheurranden. Hun muur- en padlijnen moeten aansluiten."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "A separate transparent water strip fixes which side of the route faces the river.",
+            "nl-BE": "Een afzonderlijke transparante waterstrook bepaalt welke zijde van de route naar de rivier ligt."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "Nelle describes her way home; Mara records what the workshop holds. Both remain available after choosing whom to hear first.",
+            "nl-BE": "Nelle beschrijft haar weg naar huis; Mara noteert wat het atelier bevat. Beide blijven beschikbaar na de keuze wie je eerst hoort."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [
+        "v-door-state-1"
+      ],
+      "initial": {
+        "slots": [
+          "east",
+          "west",
+          "centre"
+        ],
+        "angles": [
+          90,
+          180,
+          270
+        ],
+        "edge": "north"
+      },
+      "kind": "assembly",
+      "config": {
+        "canvas": [
+          900,
+          430
+        ],
+        "pieces": [
+          {
+            "id": "west",
+            "label": {
+              "en": "Western piece",
+              "nl-BE": "Westelijk stuk"
+            },
+            "assetId": "v-access-piece-1"
+          },
+          {
+            "id": "centre",
+            "label": {
+              "en": "Middle piece",
+              "nl-BE": "Middenstuk"
+            },
+            "assetId": "v-access-piece-2"
+          },
+          {
+            "id": "east",
+            "label": {
+              "en": "Eastern piece",
+              "nl-BE": "Oostelijk stuk"
+            },
+            "assetId": "v-access-piece-3"
+          }
+        ],
+        "edges": [
+          {
+            "id": "north",
+            "label": {
+              "en": "Water above the wall",
+              "nl-BE": "Water boven de muur"
+            }
+          },
+          {
+            "id": "south",
+            "label": {
+              "en": "Water below the route",
+              "nl-BE": "Water onder de route"
+            }
+          }
+        ],
+        "solution": [
+          "west",
+          "centre",
+          "east"
+        ],
+        "angles": [
+          0,
+          0,
+          0
+        ],
+        "correctEdge": "south"
+      }
+    },
+    {
+      "id": "puzzle-03",
+      "title": {
+        "en": "The House Across the Street",
+        "nl-BE": "Het huis aan de overkant"
+      },
+      "chapter": 3,
+      "location": "Den Ancker, Lei",
+      "instructions": {
+        "en": "Read Mara’s delivery note and place each address label on the parcel plan.",
+        "nl-BE": "Lees Mara’s leveringsbriefje en plaats elk adreslabel op het percelenplan."
+      },
+      "hints": [
+        {
+          "en": "Opposite and behind describe different relationships.",
+          "nl-BE": "Tegenover en achter zijn verschillende relaties."
+        },
+        {
+          "en": "Begin with the street between the residence and brewery.",
+          "nl-BE": "Begin bij de straat tussen woning en brouwerij."
+        },
+        {
+          "en": "Residence north of Lei; brewery south; workshop behind the brewery; passage east toward the water.",
+          "nl-BE": "Woning ten noorden van de Lei; brouwerij ten zuiden; atelier achter de brouwerij; doorgang oostwaarts naar het water."
+        }
+      ],
+      "coverAssetId": "art-den-ancker-corrected-v1",
+      "evidence": [
+        {
+          "id": "delivery-note",
+          "title": {
+            "en": "Mara’s delivery note",
+            "nl-BE": "Mara’s leveringsbriefje"
+          },
+          "body": {
+            "en": "For the binding workshop: find the anchor house on Lei. Cross to the building where they brewed. Take the passage behind that building toward the river. I will hear the delivery bell from my bench. — Mara. Workshop and bell are fictional.",
+            "nl-BE": "Voor het bindatelier: zoek het ankerhuis aan de Lei. Steek over naar het gebouw waar ze brouwden. Neem de doorgang achter dat gebouw naar het water. Aan mijn werkbank hoor ik de leveringsbel. — Mara. Atelier en bel zijn verzonnen."
+          },
+          "assetId": "v-delivery-note",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "Den Ancker Brewer's House — 2005-01-01",
+          "body": {
+            "en": "Dated reference: 2005-01-01. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2005-01-01. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-3",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/109115",
+          "credit": "Beeldbank Onroerend Erfgoed, Vandevorst, Kris (2005), ID 109115"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The historical record identifies the brewer’s residence. The associated brewery stood across Lei.",
+            "nl-BE": "De historische bron identificeert de brouwerswoning. De bijbehorende brouwerij stond aan de overkant van de Lei."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "Mara directs a delivery across the street, behind the brewing building and toward the water.",
+            "nl-BE": "Mara stuurt een levering naar de overkant, achter het brouwerijgebouw en naar het water."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "This invented parcel diagram tests the note’s relationships; it is not an archival cadastral plan.",
+            "nl-BE": "Dit verzonnen perceelschema toetst de relaties uit het briefje; het is geen kadastraal archiefplan."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "The normal room and bounded intrusion share one viewpoint. Separating the sheets restores the normal room.",
+            "nl-BE": "De gewone kamer en de begrensde overlap delen één gezichtspunt. Door de bladen uiteen te halen keert de gewone kamer terug."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [
+        "v-collision-state-1",
+        "v-collision-state-2"
+      ],
+      "kind": "placement",
+      "config": {
+        "background": "v-parcel-plan",
+        "canvas": [
+          900,
+          620
+        ],
+        "slots": [
+          {
+            "id": "north",
+            "label": {
+              "en": "North parcel",
+              "nl-BE": "Noordelijk perceel"
+            },
+            "xy": [
+              0.317,
+              0.194
+            ]
+          },
+          {
+            "id": "south",
+            "label": {
+              "en": "South parcel",
+              "nl-BE": "Zuidelijk perceel"
+            },
+            "xy": [
+              0.317,
+              0.573
+            ]
+          },
+          {
+            "id": "behind",
+            "label": {
+              "en": "Behind the south parcel",
+              "nl-BE": "Achter het zuidelijke perceel"
+            },
+            "xy": [
+              0.317,
+              0.823
+            ]
+          },
+          {
+            "id": "passage",
+            "label": {
+              "en": "Passage to the water",
+              "nl-BE": "Doorgang naar het water"
+            },
+            "xy": [
+              0.608,
+              0.697
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "id": "residence",
+            "label": {
+              "en": "Residence",
+              "nl-BE": "Woning"
+            }
+          },
+          {
+            "id": "brewery",
+            "label": {
+              "en": "Brewery",
+              "nl-BE": "Brouwerij"
+            }
+          },
+          {
+            "id": "workshop",
+            "label": {
+              "en": "Binding workshop",
+              "nl-BE": "Bindatelier"
+            }
+          },
+          {
+            "id": "riverward-passage",
+            "label": {
+              "en": "River passage",
+              "nl-BE": "Rivierdoorgang"
+            }
+          }
+        ],
+        "solution": {
+          "north": "residence",
+          "south": "brewery",
+          "behind": "workshop",
+          "passage": "riverward-passage"
+        }
+      }
+    },
+    {
+      "id": "puzzle-04",
+      "title": {
+        "en": "Three Witnesses, One Voice",
+        "nl-BE": "Drie getuigen, één stem"
+      },
+      "chapter": 4,
+      "location": "Collegium Trilingue, Busleidengang",
+      "instructions": {
+        "en": "Connect the map editions using the cited evidence. Distinguish a reused printing plate from a copied view.",
+        "nl-BE": "Verbind de kaartuitgaven met de aangehaalde bronnen. Onderscheid een hergebruikte drukplaat van een gekopieerd beeld."
+      },
+      "hints": [
+        {
+          "en": "An edition is not always a new survey.",
+          "nl-BE": "Een uitgave is niet altijd een nieuwe opmeting."
+        },
+        {
+          "en": "Use written evidence to choose copying directions. Keep Blaeu.",
+          "nl-BE": "Gebruik bronbeschrijvingen voor de kopieerrichting. Behoud Blaeu."
+        },
+        {
+          "en": "Braun–Hogenberg → Janssonius (plate reuse); Braun–Hogenberg → Blaeu → De Wit (view lineage).",
+          "nl-BE": "Braun–Hogenberg → Janssonius (plaathergebruik); Braun–Hogenberg → Blaeu → De Wit (beeldafstamming)."
+        }
+      ],
+      "coverAssetId": "art-trilingue-corrected-v1",
+      "evidence": [
+        {
+          "id": "plate-reuse",
+          "title": {
+            "en": "A plate acquired",
+            "nl-BE": "Een verworven plaat"
+          },
+          "body": {
+            "en": "Janssonius acquired older plates in 1653; his 1657 Leuven view removes the foreground figures.",
+            "nl-BE": "Janssonius verwierf oudere platen in 1653; op zijn Leuvense prent uit 1657 ontbreken de voorgrondfiguren."
+          },
+          "classification": "historical",
+          "sourceUrl": "https://www.dbnl.org/tekst/_boe022201601_01/_boe022201601_01_0027.php",
+          "credit": "Reinder Storm, Leuven in vogelvlucht, De Boekenwereld 32 (2016), p.34 · p.34, paragraphs on Janssonius"
+        },
+        {
+          "id": "blaeu-copy",
+          "title": {
+            "en": "Blaeu’s source",
+            "nl-BE": "Blaeus bron"
+          },
+          "body": {
+            "en": "Blaeu’s 1649 view copied the earlier Braun–Hogenberg image.",
+            "nl-BE": "Blaeus prent uit 1649 kopieerde het eerdere beeld van Braun–Hogenberg."
+          },
+          "classification": "historical",
+          "sourceUrl": "https://www.dbnl.org/tekst/_boe022201601_01/_boe022201601_01_0027.php",
+          "credit": "Reinder Storm, Leuven in vogelvlucht, De Boekenwereld 32 (2016), p.34 · p.34, paragraph on Blaeu"
+        },
+        {
+          "id": "dewit-inheritance",
+          "title": {
+            "en": "A later atlas",
+            "nl-BE": "Een latere atlas"
+          },
+          "body": {
+            "en": "De Wit used Blaeu’s copy of that earlier view.",
+            "nl-BE": "De Wit gebruikte Blaeus kopie van die eerdere prent."
+          },
+          "classification": "historical",
+          "sourceUrl": "https://www.dbnl.org/tekst/_boe022201601_01/_boe022201601_01_0027.php",
+          "credit": "Reinder Storm, Leuven in vogelvlucht, De Boekenwereld 32 (2016), p.34 · p.34, paragraph beginning Frederik de Wit"
+        },
+        {
+          "id": "source-0",
+          "title": "Braun & Hogenberg — map catalogued 1581 — existing raster",
+          "body": {
+            "en": "Dated reference: Rijksmuseum impression, catalogued 1581. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: Rijksmuseum impression, catalogued 1581. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-15",
+          "classification": "historical",
+          "sourceUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.142910",
+          "credit": "Braun & Hogenberg — map catalogued 1581 — existing raster"
+        },
+        {
+          "id": "source-1",
+          "title": "Janssonius — 1657 edition — existing raster",
+          "body": {
+            "en": "Dated reference: Amsterdam, 1657 edition. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: Amsterdam, 1657 edition. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-16",
+          "classification": "historical",
+          "sourceUrl": "https://sanderusmaps.com/our-catalogue/antique-maps/europe/belgium-cities/old-antique-plan-of-louvain-leuven-by-j-janssonius-25892",
+          "credit": "Janssonius — 1657 edition — existing raster"
+        },
+        {
+          "id": "source-2",
+          "title": "Leuven around 1700 — existing raster",
+          "body": {
+            "en": "Dated reference: Atlas dated 1699–1706. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: Atlas dated 1699–1706. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-17",
+          "classification": "historical",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlas_de_Wit_1698-pl075-Leuven-KB_PPN_145205088.jpg",
+          "credit": "Leuven around 1700 — existing raster"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "These authentic-source rasters represent different editions. Approximate alignment does not make them modern surveys.",
+            "nl-BE": "Deze rasters uit echte bronnen vertegenwoordigen verschillende uitgaven. Benaderende uitlijning maakt er geen moderne opmetingen van."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "The source cards support specific reuse relationships. Use their written evidence as well as the images.",
+            "nl-BE": "De bronkaarten ondersteunen specifieke hergebruikrelaties. Gebruik hun geschreven bewijs naast de beelden."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "Publisher cards distinguish reuse of a plate from inheritance of a view. Blaeu has a textual evidence card.",
+            "nl-BE": "Uitgeverskaarten onderscheiden plaathergebruik van beeldafstamming. Blaeu heeft een tekstuele bronkaart."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [],
+      "kind": "connections",
+      "config": {
+        "nodes": [
+          {
+            "id": "bh",
+            "label": {
+              "en": "Braun–Hogenberg · 1581",
+              "nl-BE": "Braun–Hogenberg · 1581"
+            }
+          },
+          {
+            "id": "janssonius",
+            "label": {
+              "en": "Janssonius · 1657",
+              "nl-BE": "Janssonius · 1657"
+            }
+          },
+          {
+            "id": "blaeu",
+            "label": {
+              "en": "Blaeu · 1649",
+              "nl-BE": "Blaeu · 1649"
+            }
+          },
+          {
+            "id": "dewit",
+            "label": {
+              "en": "De Wit · c. 1700",
+              "nl-BE": "De Wit · c. 1700"
+            }
+          }
+        ],
+        "relations": [
+          {
+            "id": "plate",
+            "label": {
+              "en": "Reused printing plate",
+              "nl-BE": "Hergebruikte drukplaat"
+            }
+          },
+          {
+            "id": "view",
+            "label": {
+              "en": "Copied view",
+              "nl-BE": "Gekopieerd beeld"
+            }
+          }
+        ],
+        "solution": [
+          [
+            "bh",
+            "janssonius",
+            "plate"
+          ],
+          [
+            "bh",
+            "blaeu",
+            "view"
+          ],
+          [
+            "blaeu",
+            "dewit",
+            "view"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "puzzle-05",
+      "title": {
+        "en": "A Gate Without Its Garden",
+        "nl-BE": "Een poort zonder tuin"
+      },
+      "chapter": 5,
+      "location": "Former botanical garden gateway, Minderbroedersstraat / Present Kruidtuin, Kapucijnenvoer",
+      "instructions": {
+        "en": "Place each dated event at the right garden site. Decide what continues when its address changes.",
+        "nl-BE": "Plaats elke gedateerde gebeurtenis op de juiste tuinlocatie. Bepaal wat voortbestaat wanneer het adres verandert."
+      },
+      "hints": [
+        {
+          "en": "What moved, and what stayed?",
+          "nl-BE": "Wat verhuisde en wat bleef?"
+        },
+        {
+          "en": "Keep both sites visible while placing dates.",
+          "nl-BE": "Houd beide locaties zichtbaar terwijl je datums plaatst."
+        },
+        {
+          "en": "The 1771 gateway belongs to Minderbroedersstraat; 1819 acquisition belongs to the later site. Link the matching collection labels, not the gate. Compare invoice and dedication afterward.",
+          "nl-BE": "De poort van 1771 hoort bij de Minderbroedersstraat; de aankoop van 1819 bij de latere tuin. Verbind de collectie-etiketten, niet de poort. Vergelijk daarna factuur en opdracht."
+        }
+      ],
+      "coverAssetId": "art-old-gateway-corrected-v1",
+      "evidence": [
+        {
+          "id": "collection-old",
+          "title": {
+            "en": "Riverside seed collection",
+            "nl-BE": "Zadenverzameling Aan het Water"
+          },
+          "body": {
+            "en": "Collection RG-SEED-01. Former garden site, Minderbroedersstraat. The collection identity remains with the specimens. Fictional collection label; no transfer date asserted.",
+            "nl-BE": "Verzameling RG-SEED-01. Voormalige tuin, Minderbroedersstraat. De identiteit van de verzameling blijft bij de specimens. Verzonnen etiket; geen verhuisdatum vastgesteld."
+          },
+          "assetId": "v-collection-old",
+          "classification": "story"
+        },
+        {
+          "id": "collection-new",
+          "title": {
+            "en": "Riverside seed collection",
+            "nl-BE": "Zadenverzameling Aan het Water"
+          },
+          "body": {
+            "en": "Collection RG-SEED-01. Later garden site across Kapucijnenvoer. New location, continuing collection. Fictional collection label; no transfer date asserted.",
+            "nl-BE": "Verzameling RG-SEED-01. Latere tuin aan de overkant van de Kapucijnenvoer. Nieuwe plaats, dezelfde verzameling. Verzonnen etiket; geen verhuisdatum vastgesteld."
+          },
+          "assetId": "v-collection-new",
+          "classification": "story"
+        },
+        {
+          "id": "old-invoice",
+          "title": {
+            "en": "Old invoice",
+            "nl-BE": "Oude factuur"
+          },
+          "body": {
+            "en": "Binding work delivered to the workshop, Rietgang, household F. Account remains attached to that address. No exact date survives. Outside the street, the ink fades.",
+            "nl-BE": "Bindwerk geleverd aan het atelier, Rietgang, huishouden F. De rekening blijft aan dat adres verbonden. Er is geen precieze datum bewaard. Buiten de straat vervaagt de inkt."
+          },
+          "assetId": "v-old-invoice",
+          "classification": "story"
+        },
+        {
+          "id": "new-dedication",
+          "title": {
+            "en": "A new dedication",
+            "nl-BE": "Een nieuwe opdracht"
+          },
+          "body": {
+            "en": "For Ada, who brought me a broken notebook and stayed to listen. May its next pages be yours. — Mara. The words remain legible outside Rietgang.",
+            "nl-BE": "Voor Ada, die me een kapot boek bracht en bleef luisteren. Mogen de volgende bladzijden van jou zijn. — Mara. De woorden blijven buiten Rietgang leesbaar."
+          },
+          "assetId": "v-new-dedication",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "Hortus Botanicus Gateway — 2005-01-01",
+          "body": {
+            "en": "Dated reference: 2005-01-01. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2005-01-01. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-5",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/140034",
+          "credit": "Beeldbank Onroerend Erfgoed, Vandevorst Kris (2005), ID 140034"
+        },
+        {
+          "id": "source-1",
+          "title": "Kruidtuin Botanical Garden — 1984-04-01",
+          "body": {
+            "en": "Dated reference: 1984-04-01. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 1984-04-01. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-6",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/354951",
+          "credit": "Beeldbank Onroerend Erfgoed, Charlier Georges (1984), ID 354951"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The gateway remains at the former site. The reference does not provide a verified inscription transcription here.",
+            "nl-BE": "De poort blijft op de vroegere locatie. Deze referentie biedt hier geen geverifieerde transcriptie van het opschrift."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "1771 concerns the old gateway;1819 concerns acquisition of the later garden site. Neither is a proven transfer date for the invented collection.",
+            "nl-BE": "1771 betreft de oude poort;1819 betreft de aankoop van het latere tuinterrein. Geen van beide is een bewezen verhuisdatum van de verzonnen verzameling."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "Both fictional labels carry collection ID RG-SEED-01, at different sites.",
+            "nl-BE": "Beide verzonnen etiketten dragen verzamelings-ID RG-SEED-01, op verschillende plaatsen."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "The invoice remains tied to the workshop’s old address. Its ink fades outside.",
+            "nl-BE": "De factuur blijft aan het oude atelieradres verbonden. Buiten vervaagt de inkt."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-4",
+          "title": {
+            "en": "Inspection note 5",
+            "nl-BE": "Inspectienotitie 5"
+          },
+          "body": {
+            "en": "Mara addresses this new dedication to Ada. Outside Rietgang, it stays legible.",
+            "nl-BE": "Mara richt deze nieuwe opdracht aan Ada. Buiten Rietgang blijft ze leesbaar."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [],
+      "kind": "classification",
+      "config": {
+        "items": [
+          {
+            "id": "gateway1771",
+            "label": {
+              "en": "Gateway · 1771",
+              "nl-BE": "Poort · 1771"
+            },
+            "assetId": "art-old-gateway-corrected-v1"
+          },
+          {
+            "id": "acquisition1819",
+            "label": {
+              "en": "Site acquired · 1819",
+              "nl-BE": "Terrein verworven · 1819"
+            },
+            "assetId": "art-later-garden-v1"
+          }
+        ],
+        "categories": [
+          {
+            "id": "old",
+            "label": {
+              "en": "Original garden site",
+              "nl-BE": "Oorspronkelijke tuinlocatie"
+            }
+          },
+          {
+            "id": "later",
+            "label": {
+              "en": "Later garden site",
+              "nl-BE": "Latere tuinlocatie"
+            }
+          }
+        ],
+        "solution": {
+          "gateway1771": "old",
+          "acquisition1819": "later"
+        },
+        "agreements": [
+          {
+            "id": "continuity",
+            "label": {
+              "en": "The collection continues at the new address",
+              "nl-BE": "De verzameling gaat op het nieuwe adres verder"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "puzzle-06",
+      "title": {
+        "en": "The Keeper of the Crossing",
+        "nl-BE": "De bewaker van de oversteek"
+      },
+      "chapter": 6,
+      "location": "Janseniushof and Jansenius–Lipsius watergate ensemble",
+      "instructions": {
+        "en": "Reconstruct what happened to Sofie from Ruben’s records. Arrange the five events in order.",
+        "nl-BE": "Reconstrueer uit Rubens documenten wat er met Sofie gebeurde. Zet de vijf gebeurtenissen in volgorde."
+      },
+      "hints": [
+        {
+          "en": "Find what each record says happened before or after.",
+          "nl-BE": "Zoek wat elke bron vóór of na iets anders plaatst."
+        },
+        {
+          "en": "The photograph precedes the last pencil stroke; the seal covers the completed drawing.",
+          "nl-BE": "De foto gaat aan de laatste potloodlijn vooraf; het zegel bedekt de voltooide tekening."
+        },
+        {
+          "en": "Opened → Sofie present → outline completed → room changed and Sofie lost → sealed.",
+          "nl-BE": "Geopend → Sofie aanwezig → omtrek voltooid → kamer veranderd en Sofie verdwenen → verzegeld."
+        }
+      ],
+      "coverAssetId": "art-watergate-corrected-v1",
+      "evidence": [
+        {
+          "id": "ruben-denial",
+          "title": {
+            "en": "Ruben’s first account",
+            "nl-BE": "Rubens eerste relaas"
+          },
+          "body": {
+            "en": "I kept the frame sealed. The irregularities are copied marks; you should not treat them as a route. I will collect the object myself.",
+            "nl-BE": "Ik hield het raam verzegeld. De afwijkingen zijn overgenomen merktekens; behandel ze niet als een route. Ik kom het voorwerp zelf halen."
+          },
+          "assetId": "v-ruben-denial",
+          "classification": "story"
+        },
+        {
+          "id": "ruben-confession",
+          "title": {
+            "en": "Private account",
+            "nl-BE": "Privéverklaring"
+          },
+          "body": {
+            "en": "I opened and aligned the original frame. Sofie was inside the room that corresponded to the tracing. I completed its replacement outline. The room changed, and she was gone. I sealed the frame afterward and concealed what I had done. It happened in my adult life; I have not supplied a calendar date. I cannot bring her back by repeating it.",
+            "nl-BE": "Ik opende het originele raam en lijnde het uit. Sofie was in de kamer die met de overtrek overeenkwam. Ik voltooide de vervangende omtrek. De kamer veranderde en zij was weg. Daarna verzegelde ik het raam en verzweeg wat ik had gedaan. Het gebeurde tijdens mijn volwassen leven; ik heb geen kalenderdatum gegeven. Door het te herhalen kan ik haar niet terugbrengen."
+          },
+          "assetId": "v-ruben-confession",
+          "classification": "story"
+        },
+        {
+          "id": "sequence-opened",
+          "title": {
+            "en": "Broken seal",
+            "nl-BE": "Verbroken zegel"
+          },
+          "body": {
+            "en": "Ruben: I loosened the clamps and aligned the original frame before anyone entered the corresponding room.",
+            "nl-BE": "Ruben: Ik maakte de klemmen los en lijnde het originele raam uit voor iemand de overeenkomstige kamer binnenging."
+          },
+          "assetId": "v-sequence-opened",
+          "classification": "story"
+        },
+        {
+          "id": "sequence-presence",
+          "title": {
+            "en": "A photograph",
+            "nl-BE": "Een foto"
+          },
+          "body": {
+            "en": "The open frame is visible; Sofie stands in the room beyond it. The replacement outline still has a gap.",
+            "nl-BE": "Het open raam is zichtbaar; Sofie staat in de kamer erachter. De vervangende omtrek heeft nog een opening."
+          },
+          "assetId": "v-sequence-presence",
+          "classification": "story"
+        },
+        {
+          "id": "sequence-completed",
+          "title": {
+            "en": "Closing pencil stroke",
+            "nl-BE": "Sluitende potloodlijn"
+          },
+          "body": {
+            "en": "Ruben: After the photograph I joined the last gap in the replacement outline. The room was still occupied.",
+            "nl-BE": "Ruben: Na de foto verbond ik de laatste opening in de vervangende omtrek. De kamer was nog bewoond."
+          },
+          "assetId": "v-sequence-completed",
+          "classification": "story"
+        },
+        {
+          "id": "sequence-lost",
+          "title": {
+            "en": "Changed room",
+            "nl-BE": "Veranderde kamer"
+          },
+          "body": {
+            "en": "Ruben: When the outline closed, the room changed. Sofie was no longer there.",
+            "nl-BE": "Ruben: Toen de omtrek sloot, veranderde de kamer. Sofie was er niet meer."
+          },
+          "assetId": "v-sequence-lost",
+          "classification": "story"
+        },
+        {
+          "id": "sequence-sealed",
+          "title": {
+            "en": "Seal over the drawing",
+            "nl-BE": "Zegel over de tekening"
+          },
+          "body": {
+            "en": "A sealing strip covers the completed drawing. Ruben says he sealed the frame after the room changed.",
+            "nl-BE": "Een verzegelingsstrook bedekt de voltooide tekening. Ruben zegt dat hij het raam verzegelde nadat de kamer veranderde."
+          },
+          "assetId": "v-sequence-sealed",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "Jansenius and Lipsius Watergate Towers — 1987-01-01",
+          "body": {
+            "en": "Dated reference: 1987-01-01. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 1987-01-01. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-7",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/25113",
+          "credit": "Beeldbank Onroerend Erfgoed, Lorrez Mieke (1987), ID 25113"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "A dated tower photograph and a labelled schematic serve different purposes. The dashed crossing is reconstructed, not a surviving bridge.",
+            "nl-BE": "Een gedateerde torenfoto en een aangeduid schema hebben verschillende functies. De gestippelde oversteek is gereconstrueerd, geen bewaarde brug."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "Ruben initially claimed that the frame had remained sealed. Compare this with the photograph and his later account.",
+            "nl-BE": "Ruben beweerde eerst dat het raam verzegeld was gebleven. Vergelijk dit met de foto en zijn latere relaas."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "The fictional snapshot establishes Sofie’s presence before completion. It is relatively dated within Ruben’s adult life; no exact year is asserted.",
+            "nl-BE": "De verzonnen foto toont Sofies aanwezigheid vóór de voltooiing. Ze is relatief gedateerd binnen Rubens volwassen leven; er wordt geen exact jaar beweerd."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "The drawing and seal provide before/after relationships. They do not establish an intention to harm.",
+            "nl-BE": "Tekening en zegel geven relaties van vóór en na. Ze bewijzen geen bedoeling om iemand te schaden."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-4",
+          "title": {
+            "en": "Inspection note 5",
+            "nl-BE": "Inspectienotitie 5"
+          },
+          "body": {
+            "en": "Ruben’s private account explains the completion, disappearance and later concealment. The disclosure choice controls what is told at council.",
+            "nl-BE": "Rubens privéverklaring verklaart de voltooiing, verdwijning en latere verzwijging. De keuze over openbaarmaking bepaalt wat de raad hoort."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [],
+      "initial": {
+        "order": [
+          "lost",
+          "presence",
+          "sealed",
+          "opened",
+          "completed"
+        ]
+      },
+      "kind": "sequence",
+      "config": {
+        "items": [
+          {
+            "id": "lost",
+            "label": {
+              "en": "Changed room",
+              "nl-BE": "Veranderde kamer"
+            },
+            "detail": {
+              "en": "Ruben: When the outline closed, the room changed. Sofie was no longer there.",
+              "nl-BE": "Ruben: Toen de omtrek sloot, veranderde de kamer. Sofie was er niet meer."
+            },
+            "assetId": "v-sequence-lost"
+          },
+          {
+            "id": "presence",
+            "label": {
+              "en": "A photograph",
+              "nl-BE": "Een foto"
+            },
+            "detail": {
+              "en": "The open frame is visible; Sofie stands in the room beyond it. The replacement outline still has a gap.",
+              "nl-BE": "Het open raam is zichtbaar; Sofie staat in de kamer erachter. De vervangende omtrek heeft nog een opening."
+            },
+            "assetId": "v-sequence-presence"
+          },
+          {
+            "id": "sealed",
+            "label": {
+              "en": "Seal over the drawing",
+              "nl-BE": "Zegel over de tekening"
+            },
+            "detail": {
+              "en": "A sealing strip covers the completed drawing. Ruben says he sealed the frame after the room changed.",
+              "nl-BE": "Een verzegelingsstrook bedekt de voltooide tekening. Ruben zegt dat hij het raam verzegelde nadat de kamer veranderde."
+            },
+            "assetId": "v-sequence-sealed"
+          },
+          {
+            "id": "opened",
+            "label": {
+              "en": "Broken seal",
+              "nl-BE": "Verbroken zegel"
+            },
+            "detail": {
+              "en": "Ruben: I loosened the clamps and aligned the original frame before anyone entered the corresponding room.",
+              "nl-BE": "Ruben: Ik maakte de klemmen los en lijnde het originele raam uit voor iemand de overeenkomstige kamer binnenging."
+            },
+            "assetId": "v-sequence-opened"
+          },
+          {
+            "id": "completed",
+            "label": {
+              "en": "Closing pencil stroke",
+              "nl-BE": "Sluitende potloodlijn"
+            },
+            "detail": {
+              "en": "Ruben: After the photograph I joined the last gap in the replacement outline. The room was still occupied.",
+              "nl-BE": "Ruben: Na de foto verbond ik de laatste opening in de vervangende omtrek. De kamer was nog bewoond."
+            },
+            "assetId": "v-sequence-completed"
+          }
+        ],
+        "solution": [
+          "opened",
+          "presence",
+          "completed",
+          "lost",
+          "sealed"
+        ]
+      }
+    },
+    {
+      "id": "puzzle-07",
+      "title": {
+        "en": "A Room Offered Freely",
+        "nl-BE": "Een kamer uit vrije wil"
+      },
+      "chapter": 7,
+      "location": "Groot Begijnhof",
+      "instructions": {
+        "en": "Fold Nelle’s card so her name and matching invitation remain visible. Record the informed agreement of everyone involved.",
+        "nl-BE": "Vouw Nelles kaart zodat haar naam en bijpassende uitnodiging zichtbaar blijven. Noteer de geïnformeerde instemming van alle betrokkenen."
+      },
+      "hints": [
+        {
+          "en": "Keep the person, relinquish the address.",
+          "nl-BE": "Behoud de persoon, geef het adres op."
+        },
+        {
+          "en": "Fold the bottom old-address panel; preserve name and invitation.",
+          "nl-BE": "Vouw het onderste oude-adrespaneel; behoud naam en uitnodiging."
+        },
+        {
+          "en": "Hide only the old address; accept Lena’s lasting Leuven invitation with Nelle and Mara’s agreement, then explicitly continue to morning.",
+          "nl-BE": "Verberg alleen het oude adres; aanvaard Lena’s blijvende Leuvense uitnodiging met Nelles en Mara’s instemming en ga dan uitdrukkelijk naar de ochtend."
+        }
+      ],
+      "coverAssetId": "art-host-evening-v1",
+      "evidence": [
+        {
+          "id": "nelle-acceptance",
+          "title": {
+            "en": "Nelle’s choice",
+            "nl-BE": "Nelles keuze"
+          },
+          "body": {
+            "en": "My name is Nelle Van Acker. I want to accept Lena’s lasting place in Leuven. I give up my old address at Rietgang, household F, bedroom. I keep my name and my family. I understand that my old room will not remain mine. I may pause before we commit.",
+            "nl-BE": "Mijn naam is Nelle Van Acker. Ik wil Lena’s blijvende plaats in Leuven aanvaarden. Ik geef mijn oude adres op: Rietgang, huishouden F, slaapkamer. Ik behoud mijn naam en mijn familie. Ik begrijp dat mijn oude kamer niet van mij blijft. Voor we bevestigen mag ik nog pauzeren."
+          },
+          "assetId": "v-nelle-acceptance",
+          "classification": "story"
+        },
+        {
+          "id": "mara-agreement",
+          "title": {
+            "en": "Mara’s agreement",
+            "nl-BE": "Mara’s instemming"
+          },
+          "body": {
+            "en": "I have heard Nelle’s choice and Lena’s invitation. I agree to this trial with them. We will not treat its result as consent from another household.",
+            "nl-BE": "Ik heb Nelles keuze en Lena’s uitnodiging gehoord. Ik stem met hen in met deze proef. De uitkomst geldt niet als toestemming van een ander huishouden."
+          },
+          "assetId": "v-mara-agreement",
+          "classification": "story"
+        },
+        {
+          "id": "host-invitation",
+          "title": {
+            "en": "Lena’s informed invitation",
+            "nl-BE": "Lena’s geïnformeerde uitnodiging"
+          },
+          "body": {
+            "en": "Nelle Van Acker, I offer you a lasting place in my home in Leuven’s Groot Begijnhof, not just a visit. I understand why you need a new connection and that you will relinquish your former address. I have room for your household to reunite here. — Lena Vermeulen, fictional host; no real private address.",
+            "nl-BE": "Nelle Van Acker, ik bied je een blijvende plaats in mijn woning in het Leuvense Groot Begijnhof, niet alleen een bezoek. Ik begrijp waarom je een nieuwe verbinding nodig hebt en dat je je vorige adres opgeeft. Er is plaats om je huishouden hier te herenigen. — Lena Vermeulen, verzonnen gastvrouw; geen echt privéadres."
+          },
+          "assetId": "v-host-invitation",
+          "classification": "story"
+        },
+        {
+          "id": "failed-visit-temporary",
+          "title": {
+            "en": "An earlier visit: one night",
+            "nl-BE": "Een eerder bezoek: één nacht"
+          },
+          "body": {
+            "en": "The visitor left the old address behind, but the host offered only a night’s shelter. At dawn the visitor faded from the outside room and returned to the old connection. A temporary welcome had not established a lasting place.",
+            "nl-BE": "De bezoeker liet het oude adres achter, maar kreeg alleen voor één nacht onderdak. Bij dageraad vervaagde de bezoeker buiten en keerde terug naar de oude verbinding. Tijdelijk welkom had geen blijvende plaats gevestigd."
+          },
+          "assetId": "v-failed-visit-temporary",
+          "classification": "story"
+        },
+        {
+          "id": "failed-visit-address",
+          "title": {
+            "en": "An earlier visit: two addresses",
+            "nl-BE": "Een eerder bezoek: twee adressen"
+          },
+          "body": {
+            "en": "The host understood and offered a lasting home. The visitor kept the Rietgang address active as well. At dawn the old connection drew the visitor back. Neither money nor a hidden ceremony was missing.",
+            "nl-BE": "De gastheer begreep het en bood een blijvende woning. De bezoeker hield ook het adres in Rietgang actief. Bij dageraad trok de oude verbinding de bezoeker terug. Er ontbrak geen geld of verborgen ritueel."
+          },
+          "assetId": "v-failed-visit-address",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "Great Beguinage — 2010-06-15",
+          "body": {
+            "en": "Dated reference: 2010-06-15. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2010-06-15. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-8",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/148292",
+          "credit": "Beeldbank Onroerend Erfgoed, Debonne Vincent (2010), ID 148292"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "Nelle keeps her exact name while voluntarily relinquishing her former address.",
+            "nl-BE": "Nelle behoudt haar exacte naam terwijl ze vrijwillig haar vroegere adres opgeeft."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "Lena offers a lasting place with informed consent. Mara agrees with Nelle to this trial.",
+            "nl-BE": "Lena biedt met geïnformeerde toestemming een blijvende plaats. Mara stemt samen met Nelle in met deze proef."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "The earlier records separate temporary hospitality from a lasting invitation, and an active old address from relinquishment.",
+            "nl-BE": "De eerdere verslagen onderscheiden tijdelijk onderdak van een blijvende uitnodiging, en een actief oud adres van afstand doen."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "The card separates identity, new invitation and old address. A fold can conceal one region without erasing the person.",
+            "nl-BE": "De kaart scheidt identiteit, nieuwe uitnodiging en oud adres. Een vouw kan één gebied verbergen zonder de persoon uit te wissen."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [
+        "v-host-state-1",
+        "v-bedroom-state-1"
+      ],
+      "kind": "fold",
+      "config": {
+        "canvas": [
+          800,
+          600
+        ],
+        "frontAssetId": "v-guest-card-front",
+        "panels": [
+          {
+            "id": "none",
+            "label": {
+              "en": "Leave card open",
+              "nl-BE": "Laat kaart open"
+            },
+            "mask": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "identity",
+            "label": {
+              "en": "Fold the name panel",
+              "nl-BE": "Vouw het naampaneel"
+            },
+            "mask": [
+              0,
+              0,
+              800,
+              170
+            ]
+          },
+          {
+            "id": "address",
+            "label": {
+              "en": "Fold the old address",
+              "nl-BE": "Vouw het oude adres"
+            },
+            "mask": [
+              0,
+              400,
+              800,
+              200
+            ]
+          }
+        ],
+        "correctPanel": "address",
+        "agreements": [
+          {
+            "id": "nelle",
+            "label": {
+              "en": "Nelle accepts voluntarily",
+              "nl-BE": "Nelle stemt vrijwillig in"
+            }
+          },
+          {
+            "id": "mara",
+            "label": {
+              "en": "Mara understands and agrees",
+              "nl-BE": "Mara begrijpt het en stemt in"
+            }
+          },
+          {
+            "id": "host",
+            "label": {
+              "en": "The host offers an informed, lasting welcome",
+              "nl-BE": "De gastvrouw biedt een geïnformeerd, blijvend welkom"
+            }
+          }
+        ],
+        "invitations": [
+          {
+            "id": "Leuven",
+            "label": {
+              "en": "Lena’s matching invitation",
+              "nl-BE": "Lena’s bijpassende uitnodiging"
+            }
+          },
+          {
+            "id": "unmatched",
+            "label": {
+              "en": "An unrelated invitation",
+              "nl-BE": "Een andere uitnodiging"
+            }
+          }
+        ],
+        "correctInvitation": "Leuven"
+      }
+    },
+    {
+      "id": "puzzle-08",
+      "title": {
+        "en": "The Addresses That Survived the Fire",
+        "nl-BE": "De adressen die het vuur overleefden"
+      },
+      "chapter": 8,
+      "location": "University Hall, Naamsestraat / Oude Markt",
+      "instructions": {
+        "en": "Reconstruct the register: assign every named person to one household. People already outside still belong in the register.",
+        "nl-BE": "Herstel het register: wijs elke genoemde persoon aan één huishouden toe. Mensen die al buiten zijn blijven in het register staan."
+      },
+      "hints": [
+        {
+          "en": "A person outside still belongs to a household.",
+          "nl-BE": "Ook iemand buiten hoort bij een huishouden."
+        },
+        {
+          "en": "Use distinct resident IDs, not row totals alone.",
+          "nl-BE": "Gebruik unieke bewoners-ID’s, niet alleen rijtotalen."
+        },
+        {
+          "en": "Reconcile A–I: 3,2,4,2,3,3,4,3,3 members. Keep Nelle in F, and Mara too. Total27; inside26 or25.",
+          "nl-BE": "Verzoen A–I: 3,2,4,2,3,3,4,3,3 leden. Behoud Nelle en Mara in F. Totaal27; binnen26 of25."
+        }
+      ],
+      "coverAssetId": "art-nelle-portrait-v1",
+      "evidence": [
+        {
+          "id": "reconstructed-register",
+          "title": {
+            "en": "Household register",
+            "nl-BE": "Huishoudregister"
+          },
+          "body": {
+            "en": "Compare the surviving names and household headings.",
+            "nl-BE": "Vergelijk de bewaarde namen en huishoudkoppen."
+          },
+          "assetId": "v-register-board",
+          "classification": "story"
+        },
+        {
+          "id": "clearance-document",
+          "title": {
+            "en": "Places held temporarily",
+            "nl-BE": "Tijdelijk bewaarde plaatsen"
+          },
+          "body": {
+            "en": "Private frame papers. Earlier temporary clearance, exact date unknown. Place lines A–I remain. Personal entries are incomplete. A second heading reads: People awaiting another address. These fictional papers do not identify all present residents.",
+            "nl-BE": "Privépapieren van het raam. Eerdere tijdelijke ontruiming, precieze datum onbekend. Plaatsregels A–I blijven over. Persoonsgegevens zijn onvolledig. Een tweede opschrift luidt: Mensen die op een ander adres wachten. Deze verzonnen papieren identificeren niet alle huidige bewoners."
+          },
+          "assetId": "v-clearance-document",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "University Hall and its old library burn — About 1914–1915, according to the Library of Congress.",
+          "body": {
+            "en": "Dated reference: About 1914–1915, according to the Library of Congress.. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: About 1914–1915, according to the Library of Congress.. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-11",
+          "classification": "historical",
+          "sourceUrl": "https://www.loc.gov/pictures/item/2014697569/",
+          "credit": "Bain News Service / Library of Congress, LC-DIG-ggbain-17307"
+        },
+        {
+          "id": "source-1",
+          "title": "The new University Library is inaugurated — 4 July 1928.",
+          "body": {
+            "en": "Dated reference: 4 July 1928.. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 4 July 1928.. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-12",
+          "classification": "historical",
+          "sourceUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53202183g",
+          "credit": "Photo Reportage belge / Agence Rol / Bibliothèque nationale de France, via Wikimedia Commons. Reduced-size reproduction."
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The authentic wartime image shows University Hall, where the old library was destroyed.",
+            "nl-BE": "Het echte oorlogsbeeld toont de Universiteitshal, waar de oude bibliotheek werd verwoest."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "The old-library fire in1914 and the later library’s inauguration in1928 concern different buildings.",
+            "nl-BE": "De brand van de oude bibliotheek in1914 en de opening van de latere bibliotheek in1928 betreffen verschillende gebouwen."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "The invented earlier paper retains nine place lines and incomplete personal entries, not a list of all current descendants.",
+            "nl-BE": "Het verzonnen eerdere document bewaart negen plaatsregels en onvolledige persoonsgegevens, niet een lijst van alle huidige afstammelingen."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "Present-day testimony supplies27 unique residents across nine households. Already relocated people remain members.",
+            "nl-BE": "Huidige verklaringen leveren27 unieke bewoners in negen huishoudens. Wie al verhuisde blijft lid."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-4",
+          "title": {
+            "en": "Inspection note 5",
+            "nl-BE": "Inspectienotitie 5"
+          },
+          "body": {
+            "en": "The successful trial reserves Nelle’s place; Mara’s branch determines whether a second place is already occupied.",
+            "nl-BE": "De geslaagde proef reserveert Nelles plaats; Mara’s keuze bepaalt of een tweede plaats al bezet is."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [],
+      "kind": "register",
+      "config": {
+        "groups": [
+          {
+            "id": "A",
+            "label": {
+              "en": "A · De Smet",
+              "nl-BE": "A · De Smet"
+            },
+            "assetId": "v-household-A",
+            "memberIds": [
+              "lieve-de-smet",
+              "pieter-de-smet",
+              "bas-de-smet"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "B",
+            "label": {
+              "en": "B · El Amrani–Verbeek",
+              "nl-BE": "B · El Amrani–Verbeek"
+            },
+            "assetId": "v-household-B",
+            "memberIds": [
+              "farah-el-amrani",
+              "sam-verbeek"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "C",
+            "label": {
+              "en": "C · Peeters",
+              "nl-BE": "C · Peeters"
+            },
+            "assetId": "v-household-C",
+            "memberIds": [
+              "elise-peeters",
+              "koen-peeters",
+              "milo-peeters",
+              "fien-peeters"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "D",
+            "label": {
+              "en": "D · Wouters",
+              "nl-BE": "D · Wouters"
+            },
+            "assetId": "v-household-D",
+            "memberIds": [
+              "agnes-wouters",
+              "rita-wouters"
+            ],
+            "stepFree": true
+          },
+          {
+            "id": "E",
+            "label": {
+              "en": "E · Mertens",
+              "nl-BE": "E · Mertens"
+            },
+            "assetId": "v-household-E",
+            "memberIds": [
+              "jonas-mertens",
+              "sara-mertens",
+              "cas-mertens"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "F",
+            "label": {
+              "en": "F · Van Acker",
+              "nl-BE": "F · Van Acker"
+            },
+            "assetId": "v-household-F",
+            "memberIds": [
+              "mara",
+              "nelle",
+              "ina-van-acker"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "G",
+            "label": {
+              "en": "G · Haddad",
+              "nl-BE": "G · Haddad"
+            },
+            "assetId": "v-household-G",
+            "memberIds": [
+              "tarek-haddad",
+              "leila-haddad",
+              "aya-haddad",
+              "noor-haddad"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "H",
+            "label": {
+              "en": "H · Vandenberg",
+              "nl-BE": "H · Vandenberg"
+            },
+            "assetId": "v-household-H",
+            "memberIds": [
+              "roos-vandenberg",
+              "jules-vandenberg",
+              "lou-vandenberg"
+            ],
+            "stepFree": true
+          },
+          {
+            "id": "I",
+            "label": {
+              "en": "I · De Ridder",
+              "nl-BE": "I · De Ridder"
+            },
+            "assetId": "v-household-I",
+            "memberIds": [
+              "wim-de-ridder",
+              "an-de-ridder",
+              "tess-de-ridder"
+            ],
+            "stepFree": false
+          }
+        ],
+        "residents": [
+          {
+            "id": "lieve-de-smet",
+            "label": {
+              "en": "Lieve De Smet",
+              "nl-BE": "Lieve De Smet"
+            },
+            "detail": {
+              "en": "Age 46",
+              "nl-BE": "Leeftijd 46"
+            },
+            "groupId": "A"
+          },
+          {
+            "id": "pieter-de-smet",
+            "label": {
+              "en": "Pieter De Smet",
+              "nl-BE": "Pieter De Smet"
+            },
+            "detail": {
+              "en": "Age 48",
+              "nl-BE": "Leeftijd 48"
+            },
+            "groupId": "A"
+          },
+          {
+            "id": "bas-de-smet",
+            "label": {
+              "en": "Bas De Smet",
+              "nl-BE": "Bas De Smet"
+            },
+            "detail": {
+              "en": "Age 16",
+              "nl-BE": "Leeftijd 16"
+            },
+            "groupId": "A"
+          },
+          {
+            "id": "farah-el-amrani",
+            "label": {
+              "en": "Farah El Amrani",
+              "nl-BE": "Farah El Amrani"
+            },
+            "detail": {
+              "en": "Age 34",
+              "nl-BE": "Leeftijd 34"
+            },
+            "groupId": "B"
+          },
+          {
+            "id": "sam-verbeek",
+            "label": {
+              "en": "Sam Verbeek",
+              "nl-BE": "Sam Verbeek"
+            },
+            "detail": {
+              "en": "Age 36",
+              "nl-BE": "Leeftijd 36"
+            },
+            "groupId": "B"
+          },
+          {
+            "id": "elise-peeters",
+            "label": {
+              "en": "Elise Peeters",
+              "nl-BE": "Elise Peeters"
+            },
+            "detail": {
+              "en": "Age 42",
+              "nl-BE": "Leeftijd 42"
+            },
+            "groupId": "C"
+          },
+          {
+            "id": "koen-peeters",
+            "label": {
+              "en": "Koen Peeters",
+              "nl-BE": "Koen Peeters"
+            },
+            "detail": {
+              "en": "Age 44",
+              "nl-BE": "Leeftijd 44"
+            },
+            "groupId": "C"
+          },
+          {
+            "id": "milo-peeters",
+            "label": {
+              "en": "Milo Peeters",
+              "nl-BE": "Milo Peeters"
+            },
+            "detail": {
+              "en": "Age 10",
+              "nl-BE": "Leeftijd 10"
+            },
+            "groupId": "C"
+          },
+          {
+            "id": "fien-peeters",
+            "label": {
+              "en": "Fien Peeters",
+              "nl-BE": "Fien Peeters"
+            },
+            "detail": {
+              "en": "Age 7",
+              "nl-BE": "Leeftijd 7"
+            },
+            "groupId": "C"
+          },
+          {
+            "id": "agnes-wouters",
+            "label": {
+              "en": "Agnes Wouters",
+              "nl-BE": "Agnes Wouters"
+            },
+            "detail": {
+              "en": "Age 76",
+              "nl-BE": "Leeftijd 76"
+            },
+            "groupId": "D"
+          },
+          {
+            "id": "rita-wouters",
+            "label": {
+              "en": "Rita Wouters",
+              "nl-BE": "Rita Wouters"
+            },
+            "detail": {
+              "en": "Age 72",
+              "nl-BE": "Leeftijd 72"
+            },
+            "groupId": "D"
+          },
+          {
+            "id": "jonas-mertens",
+            "label": {
+              "en": "Jonas Mertens",
+              "nl-BE": "Jonas Mertens"
+            },
+            "detail": {
+              "en": "Age 39",
+              "nl-BE": "Leeftijd 39"
+            },
+            "groupId": "E"
+          },
+          {
+            "id": "sara-mertens",
+            "label": {
+              "en": "Sara Mertens",
+              "nl-BE": "Sara Mertens"
+            },
+            "detail": {
+              "en": "Age 37",
+              "nl-BE": "Leeftijd 37"
+            },
+            "groupId": "E"
+          },
+          {
+            "id": "cas-mertens",
+            "label": {
+              "en": "Cas Mertens",
+              "nl-BE": "Cas Mertens"
+            },
+            "detail": {
+              "en": "Age 9",
+              "nl-BE": "Leeftijd 9"
+            },
+            "groupId": "E"
+          },
+          {
+            "id": "mara",
+            "label": {
+              "en": "Mara Van Acker",
+              "nl-BE": "Mara Van Acker"
+            },
+            "detail": {
+              "en": "Age 35",
+              "nl-BE": "Leeftijd 35"
+            },
+            "groupId": "F"
+          },
+          {
+            "id": "nelle",
+            "label": {
+              "en": "Nelle Van Acker",
+              "nl-BE": "Nelle Van Acker"
+            },
+            "detail": {
+              "en": "Age 12",
+              "nl-BE": "Leeftijd 12"
+            },
+            "groupId": "F"
+          },
+          {
+            "id": "ina-van-acker",
+            "label": {
+              "en": "Ina Van Acker",
+              "nl-BE": "Ina Van Acker"
+            },
+            "detail": {
+              "en": "Age 60",
+              "nl-BE": "Leeftijd 60"
+            },
+            "groupId": "F"
+          },
+          {
+            "id": "tarek-haddad",
+            "label": {
+              "en": "Tarek Haddad",
+              "nl-BE": "Tarek Haddad"
+            },
+            "detail": {
+              "en": "Age 41",
+              "nl-BE": "Leeftijd 41"
+            },
+            "groupId": "G"
+          },
+          {
+            "id": "leila-haddad",
+            "label": {
+              "en": "Leila Haddad",
+              "nl-BE": "Leila Haddad"
+            },
+            "detail": {
+              "en": "Age 40",
+              "nl-BE": "Leeftijd 40"
+            },
+            "groupId": "G"
+          },
+          {
+            "id": "aya-haddad",
+            "label": {
+              "en": "Aya Haddad",
+              "nl-BE": "Aya Haddad"
+            },
+            "detail": {
+              "en": "Age 14",
+              "nl-BE": "Leeftijd 14"
+            },
+            "groupId": "G"
+          },
+          {
+            "id": "noor-haddad",
+            "label": {
+              "en": "Noor Haddad",
+              "nl-BE": "Noor Haddad"
+            },
+            "detail": {
+              "en": "Age 6",
+              "nl-BE": "Leeftijd 6"
+            },
+            "groupId": "G"
+          },
+          {
+            "id": "roos-vandenberg",
+            "label": {
+              "en": "Roos Vandenberg",
+              "nl-BE": "Roos Vandenberg"
+            },
+            "detail": {
+              "en": "Age 29",
+              "nl-BE": "Leeftijd 29"
+            },
+            "groupId": "H"
+          },
+          {
+            "id": "jules-vandenberg",
+            "label": {
+              "en": "Jules Vandenberg",
+              "nl-BE": "Jules Vandenberg"
+            },
+            "detail": {
+              "en": "Age 31",
+              "nl-BE": "Leeftijd 31"
+            },
+            "groupId": "H"
+          },
+          {
+            "id": "lou-vandenberg",
+            "label": {
+              "en": "Lou Vandenberg",
+              "nl-BE": "Lou Vandenberg"
+            },
+            "detail": {
+              "en": "Age 4",
+              "nl-BE": "Leeftijd 4"
+            },
+            "groupId": "H"
+          },
+          {
+            "id": "wim-de-ridder",
+            "label": {
+              "en": "Wim De Ridder",
+              "nl-BE": "Wim De Ridder"
+            },
+            "detail": {
+              "en": "Age 67",
+              "nl-BE": "Leeftijd 67"
+            },
+            "groupId": "I"
+          },
+          {
+            "id": "an-de-ridder",
+            "label": {
+              "en": "An De Ridder",
+              "nl-BE": "An De Ridder"
+            },
+            "detail": {
+              "en": "Age 64",
+              "nl-BE": "Leeftijd 64"
+            },
+            "groupId": "I"
+          },
+          {
+            "id": "tess-de-ridder",
+            "label": {
+              "en": "Tess De Ridder",
+              "nl-BE": "Tess De Ridder"
+            },
+            "detail": {
+              "en": "Age 33",
+              "nl-BE": "Leeftijd 33"
+            },
+            "groupId": "I"
+          }
+        ],
+        "scenarios": [
+          {
+            "id": "mara_returns",
+            "label": {
+              "en": "Nelle outside · Mara returns (26 remain)",
+              "nl-BE": "Nelle buiten · Mara keert terug (26 blijven)"
+            },
+            "outsideIds": [
+              "nelle"
+            ]
+          },
+          {
+            "id": "mara_stays",
+            "label": {
+              "en": "Nelle and Mara outside (25 remain)",
+              "nl-BE": "Nelle en Mara buiten (25 blijven)"
+            },
+            "outsideIds": [
+              "nelle",
+              "mara"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "puzzle-09",
+      "title": {
+        "en": "Which Leuven Are We Restoring?",
+        "nl-BE": "Welk Leuven herstellen we?"
+      },
+      "chapter": 9,
+      "location": "Grote Markt facing the Tafelrond",
+      "instructions": {
+        "en": "Find a home for every household. Respect capacity, accessibility, existing family reservations and informed consent.",
+        "nl-BE": "Zoek een woning voor elk huishouden. Houd rekening met capaciteit, toegankelijkheid, bestaande gezinsreserveringen en geïnformeerde instemming."
+      },
+      "hints": [
+        {
+          "en": "Reserved capacity is already occupied.",
+          "nl-BE": "Gereserveerde capaciteit is al bezet."
+        },
+        {
+          "en": "Keep F at Lena’s home. Check step-free places for D and H.",
+          "nl-BE": "Houd F bij Lena. Controleer drempelvrije plaatsen voor D en H."
+        },
+        {
+          "en": "One valid allocation matches A–I to offers A–I in either package. Other complete allocations also pass when capacity, access, consent and reservations all fit.",
+          "nl-BE": "Een geldige verdeling koppelt A–I aan woningen A–I in beide pakketten. Andere volledige verdelingen zijn ook geldig als capaciteit, toegang, toestemming en reserveringen kloppen."
+        }
+      ],
+      "coverAssetId": "art-tafelrond-corrected-v1",
+      "evidence": [
+        {
+          "id": "ruben-technical",
+          "title": {
+            "en": "Technical statement",
+            "nl-BE": "Technische verklaring"
+          },
+          "body": {
+            "en": "A previous completed replacement changed an occupied room. Partial alignment could be reversed; completion could not. Destroying the original frame now would also destroy the shelter. The successful voluntary relocation trial gives us another course.",
+            "nl-BE": "Een eerdere voltooide vervanging veranderde een bewoonde kamer. Gedeeltelijke uitlijning kon teruggedraaid worden; voltooiing niet. Het originele raam nu vernietigen zou ook de schuilplaats vernietigen. De geslaagde vrijwillige verhuisproef biedt een andere weg."
+          },
+          "assetId": "v-ruben-technical",
+          "classification": "story"
+        },
+        {
+          "id": "source-0",
+          "title": "Tafelrond — 2009-11-25",
+          "body": {
+            "en": "Dated reference: 2009-11-25. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2009-11-25. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-10",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120619",
+          "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120619"
+        },
+        {
+          "id": "source-1",
+          "title": "Tafelrond — 2009-11-25",
+          "body": {
+            "en": "Dated reference: 2009-11-25. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 2009-11-25. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-13",
+          "classification": "historical",
+          "sourceUrl": "https://beeldbank.onroerenderfgoed.be/images/120619",
+          "credit": "Beeldbank Onroerend Erfgoed, Thomas Hans (2009), ID 120619"
+        },
+        {
+          "id": "source-2",
+          "title": "Leuven approves a Gothic future for the ruined Tafelrond — 1914 aftermath, before rebuilding",
+          "body": {
+            "en": "Dated reference: 1914 aftermath, before rebuilding. Review its capture date and viewpoint before field use.",
+            "nl-BE": "Gedateerde bron: 1914 aftermath, before rebuilding. Controleer opnamedatum en standpunt vóór gebruik ter plaatse."
+          },
+          "assetId": "reference-14",
+          "classification": "historical",
+          "sourceUrl": "https://www.oorlogsdagboekleuven.be/oorlogsschade-dag-2-openbare-gebouwen/",
+          "credit": "Stadsarchief Leuven, Collectie Sprengers; reproduced by Oorlogsdagboek Leuven"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The current reference and ruined nineteenth-century predecessor are available. An original-Gothic view is still unselected and must not be invented as an archival photograph.",
+            "nl-BE": "De huidige referentie en de verwoeste negentiende-eeuwse voorganger zijn beschikbaar. Een beeld van het oorspronkelijke gotische gebouw is nog niet geselecteerd en mag niet als archieffoto verzonnen worden."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "Household cards keep names, family membership and access needs together.",
+            "nl-BE": "Huishoudkaarten houden namen, gezinsverbanden en toegangsbehoeften samen."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "Two fictional offer packages have different practical tradeoffs. Neither is real housing availability.",
+            "nl-BE": "Twee verzonnen woonpakketten hebben verschillende praktische gevolgen. Geen van beide beschrijft werkelijk beschikbaar onderdak."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "Compare total household size and step-free needs against each offer’s capacity and features.",
+            "nl-BE": "Vergelijk de volledige huishoudgrootte en behoefte aan drempelvrije toegang met de capaciteit en kenmerken van elk aanbod."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-4",
+          "title": {
+            "en": "Inspection note 5",
+            "nl-BE": "Inspectienotitie 5"
+          },
+          "body": {
+            "en": "Nelle is already counted in Lena’s capacity. Household F reunites at that home, with Mara’s place also reserved if she stayed.",
+            "nl-BE": "Nelle telt al mee in Lena’s capaciteit. Huishouden F wordt daar herenigd; ook Mara’s plaats is gereserveerd als ze bleef."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-5",
+          "title": {
+            "en": "Inspection note 6",
+            "nl-BE": "Inspectienotitie 6"
+          },
+          "body": {
+            "en": "The saved consultation order and disclosure agreement determine the council’s reactions.",
+            "nl-BE": "De bewaarde overlegvolgorde en afspraak over openbaarmaking bepalen de reacties van de raad."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [],
+      "kind": "allocation",
+      "config": {
+        "groups": [
+          {
+            "id": "A",
+            "label": {
+              "en": "A · De Smet",
+              "nl-BE": "A · De Smet"
+            },
+            "assetId": "v-household-A",
+            "memberIds": [
+              "lieve-de-smet",
+              "pieter-de-smet",
+              "bas-de-smet"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "B",
+            "label": {
+              "en": "B · El Amrani–Verbeek",
+              "nl-BE": "B · El Amrani–Verbeek"
+            },
+            "assetId": "v-household-B",
+            "memberIds": [
+              "farah-el-amrani",
+              "sam-verbeek"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "C",
+            "label": {
+              "en": "C · Peeters",
+              "nl-BE": "C · Peeters"
+            },
+            "assetId": "v-household-C",
+            "memberIds": [
+              "elise-peeters",
+              "koen-peeters",
+              "milo-peeters",
+              "fien-peeters"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "D",
+            "label": {
+              "en": "D · Wouters",
+              "nl-BE": "D · Wouters"
+            },
+            "assetId": "v-household-D",
+            "memberIds": [
+              "agnes-wouters",
+              "rita-wouters"
+            ],
+            "stepFree": true
+          },
+          {
+            "id": "E",
+            "label": {
+              "en": "E · Mertens",
+              "nl-BE": "E · Mertens"
+            },
+            "assetId": "v-household-E",
+            "memberIds": [
+              "jonas-mertens",
+              "sara-mertens",
+              "cas-mertens"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "F",
+            "label": {
+              "en": "F · Van Acker",
+              "nl-BE": "F · Van Acker"
+            },
+            "assetId": "v-household-F",
+            "memberIds": [
+              "mara",
+              "nelle",
+              "ina-van-acker"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "G",
+            "label": {
+              "en": "G · Haddad",
+              "nl-BE": "G · Haddad"
+            },
+            "assetId": "v-household-G",
+            "memberIds": [
+              "tarek-haddad",
+              "leila-haddad",
+              "aya-haddad",
+              "noor-haddad"
+            ],
+            "stepFree": false
+          },
+          {
+            "id": "H",
+            "label": {
+              "en": "H · Vandenberg",
+              "nl-BE": "H · Vandenberg"
+            },
+            "assetId": "v-household-H",
+            "memberIds": [
+              "roos-vandenberg",
+              "jules-vandenberg",
+              "lou-vandenberg"
+            ],
+            "stepFree": true
+          },
+          {
+            "id": "I",
+            "label": {
+              "en": "I · De Ridder",
+              "nl-BE": "I · De Ridder"
+            },
+            "assetId": "v-household-I",
+            "memberIds": [
+              "wim-de-ridder",
+              "an-de-ridder",
+              "tess-de-ridder"
+            ],
+            "stepFree": false
+          }
+        ],
+        "scenarios": [
+          {
+            "id": "mara_returns",
+            "label": {
+              "en": "Nelle outside · Mara returns (26 remain)",
+              "nl-BE": "Nelle buiten · Mara keert terug (26 blijven)"
+            },
+            "outsideIds": [
+              "nelle"
+            ]
+          },
+          {
+            "id": "mara_stays",
+            "label": {
+              "en": "Nelle and Mara outside (25 remain)",
+              "nl-BE": "Nelle en Mara buiten (25 blijven)"
+            },
+            "outsideIds": [
+              "nelle",
+              "mara"
+            ]
+          }
+        ],
+        "packages": [
+          {
+            "id": "neighbours",
+            "label": {
+              "en": "Remain neighbours in temporary homes with shared work space.",
+              "nl-BE": "Blijf buren in tijdelijke woningen met gedeelde werkruimte."
+            },
+            "offers": [
+              {
+                "id": "neighbours-A",
+                "label": {
+                  "en": "Els Lemaire · Shared-courtyard unit A",
+                  "nl-BE": "Els Lemaire · Woning aan het gedeelde hof A"
+                },
+                "capacity": 3,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-B",
+                "label": {
+                  "en": "Victor Claes · Shared-courtyard unit B",
+                  "nl-BE": "Victor Claes · Woning aan het gedeelde hof B"
+                },
+                "capacity": 2,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-C",
+                "label": {
+                  "en": "Anja Maes · Shared-courtyard unit C",
+                  "nl-BE": "Anja Maes · Woning aan het gedeelde hof C"
+                },
+                "capacity": 4,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-D",
+                "label": {
+                  "en": "Bieke Martens · Shared-courtyard unit D",
+                  "nl-BE": "Bieke Martens · Woning aan het gedeelde hof D"
+                },
+                "capacity": 2,
+                "stepFree": true,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-E",
+                "label": {
+                  "en": "Paul Goossens · Shared-courtyard unit E",
+                  "nl-BE": "Paul Goossens · Woning aan het gedeelde hof E"
+                },
+                "capacity": 3,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-F",
+                "label": {
+                  "en": "Lena Vermeulen · Begijnhof guest home",
+                  "nl-BE": "Lena Vermeulen · Gastwoning Begijnhof"
+                },
+                "capacity": 3,
+                "stepFree": true,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [
+                    "nelle"
+                  ],
+                  "mara_stays": [
+                    "nelle",
+                    "mara"
+                  ]
+                }
+              },
+              {
+                "id": "neighbours-G",
+                "label": {
+                  "en": "David Jacobs · Shared-courtyard unit G",
+                  "nl-BE": "David Jacobs · Woning aan het gedeelde hof G"
+                },
+                "capacity": 4,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-H",
+                "label": {
+                  "en": "Mieke Smets · Shared-courtyard unit H",
+                  "nl-BE": "Mieke Smets · Woning aan het gedeelde hof H"
+                },
+                "capacity": 3,
+                "stepFree": true,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "neighbours-I",
+                "label": {
+                  "en": "Olivier Aerts · Shared-courtyard unit I",
+                  "nl-BE": "Olivier Aerts · Woning aan het gedeelde hof I"
+                },
+                "capacity": 3,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              }
+            ],
+            "example": {
+              "A": "neighbours-A",
+              "B": "neighbours-B",
+              "C": "neighbours-C",
+              "D": "neighbours-D",
+              "E": "neighbours-E",
+              "F": "neighbours-F",
+              "G": "neighbours-G",
+              "H": "neighbours-H",
+              "I": "neighbours-I"
+            }
+          },
+          {
+            "id": "permanent",
+            "label": {
+              "en": "Move directly into longer-term homes in different parts of Leuven.",
+              "nl-BE": "Verhuis meteen naar woningen voor langere tijd, verspreid over Leuven."
+            },
+            "offers": [
+              {
+                "id": "permanent-A",
+                "label": {
+                  "en": "Els Lemaire · Independent home A",
+                  "nl-BE": "Els Lemaire · Zelfstandige woning A"
+                },
+                "capacity": 3,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-B",
+                "label": {
+                  "en": "Victor Claes · Independent home B",
+                  "nl-BE": "Victor Claes · Zelfstandige woning B"
+                },
+                "capacity": 2,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-C",
+                "label": {
+                  "en": "Anja Maes · Independent home C",
+                  "nl-BE": "Anja Maes · Zelfstandige woning C"
+                },
+                "capacity": 4,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-D",
+                "label": {
+                  "en": "Bieke Martens · Independent home D",
+                  "nl-BE": "Bieke Martens · Zelfstandige woning D"
+                },
+                "capacity": 2,
+                "stepFree": true,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-E",
+                "label": {
+                  "en": "Paul Goossens · Independent home E",
+                  "nl-BE": "Paul Goossens · Zelfstandige woning E"
+                },
+                "capacity": 3,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-F",
+                "label": {
+                  "en": "Lena Vermeulen · Begijnhof guest home",
+                  "nl-BE": "Lena Vermeulen · Gastwoning Begijnhof"
+                },
+                "capacity": 3,
+                "stepFree": true,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [
+                    "nelle"
+                  ],
+                  "mara_stays": [
+                    "nelle",
+                    "mara"
+                  ]
+                }
+              },
+              {
+                "id": "permanent-G",
+                "label": {
+                  "en": "David Jacobs · Independent home G",
+                  "nl-BE": "David Jacobs · Zelfstandige woning G"
+                },
+                "capacity": 4,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-H",
+                "label": {
+                  "en": "Mieke Smets · Independent home H",
+                  "nl-BE": "Mieke Smets · Zelfstandige woning H"
+                },
+                "capacity": 3,
+                "stepFree": true,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              },
+              {
+                "id": "permanent-I",
+                "label": {
+                  "en": "Olivier Aerts · Independent home I",
+                  "nl-BE": "Olivier Aerts · Zelfstandige woning I"
+                },
+                "capacity": 3,
+                "stepFree": false,
+                "hostConsent": true,
+                "accepts": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reservations": {
+                  "mara_returns": [],
+                  "mara_stays": []
+                }
+              }
+            ],
+            "example": {
+              "A": "permanent-A",
+              "B": "permanent-B",
+              "C": "permanent-C",
+              "D": "permanent-D",
+              "E": "permanent-E",
+              "F": "permanent-F",
+              "G": "permanent-G",
+              "H": "permanent-H",
+              "I": "permanent-I"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "puzzle-10",
+      "title": {
+        "en": "The Last Door",
+        "nl-BE": "De laatste deur"
+      },
+      "chapter": 10,
+      "location": "Handbooghof / Rietgang",
+      "instructions": {
+        "en": "Plan the departures without cutting off anyone’s route. Pack the two-space cart before the workshop disappears.",
+        "nl-BE": "Plan het vertrek zonder iemands route af te sluiten. Pak de kar met twee plaatsen in voordat het atelier verdwijnt."
+      },
+      "hints": [
+        {
+          "en": "Who still needs this passage?",
+          "nl-BE": "Wie heeft deze doorgang nog nodig?"
+        },
+        {
+          "en": "Move the outer households first. Preview each closure before confirming.",
+          "nl-BE": "Laat de buitenste huishoudens eerst vertrekken. Bekijk elke sluiting voor je bevestigt."
+        },
+        {
+          "en": "One safe order is E,D,C,B,I,H,G,F,A. All630 safe orders are accepted. Confirm the cart load before household F departs. Pack books+drawings (1+1) or tools(2); capacity2.",
+          "nl-BE": "Eén veilige volgorde is E,D,C,B,I,H,G,F,A. Alle630 veilige volgordes worden aanvaard. Bevestig de lading voor huishouden F vertrekt. Pak boeken+tekeningen (1+1) of gereedschap(2); capaciteit2."
+        }
+      ],
+      "coverAssetId": "art-rietgang-day-v1",
+      "evidence": [
+        {
+          "id": "workshop-inventory",
+          "title": {
+            "en": "Workshop inventory",
+            "nl-BE": "Atelierinventaris"
+          },
+          "body": {
+            "en": "Family books: bindings to keep with their owners. Street drawings: Nelle’s views and neighbours’ sketches. Working kit: type, awl, bone folder, thread and hand tools. Full binding press: fixed here; too heavy to carry. Check borrowed volumes before closing.",
+            "nl-BE": "Familieboeken: banden die bij hun eigenaars blijven. Straattekeningen: Nelles zichten en schetsen van buren. Werkkist: letters, priem, vouwbeen, draad en handgereedschap. Volledige bindpers: staat vast; te zwaar om te dragen. Controleer geleende boeken voor het sluiten."
+          },
+          "assetId": "v-workshop-inventory",
+          "classification": "story"
+        },
+        {
+          "id": "clue-0",
+          "title": {
+            "en": "Inspection note 1",
+            "nl-BE": "Inspectienotitie 1"
+          },
+          "body": {
+            "en": "The signed allocation is the player’s valid plan, not a preprinted solution.",
+            "nl-BE": "De ondertekende verdeling is het geldige plan van de speler, geen voorgedrukte oplossing."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-1",
+          "title": {
+            "en": "Inspection note 2",
+            "nl-BE": "Inspectienotitie 2"
+          },
+          "body": {
+            "en": "The reconciled register includes earlier arrivals exactly once.",
+            "nl-BE": "Het verzoende register telt eerdere aankomsten precies één keer."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-2",
+          "title": {
+            "en": "Inspection note 3",
+            "nl-BE": "Inspectienotitie 3"
+          },
+          "body": {
+            "en": "Each closed parcel removes its incident passages. The preview identifies who would lose access.",
+            "nl-BE": "Elk gesloten perceel verwijdert de aangesloten doorgangen. Het voorbeeld toont wie de toegang zou verliezen."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-3",
+          "title": {
+            "en": "Inspection note 4",
+            "nl-BE": "Inspectienotitie 4"
+          },
+          "body": {
+            "en": "Books cost1, drawings1 and portable tools2; the cart has2 spaces. The full press cannot leave.",
+            "nl-BE": "Boeken kosten1, tekeningen1 en draagbaar gereedschap2; de kar heeft2 plaatsen. De volledige pers kan niet mee."
+          },
+          "classification": "story"
+        },
+        {
+          "id": "clue-4",
+          "title": {
+            "en": "Inspection note 5",
+            "nl-BE": "Inspectienotitie 5"
+          },
+          "body": {
+            "en": "The exact saved Chapter5 promise is shown before the salvage choice.",
+            "nl-BE": "De exacte bewaarde belofte uit hoofdstuk5 verschijnt voor de bergingskeuze."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [
+        "v-door-state-2"
+      ],
+      "kind": "network",
+      "config": {
+        "canvas": [
+          900,
+          640
+        ],
+        "groups": [
+          {
+            "id": "A",
+            "label": {
+              "en": "A · De Smet",
+              "nl-BE": "A · De Smet"
+            },
+            "assetId": "v-household-A",
+            "memberIds": [
+              "lieve-de-smet",
+              "pieter-de-smet",
+              "bas-de-smet"
+            ],
+            "stepFree": false,
+            "xy": [
+              450,
+              460
+            ]
+          },
+          {
+            "id": "B",
+            "label": {
+              "en": "B · El Amrani–Verbeek",
+              "nl-BE": "B · El Amrani–Verbeek"
+            },
+            "assetId": "v-household-B",
+            "memberIds": [
+              "farah-el-amrani",
+              "sam-verbeek"
+            ],
+            "stepFree": false,
+            "xy": [
+              230,
+              340
+            ]
+          },
+          {
+            "id": "C",
+            "label": {
+              "en": "C · Peeters",
+              "nl-BE": "C · Peeters"
+            },
+            "assetId": "v-household-C",
+            "memberIds": [
+              "elise-peeters",
+              "koen-peeters",
+              "milo-peeters",
+              "fien-peeters"
+            ],
+            "stepFree": false,
+            "xy": [
+              100,
+              200
+            ]
+          },
+          {
+            "id": "D",
+            "label": {
+              "en": "D · Wouters",
+              "nl-BE": "D · Wouters"
+            },
+            "assetId": "v-household-D",
+            "memberIds": [
+              "agnes-wouters",
+              "rita-wouters"
+            ],
+            "stepFree": true,
+            "xy": [
+              290,
+              200
+            ]
+          },
+          {
+            "id": "E",
+            "label": {
+              "en": "E · Mertens",
+              "nl-BE": "E · Mertens"
+            },
+            "assetId": "v-household-E",
+            "memberIds": [
+              "jonas-mertens",
+              "sara-mertens",
+              "cas-mertens"
+            ],
+            "stepFree": false,
+            "xy": [
+              290,
+              70
+            ]
+          },
+          {
+            "id": "F",
+            "label": {
+              "en": "F · Van Acker",
+              "nl-BE": "F · Van Acker"
+            },
+            "assetId": "v-household-F",
+            "memberIds": [
+              "mara",
+              "nelle",
+              "ina-van-acker"
+            ],
+            "stepFree": false,
+            "xy": [
+              650,
+              340
+            ]
+          },
+          {
+            "id": "G",
+            "label": {
+              "en": "G · Haddad",
+              "nl-BE": "G · Haddad"
+            },
+            "assetId": "v-household-G",
+            "memberIds": [
+              "tarek-haddad",
+              "leila-haddad",
+              "aya-haddad",
+              "noor-haddad"
+            ],
+            "stepFree": false,
+            "xy": [
+              540,
+              200
+            ]
+          },
+          {
+            "id": "H",
+            "label": {
+              "en": "H · Vandenberg",
+              "nl-BE": "H · Vandenberg"
+            },
+            "assetId": "v-household-H",
+            "memberIds": [
+              "roos-vandenberg",
+              "jules-vandenberg",
+              "lou-vandenberg"
+            ],
+            "stepFree": true,
+            "xy": [
+              750,
+              200
+            ]
+          },
+          {
+            "id": "I",
+            "label": {
+              "en": "I · De Ridder",
+              "nl-BE": "I · De Ridder"
+            },
+            "assetId": "v-household-I",
+            "memberIds": [
+              "wim-de-ridder",
+              "an-de-ridder",
+              "tess-de-ridder"
+            ],
+            "stepFree": false,
+            "xy": [
+              750,
+              70
+            ]
+          }
+        ],
+        "exit": {
+          "id": "EXIT",
+          "xy": [
+            450,
+            560
+          ],
+          "label": {
+            "en": "Exit",
+            "nl-BE": "Uitgang"
+          }
+        },
+        "edges": [
+          [
+            "EXIT",
+            "A"
+          ],
+          [
+            "A",
+            "B"
+          ],
+          [
+            "B",
+            "C"
+          ],
+          [
+            "B",
+            "D"
+          ],
+          [
+            "D",
+            "E"
+          ],
+          [
+            "A",
+            "F"
+          ],
+          [
+            "F",
+            "G"
+          ],
+          [
+            "F",
+            "H"
+          ],
+          [
+            "H",
+            "I"
+          ]
+        ],
+        "workshopId": "F",
+        "scenarios": [
+          {
+            "id": "mara_returns",
+            "label": {
+              "en": "Nelle outside · Mara returns (26 remain)",
+              "nl-BE": "Nelle buiten · Mara keert terug (26 blijven)"
+            },
+            "outsideIds": [
+              "nelle"
+            ]
+          },
+          {
+            "id": "mara_stays",
+            "label": {
+              "en": "Nelle and Mara outside (25 remain)",
+              "nl-BE": "Nelle en Mara buiten (25 blijven)"
+            },
+            "outsideIds": [
+              "nelle",
+              "mara"
+            ]
+          }
+        ],
+        "capacity": 2,
+        "items": [
+          {
+            "id": "books",
+            "label": {
+              "en": "Books",
+              "nl-BE": "Boeken"
+            },
+            "assetId": "art-salvage-books-v1",
+            "cost": 1
+          },
+          {
+            "id": "drawings",
+            "label": {
+              "en": "Drawings",
+              "nl-BE": "Tekeningen"
+            },
+            "assetId": "art-salvage-drawings-v1",
+            "cost": 1
+          },
+          {
+            "id": "tools",
+            "label": {
+              "en": "Working tools",
+              "nl-BE": "Werktuigen"
+            },
+            "assetId": "art-salvage-tools-v1",
+            "cost": 2
+          }
+        ],
+        "allowedLoads": [
+          [
+            "books",
+            "drawings"
+          ],
+          [
+            "tools"
+          ]
+        ],
+        "exampleOrder": [
+          "E",
+          "D",
+          "C",
+          "B",
+          "I",
+          "H",
+          "G",
+          "F",
+          "A"
+        ],
+        "premise": {
+          "en": "Workshop scenario: every household has already accepted a suitable home. The full binding press stays behind. Departures close their parcel and passage.",
+          "nl-BE": "Werkplaatsscenario: elk huishouden heeft al een geschikte woning aanvaard. De volledige bindpers blijft achter. Bij vertrek sluiten perceel en doorgang."
+        }
+      }
+    }
+  ]
+}

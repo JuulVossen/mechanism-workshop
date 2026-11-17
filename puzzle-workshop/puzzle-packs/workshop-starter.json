@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "workshop-starter",
+  "revision": 1,
+  "title": {
+    "en": "A new story · starter pack",
+    "nl-BE": "Een nieuw verhaal · startpakket"
+  },
+  "description": {
+    "en": "Two small examples with different IDs and rules. Export this pack to start another story.",
+    "nl-BE": "Twee kleine voorbeelden met andere namen en regels. Exporteer dit pakket om een ander verhaal te beginnen."
+  },
+  "assets": {},
+  "puzzles": [
+    {
+      "id": "sealed-letter",
+      "title": {
+        "en": "The sealed letter",
+        "nl-BE": "De verzegelde brief"
+      },
+      "location": {
+        "en": "Your story location",
+        "nl-BE": "Jouw verhaallocatie"
+      },
+      "instructions": {
+        "en": "Order the steps used to prepare a sealed letter.",
+        "nl-BE": "Zet de stappen voor een verzegelde brief in volgorde."
+      },
+      "hints": [
+        {
+          "en": "Write before you fold; wax needs a closed envelope.",
+          "nl-BE": "Schrijf voordat je vouwt; was vraagt een gesloten envelop."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "note",
+          "title": {
+            "en": "A desk note",
+            "nl-BE": "Een bureaunotitie"
+          },
+          "body": {
+            "en": "Write the message, fold the sheet, then seal it with wax.",
+            "nl-BE": "Schrijf het bericht, vouw het blad en verzegel het dan met was."
+          },
+          "classification": "story"
+        }
+      ],
+      "successAssetIds": [],
+      "kind": "sequence",
+      "config": {
+        "items": [
+          {
+            "id": "ink",
+            "label": {
+              "en": "Write the message",
+              "nl-BE": "Schrijf het bericht"
+            }
+          },
+          {
+            "id": "paper",
+            "label": {
+              "en": "Fold the sheet",
+              "nl-BE": "Vouw het blad"
+            }
+          },
+          {
+            "id": "wax",
+            "label": {
+              "en": "Apply the wax seal",
+              "nl-BE": "Breng het waszegel aan"
+            }
+          }
+        ],
+        "solution": [
+          "ink",
+          "paper",
+          "wax"
+        ]
+      }
+    },
+    {
+      "id": "courtyard",
+      "title": {
+        "en": "Closing the courtyard",
+        "nl-BE": "Het hof afsluiten"
+      },
+      "instructions": {
+        "en": "Help both groups leave without trapping anyone. Collect one item before the store closes.",
+        "nl-BE": "Laat beide groepen vertrekken zonder iemand in te sluiten. Neem één voorwerp mee voordat de berging sluit."
+      },
+      "hints": [
+        {
+          "en": "The inner group depends on the gate. Pack before closing the store.",
+          "nl-BE": "De binnenste groep is afhankelijk van de poort. Pak in voordat de berging sluit."
+        }
+      ],
+      "evidence": [],
+      "successAssetIds": [],
+      "kind": "network",
+      "config": {
+        "canvas": [
+          700,
+          400
+        ],
+        "groups": [
+          {
+            "id": "gate",
+            "label": {
+              "en": "Gate keepers",
+              "nl-BE": "Poortwachters"
+            },
+            "memberIds": [
+              "eli"
+            ],
+            "stepFree": false,
+            "xy": [
+              350,
+              240
+            ]
+          },
+          {
+            "id": "store",
+            "label": {
+              "en": "Store keepers",
+              "nl-BE": "Bewaarders"
+            },
+            "memberIds": [
+              "ren",
+              "bo"
+            ],
+            "stepFree": false,
+            "xy": [
+              350,
+              80
+            ]
+          }
+        ],
+        "exit": {
+          "id": "outside",
+          "xy": [
+            350,
+            360
+          ],
+          "label": {
+            "en": "Outside",
+            "nl-BE": "Buiten"
+          }
+        },
+        "edges": [
+          [
+            "outside",
+            "gate"
+          ],
+          [
+            "gate",
+            "store"
+          ]
+        ],
+        "workshopId": "store",
+        "scenarios": [
+          {
+            "id": "all-inside",
+            "label": {
+              "en": "Everyone inside",
+              "nl-BE": "Iedereen binnen"
+            },
+            "outsideIds": []
+          }
+        ],
+        "capacity": 1,
+        "items": [
+          {
+            "id": "ledger",
+            "label": {
+              "en": "Ledger",
+              "nl-BE": "Register"
+            },
+            "cost": 1
+          },
+          {
+            "id": "key",
+            "label": {
+              "en": "Key",
+              "nl-BE": "Sleutel"
+            },
+            "cost": 1
+          }
+        ],
+        "allowedLoads": [
+          [
+            "ledger"
+          ],
+          [
+            "key"
+          ]
+        ],
+        "exampleOrder": [
+          "store",
+          "gate"
+        ],
+        "premise": {
+          "en": "Both groups have a place waiting outside.",
+          "nl-BE": "Beide groepen hebben buiten een plaats."
+        }
+      }
+    }
+  ]
+}
