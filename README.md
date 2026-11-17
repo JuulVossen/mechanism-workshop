@@ -6,6 +6,8 @@
 
 The `puzzle-workshop/` directory is a separate static build with only its declared artwork and public story packs. Its `publication.json` records packaged file hashes. Both workshops link to each other. Updating one build should preserve the other directory and the navigation in the root `index.html`.
 
+**[Try the illustrated Chapter 2](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/?puzzle=puzzle-02):** move and turn actual illustrated paper fragments on Mara's workbench, place the separate river strip, inspect the paper closely and trace a continuous passage. This is the first finished visual example; the other nine chapters retain the earlier authoring presentation. The original artwork is preserved, and the new fragments share one coherent illustrated master. Keyboard and tap alternatives, undo and isolated test saves remain available.
+
 Thirty-five interactive puzzle prototypes, grouped into six related families. Choose a family to explore its mechanisms, use **Show all groups** for the complete overview, or search across all 35 by name, number or group.
 
 ## Locks & moving parts · 6 mechanisms

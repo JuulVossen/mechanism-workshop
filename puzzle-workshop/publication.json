@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-17T18:13:44.245Z",
+  "builtAt": "2026-11-17T19:04:54.475Z",
   "packs": [
     {
       "id": "street-between-maps",
-      "revision": 1,
+      "revision": 2,
       "puzzles": 10
     },
     {
@@ -20,24 +20,54 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
-      "path": "assets/index-BRvR1qCr.js",
-      "bytes": 431788,
-      "sha256": "d57e523d22260adc4928b9aa0d47ab4f249d96da7bbd2c14950439b70ec56d3d"
+      "path": "assets/index-COfs7R7D.js",
+      "bytes": 446180,
+      "sha256": "67ce18ffad9384a6c0d3a14e4c7b58c54495f88a20af4aa00ad2dc80d35e239c"
     },
     {
-      "path": "assets/index-BtATQ8Pi.css",
-      "bytes": 23939,
-      "sha256": "a5b7dc564652d50f296417223c74e69fb46b4445c3ad254237a8fcd0a6d9ca50"
+      "path": "assets/index-g1g2B_St.css",
+      "bytes": 34317,
+      "sha256": "683a43df3b047988665d0af9b5b5e7f7318e8ba35ff14256c870d4c045ab8251"
     },
     {
       "path": "index.html",
       "bytes": 637,
-      "sha256": "47025ff719a6a030d9ad16b889a8050bd41c5581e9fc438a60b874548e6f4b49"
+      "sha256": "18374cf9337886432c00b6fa7ff347071a23e04688aa895f9607ebc7eb171bd1"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-02/access-plan-master-v1.webp",
+      "bytes": 833806,
+      "sha256": "3bc41c2a1b357f5c5c5d5a9868d97c8629f20e647540b675c5038804a64ec292"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-02/fragment-centre.svg",
+      "bytes": 1113154,
+      "sha256": "440d6132eeb747e6ab7b55418f668d0587c1316195b51b4f4f0dda370ea2ffa4"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-02/fragment-east.svg",
+      "bytes": 1113048,
+      "sha256": "8a4f10e916d3987e19c003d026f04c25771d1be69be2bf5de5de04b4f90618a5"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-02/fragment-west.svg",
+      "bytes": 1113000,
+      "sha256": "5f252ed9495e5b0c21f43bf6f9e86bbc815d2b13f51e7bd710cb784ba81aab5c"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-02/river-strip.svg",
+      "bytes": 1112352,
+      "sha256": "012c5f6c2748d8346b6a05dc5b025dd556ece07c51aeb0d73eab89bf4b0a91b2"
+    },
+    {
+      "path": "puzzle-art/street-between-maps/chapter-02/workbench-v1.webp",
+      "bytes": 520304,
+      "sha256": "4fa91070f1d707b544bdc91af23033eed414dea120d1c63b509e04b17c076380"
     },
     {
       "path": "puzzle-packs/street-between-maps.json",
-      "bytes": 171017,
-      "sha256": "5b8d577f5d454738834ded7fd4934571de23bea3036b7782e125f560f6eb8c16"
+      "bytes": 175785,
+      "sha256": "b0b177cde230502610240bac02cdbb8683f276c0d84e8a76fc4f3cbc8978b371"
     },
     {
       "path": "puzzle-packs/workshop-starter.json",

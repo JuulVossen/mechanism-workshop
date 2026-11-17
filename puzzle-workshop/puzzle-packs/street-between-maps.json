@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "street-between-maps",
-  "revision": 1,
+  "revision": 2,
   "title": "The Street Between Maps",
   "description": {
-    "en": "Ten puzzles from Leuven’s missing street. Test each chapter independently with the produced story assets.",
-    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Test elk hoofdstuk afzonderlijk met de gemaakte verhaalassets."
+    "en": "Ten puzzles from Leuven’s missing street. Chapter 2 uses an illustrated workbench with movable paper fragments.",
+    "nl-BE": "Tien puzzels uit de verdwenen Leuvense straat. Hoofdstuk 2 gebruikt een geïllustreerde werktafel met verplaatsbare papierfragmenten."
   },
   "assets": {
     "art-ada-portrait-v1": {
@@ -876,6 +876,72 @@
         "nl-BE": "Bewerkbare productielay-out. Historisch bronmateriaal behoudt zijn bronvermelding."
       }
     },
+    "desk-surface": {
+      "src": "/puzzle-art/street-between-maps/chapter-02/workbench-v1.webp",
+      "alt": {
+        "en": "Mara’s worn oak workbench",
+        "nl-BE": "Mara’s gebruikte eiken werktafel"
+      },
+      "notice": {
+        "en": "Fictional playable artwork derived from the story’s torn-map visual reference. All three fragments share one continuous illustrated master.",
+        "nl-BE": "Fictieve speelbare illustratie, afgeleid van de gescheurde kaart uit het verhaal. Alle drie fragmenten delen één doorlopend geïllustreerd origineel."
+      }
+    },
+    "desk-master": {
+      "src": "/puzzle-art/street-between-maps/chapter-02/access-plan-master-v1.webp",
+      "alt": {
+        "en": "Illustrated fictional access plan",
+        "nl-BE": "Geïllustreerd fictief toegangsplan"
+      },
+      "notice": {
+        "en": "Fictional playable artwork derived from the story’s torn-map visual reference. All three fragments share one continuous illustrated master.",
+        "nl-BE": "Fictieve speelbare illustratie, afgeleid van de gescheurde kaart uit het verhaal. Alle drie fragmenten delen één doorlopend geïllustreerd origineel."
+      }
+    },
+    "desk-west": {
+      "src": "/puzzle-art/street-between-maps/chapter-02/fragment-west.svg",
+      "alt": {
+        "en": "One torn paper fragment",
+        "nl-BE": "Een gescheurd papierfragment"
+      },
+      "notice": {
+        "en": "Fictional playable artwork derived from the story’s torn-map visual reference. All three fragments share one continuous illustrated master.",
+        "nl-BE": "Fictieve speelbare illustratie, afgeleid van de gescheurde kaart uit het verhaal. Alle drie fragmenten delen één doorlopend geïllustreerd origineel."
+      }
+    },
+    "desk-centre": {
+      "src": "/puzzle-art/street-between-maps/chapter-02/fragment-centre.svg",
+      "alt": {
+        "en": "One torn paper fragment",
+        "nl-BE": "Een gescheurd papierfragment"
+      },
+      "notice": {
+        "en": "Fictional playable artwork derived from the story’s torn-map visual reference. All three fragments share one continuous illustrated master.",
+        "nl-BE": "Fictieve speelbare illustratie, afgeleid van de gescheurde kaart uit het verhaal. Alle drie fragmenten delen één doorlopend geïllustreerd origineel."
+      }
+    },
+    "desk-east": {
+      "src": "/puzzle-art/street-between-maps/chapter-02/fragment-east.svg",
+      "alt": {
+        "en": "One torn paper fragment",
+        "nl-BE": "Een gescheurd papierfragment"
+      },
+      "notice": {
+        "en": "Fictional playable artwork derived from the story’s torn-map visual reference. All three fragments share one continuous illustrated master.",
+        "nl-BE": "Fictieve speelbare illustratie, afgeleid van de gescheurde kaart uit het verhaal. Alle drie fragmenten delen één doorlopend geïllustreerd origineel."
+      }
+    },
+    "desk-river": {
+      "src": "/puzzle-art/street-between-maps/chapter-02/river-strip.svg",
+      "alt": {
+        "en": "Separate river strip",
+        "nl-BE": "Losse rivierstrook"
+      },
+      "notice": {
+        "en": "Fictional playable artwork derived from the story’s torn-map visual reference. All three fragments share one continuous illustrated master.",
+        "nl-BE": "Fictieve speelbare illustratie, afgeleid van de gescheurde kaart uit het verhaal. Alle drie fragmenten delen één doorlopend geïllustreerd origineel."
+      }
+    },
     "reference-1": {
       "src": "/street-between-maps/references/e1ff93dc740d05c1e8647878.jpg",
       "alt": "University Library and Tower in the official heritage photographic record.",
@@ -1402,7 +1468,7 @@
       "config": {
         "canvas": [
           900,
-          430
+          300
         ],
         "pieces": [
           {
@@ -1411,7 +1477,7 @@
               "en": "Western piece",
               "nl-BE": "Westelijk stuk"
             },
-            "assetId": "v-access-piece-1"
+            "assetId": "desk-west"
           },
           {
             "id": "centre",
@@ -1419,7 +1485,7 @@
               "en": "Middle piece",
               "nl-BE": "Middenstuk"
             },
-            "assetId": "v-access-piece-2"
+            "assetId": "desk-centre"
           },
           {
             "id": "east",
@@ -1427,7 +1493,7 @@
               "en": "Eastern piece",
               "nl-BE": "Oostelijk stuk"
             },
-            "assetId": "v-access-piece-3"
+            "assetId": "desk-east"
           }
         ],
         "edges": [
@@ -1456,7 +1522,61 @@
           0,
           0
         ],
-        "correctEdge": "south"
+        "correctEdge": "south",
+        "presentation": {
+          "surfaceAssetId": "desk-surface",
+          "riverAssetId": "desk-river",
+          "kicker": {
+            "en": "A FRAGMENT OF RIETGANG",
+            "nl-BE": "EEN FRAGMENT VAN RIETGANG"
+          },
+          "sceneTitle": {
+            "en": "The torn access plan",
+            "nl-BE": "Het gescheurde toegangsplan"
+          },
+          "sceneDescription": {
+            "en": "Three pieces of a forgotten passage. Join the wall, follow the ink, and find the river’s bank.",
+            "nl-BE": "Drie stukken van een vergeten doorgang. Verbind de muur, volg de inkt en vind de oever van de rivier."
+          },
+          "route": [
+            [
+              35,
+              230
+            ],
+            [
+              140,
+              215
+            ],
+            [
+              260,
+              245
+            ],
+            [
+              340,
+              230
+            ],
+            [
+              480,
+              215
+            ],
+            [
+              620,
+              245
+            ],
+            [
+              735,
+              235
+            ],
+            [
+              820,
+              215
+            ],
+            [
+              820,
+              185
+            ]
+          ]
+        }
       }
     },
     {
