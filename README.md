@@ -1,5 +1,7 @@
 # The Mechanism Workshop
 
+**[Compare Chapter 2 in Phaser](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/?puzzle=puzzle-02&engine=phaser)** with the **[original React/SVG version](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/?puzzle=puzzle-02&engine=react)**. Both use the same story artwork. The Phaser tabletop supports free placement, continuous rotation, explicit nearby-edge joining, movable partial assemblies, zoom, pan, undo/redo and a route reveal. Pieces remain where they are dropped. The two versions keep separate browser-local arrangements; use the switches above the puzzle to compare. This is a comparison of interaction designs, not an engine speed benchmark. Phaser's MIT notice is included in the workshop distribution.
+
 [Open the workshop in your browser](https://juulvossen.github.io/mechanism-workshop/).
 
 [Open the story puzzle workshop](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/) to play and refine all ten chapters of *The Street Between Maps*, inspect their artwork and clues, or import a pack for another story. The story workshop includes English and Dutch, a two-puzzle starter pack, JSON editing, and browser-local test saves. Export packs and sessions to share or transfer your work. Uploaded image attachments stay in the browser session.

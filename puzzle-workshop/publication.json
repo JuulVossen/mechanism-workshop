@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-17T19:04:54.475Z",
+  "builtAt": "2026-11-17T20:03:47.510Z",
   "packs": [
     {
       "id": "street-between-maps",
@@ -20,19 +20,29 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
-      "path": "assets/index-COfs7R7D.js",
-      "bytes": 446180,
-      "sha256": "67ce18ffad9384a6c0d3a14e4c7b58c54495f88a20af4aa00ad2dc80d35e239c"
+      "path": "assets/index-6YPJhDMV.js",
+      "bytes": 465772,
+      "sha256": "3035c9d209d57f8d21c09d9c7c10c85010766a14aa63167ace63c24912cfd1d6"
     },
     {
-      "path": "assets/index-g1g2B_St.css",
-      "bytes": 34317,
-      "sha256": "683a43df3b047988665d0af9b5b5e7f7318e8ba35ff14256c870d4c045ab8251"
+      "path": "assets/index-CeTyduey.css",
+      "bytes": 39752,
+      "sha256": "d16f035eb3d469d4decbde3ab70963775cf695b28113eae4a2cfd6d7727b402f"
+    },
+    {
+      "path": "assets/phaser-tabletop-scene-CkXz7Ono.js",
+      "bytes": 1206989,
+      "sha256": "1a7e6f94bb0ec58ad781a9f0a49585006770e4b7bbdf5052d7b38615a034e5ca"
     },
     {
       "path": "index.html",
       "bytes": 637,
-      "sha256": "18374cf9337886432c00b6fa7ff347071a23e04688aa895f9607ebc7eb171bd1"
+      "sha256": "a0a33ef6fbaa8214d011e26adc55187d696e1221675ef004ca88dc6de210007e"
+    },
+    {
+      "path": "licenses/phaser-MIT.txt",
+      "bytes": 1120,
+      "sha256": "080f3d5539e766bb556df5b8e86c4f5d581ece35c692b80956ca352b84d29134"
     },
     {
       "path": "puzzle-art/street-between-maps/chapter-02/access-plan-master-v1.webp",
