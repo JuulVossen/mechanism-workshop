@@ -1,5 +1,9 @@
 # The Mechanism Workshop
 
+The catalogue opens all 35 mechanisms in Phaser 3.90, with 72 preset variations across six families. Drag loose document pieces, turn rings with two fingers, trace stone routes, or thread evidence to a claim. The Phaser and Original controls share the current study’s puzzle state. [Play the mechanism workshop](https://juulvossen.github.io/mechanism-workshop/).
+
+Try a physical study at the gear bench or a paper study at the reconstruction table. [Coupled gears](https://juulvossen.github.io/mechanism-workshop/?study=assembly&engine=phaser) · [Torn documents](https://juulvossen.github.io/mechanism-workshop/?study=reconstruction&engine=phaser).
+
 All ten chapters of *The Street Between Maps* have playable Phaser versions. At the Collegium Trilingue, thread the earlier sources to their later map editions. At the two botanical garden sites, test what survives the move. At the watergate, arrange Ruben’s account of Sofie. At the Groot Begijnhof, fold Nelle’s invitation and choose when morning comes. In the University Hall register, account for 27 residents. At the Tafelrond, negotiate nine households’ housing offers. At Handbooghof, pack a cart and find a safe order of departure. [Start the seven later chapters](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/?puzzle=puzzle-04&engine=phaser).
 
 At Den Ancker on Lei, Chapter 3 turns Mara’s delivery note into a playable parcel sketch. Set a plaque aside on the desk, turn it with two fingers, or fit it to a building. When the address fits, slide the catch on Ruben’s frame to see what happens to Joost’s room. The same chapter opens in English and Dutch. [Play Chapter 3 in Phaser](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/?puzzle=puzzle-03&engine=phaser).
@@ -85,10 +89,10 @@ Compare observations, reconstruct events and justify conclusions.
 
 ## Testing and publication
 
-Each document, paper, instrument, deduction/tactile, reveal/audio/combination, simulation/motion/memory and facade/location mechanic has two variations, explicit completion checks, undo/reset and test-solution aids. The prototypes support pointer and keyboard controls; interactive SVG canvases also support touch drags. Test state stays in memory across study tabs; reloading starts a fresh session. Artwork is original fiction. Audio patterns are generated in the browser and play only on request. Device tilt is opt-in; on-screen controls always remain available.
+Each document, paper, instrument, deduction/tactile, reveal/audio/combination, simulation/motion/memory and facade/location mechanic has two variations, explicit completion checks, undo/reset and test-solution aids. The Phaser boards support mouse, touch and named keyboard controls. Test state stays in memory across study tabs; reloading starts a fresh session. Artwork is original fiction. Audio patterns are generated in the browser and play only on request. Device tilt is opt-in; on-screen controls always remain available.
 
 This repository contains only the compiled browser preview. GitHub Pages publishes the root of `main`; updating the generated files triggers a new deployment.
 
-Current build: 35 studies in six related groups, 17 November 2026.
+The 18 November 2026 catalogue release covers 35 studies and 72 presets.
 
 All 35 catalogue entries now have prototypes: six foundational interactions, 15 in-app mechanisms, and 14 facade/location mechanisms. The location studies use original fictional scenes and browser simulations; camera/GPS and real-site story integration are separate work. Physical phone sensors still need a device check; desktop and touch-emulated browser flows are verified.
