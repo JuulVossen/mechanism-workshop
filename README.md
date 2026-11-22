@@ -2,6 +2,8 @@
 
 The catalogue opens all 35 mechanisms in Phaser 3.90, with 72 preset variations across six families. Drag loose document pieces, turn rings with two fingers, trace stone routes, or thread evidence to a claim. The Phaser and Original controls share the current study’s puzzle state. [Play the mechanism workshop](https://juulvossen.github.io/mechanism-workshop/).
 
+An unsigned lens proof comes with a four-sided walnut box. Turn the case and work its brass and glass mechanisms to find the signed original. [Play the lens maker’s box](https://juulvossen.github.io/mechanism-workshop/?box=lens-maker).
+
 Try a physical study at the gear bench or a paper study at the reconstruction table. [Coupled gears](https://juulvossen.github.io/mechanism-workshop/?study=assembly&engine=phaser) · [Torn documents](https://juulvossen.github.io/mechanism-workshop/?study=reconstruction&engine=phaser).
 
 All ten chapters of *The Street Between Maps* have playable Phaser versions. At the Collegium Trilingue, thread the earlier sources to their later map editions. At the two botanical garden sites, test what survives the move. At the watergate, arrange Ruben’s account of Sofie. At the Groot Begijnhof, fold Nelle’s invitation and choose when morning comes. In the University Hall register, account for 27 residents. At the Tafelrond, negotiate nine households’ housing offers. At Handbooghof, pack a cart and find a safe order of departure. [Start the seven later chapters](https://juulvossen.github.io/mechanism-workshop/puzzle-workshop/?puzzle=puzzle-04&engine=phaser).
