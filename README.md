@@ -2,7 +2,7 @@
 
 The catalogue opens all 35 mechanisms in Phaser 3.90, with 72 preset variations across six families. Drag loose document pieces, turn rings with two fingers, trace stone routes, or thread evidence to a claim. The Phaser and Original controls share the current study’s puzzle state. [Play the mechanism workshop](https://juulvossen.github.io/mechanism-workshop/).
 
-An unsigned lens proof comes with a four-sided walnut box. Turn the case and work its brass and glass mechanisms to find the signed original. [Play the lens maker’s box](https://juulvossen.github.io/mechanism-workshop/?box=lens-maker).
+An unsigned lens proof comes with a walnut instrument case. Turn the 3D box over, pull a drawer out along its rails, and align the engraved glass to find the signed original. The illustrated view and keyboard controls share your saved progress. [Play the lens maker’s box](https://juulvossen.github.io/mechanism-workshop/?box=lens-maker).
 
 Try a physical study at the gear bench or a paper study at the reconstruction table. [Coupled gears](https://juulvossen.github.io/mechanism-workshop/?study=assembly&engine=phaser) · [Torn documents](https://juulvossen.github.io/mechanism-workshop/?study=reconstruction&engine=phaser).
 
